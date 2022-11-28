@@ -1,0 +1,1441 @@
+id,dt,income,details,other,db
+1a5f74c2-d79d-11ec-a1bd-7ec7e3559253,2016-03-29,100.0,Angelli,Laur,income
+1a5f7562-d79d-11ec-a1bd-7ec7e3559253,2016-04-07,250.0,Drum Ciucurova,Laur,income
+1a5f758a-d79d-11ec-a1bd-7ec7e3559253,2016-04-07,50.0,"Toma Stelian 3,casa",Laur,income
+1a5f75a8-d79d-11ec-a1bd-7ec7e3559253,2016-04-08,100.0,Oituz 17,Laur,income
+1a5f75bc-d79d-11ec-a1bd-7ec7e3559253,2016-04-09,150.0,Mircea cel Batran 50,Laur,income
+1a5f75da-d79d-11ec-a1bd-7ec7e3559253,2016-04-12,100.0,Ap poarta 6,Mami,income
+1a5f75f8-d79d-11ec-a1bd-7ec7e3559253,2016-04-12,200.0,Trasare A210,Alin,income
+1a5f760c-d79d-11ec-a1bd-7ec7e3559253,2016-04-13,150.0,Magazin Soveja,Mami,income
+1a5f762a-d79d-11ec-a1bd-7ec7e3559253,2016-04-13,150.0,Blocuri Mamaia Nord,Laur,income
+1a5f7648-d79d-11ec-a1bd-7ec7e3559253,2016-04-25,300.0,Voicu Vasile,Alin,income
+1a5f765c-d79d-11ec-a1bd-7ec7e3559253,2016-04-25,250.0,Frunzelor 25,Ionescu,income
+1a5f767a-d79d-11ec-a1bd-7ec7e3559253,2016-04-27,200.0,Plan cotat Mamaia 3 vile,Ionescu,income
+1a5f768e-d79d-11ec-a1bd-7ec7e3559253,2016-04-28,300.0,Trasare Cad2027 Mamaia,Ionescu,income
+1a5f76ac-d79d-11ec-a1bd-7ec7e3559253,2016-05-06,200.0,Nicolae Iorga 2,Ionescu,income
+1a5f76c0-d79d-11ec-a1bd-7ec7e3559253,2016-05-06,250.0,"Calugareni 8,Eforie Nord",Ionescu,income
+1a5f76d4-d79d-11ec-a1bd-7ec7e3559253,2016-05-06,250.0,Costinesti,Ionescu,income
+1a5f76f2-d79d-11ec-a1bd-7ec7e3559253,2016-05-06,200.0,Sasu Gheorghe,Ionescu,income
+1a5f7706-d79d-11ec-a1bd-7ec7e3559253,2016-05-09,100.0,Garsoniera km5,Mami,income
+1a5f7724-d79d-11ec-a1bd-7ec7e3559253,2016-05-10,250.0,Trasare Comarnic,Alin,income
+1a5f7738-d79d-11ec-a1bd-7ec7e3559253,2016-05-11,100.0,Masurat Piata Ovidiu,Ionescu,income
+1a5f7756-d79d-11ec-a1bd-7ec7e3559253,2016-05-12,200.0,Trasare teren D25 Mamaia,Alin,income
+1a5f776a-d79d-11ec-a1bd-7ec7e3559253,2016-05-12,100.0,Trasare teren Carrefour,Alin,income
+1a5f7788-d79d-11ec-a1bd-7ec7e3559253,2016-05-13,250.0,Decebal 41,Mami,income
+1a5f779c-d79d-11ec-a1bd-7ec7e3559253,2016-05-14,150.0,Trasare strada D25 Mamaia,Alin,income
+1a5f77ba-d79d-11ec-a1bd-7ec7e3559253,2016-05-16,300.0,"Palazu Mare,Alexandru Sahia 24",Ionescu,income
+1a5f77ce-d79d-11ec-a1bd-7ec7e3559253,2016-05-16,50.0,Mamaia Nord,Alin,income
+1a5f77ec-d79d-11ec-a1bd-7ec7e3559253,2016-05-17,100.0,"Apartament City T5,ap 19",Mami,income
+1a5f7800-d79d-11ec-a1bd-7ec7e3559253,2016-05-31,150.0,Teren Mamaia,Mami,income
+1a5f781e-d79d-11ec-a1bd-7ec7e3559253,2016-06-03,200.0,Tomis 3 plan cotat,Ionescu,income
+1a5f7832-d79d-11ec-a1bd-7ec7e3559253,2016-06-03,200.0,Plan cotat berarie,Ionescu,income
+1a5f7850-d79d-11ec-a1bd-7ec7e3559253,2016-06-06,250.0,"IG Duca 12,Cumpana",Catalin,income
+1a5f7864-d79d-11ec-a1bd-7ec7e3559253,2016-06-07,200.0,Theodor Sperantia 155,Ionescu,income
+1a5f7882-d79d-11ec-a1bd-7ec7e3559253,2016-06-08,200.0,Trs Kogalniceanu,Bogdan,income
+1a5f7896-d79d-11ec-a1bd-7ec7e3559253,2016-06-09,200.0,Soveja 38,Ionescu,income
+1a5f78b4-d79d-11ec-a1bd-7ec7e3559253,2016-06-10,250.0,Viroaga,Ionescu,income
+1a5f78c8-d79d-11ec-a1bd-7ec7e3559253,2016-06-18,250.0,"Mereni,Str Mare Nr 9",Mami,income
+1a5f78dc-d79d-11ec-a1bd-7ec7e3559253,2016-06-20,250.0,Vasile Parvan 6A,Mami,income
+1a5f78fa-d79d-11ec-a1bd-7ec7e3559253,2016-06-28,200.0,Trasare lot 18 Mamaia,Alin,income
+1a5f790e-d79d-11ec-a1bd-7ec7e3559253,2016-06-28,500.0,Varuit eforie vila,Celina,income
+1a5f792c-d79d-11ec-a1bd-7ec7e3559253,2016-07-02,250.0,"Cumpenei 6,Spalatorie",Ionescu,income
+1a5f7940-d79d-11ec-a1bd-7ec7e3559253,2016-07-06,200.0,Plan cotat pt gaze Str D14 spre Navodari,Ionescu,income
+1a5f795e-d79d-11ec-a1bd-7ec7e3559253,2016-07-07,50.0,Cota Mamaia Nord pt Cornel,Alin,income
+1a5f7972-d79d-11ec-a1bd-7ec7e3559253,2016-07-08,100.0,Treaba eforie,Celina,income
+1a5f7990-d79d-11ec-a1bd-7ec7e3559253,2016-07-08,300.0,Tarabe Tomis 3,Ionescu,income
+1a5f79a4-d79d-11ec-a1bd-7ec7e3559253,2016-07-11,200.0,Plan gaze Mamaia,Ionescu,income
+1a5f79b8-d79d-11ec-a1bd-7ec7e3559253,2016-07-11,250.0,Trasare 108317,Alin,income
+1a5f79d6-d79d-11ec-a1bd-7ec7e3559253,2016-07-19,200.0,Stalpi inalta tensiune,Ionescu,income
+1a5f79ea-d79d-11ec-a1bd-7ec7e3559253,2016-07-20,100.0,Ap 2 camere Ciresica,Mami,income
+1a5f7a08-d79d-11ec-a1bd-7ec7e3559253,2016-07-21,100.0,Trasare Baba Novac Alexandru Steflea,Ionescu,income
+1a5f7a1c-d79d-11ec-a1bd-7ec7e3559253,2016-07-21,250.0,Trasare groapa Mamaia Nord,Ionescu,income
+1a5f7a3a-d79d-11ec-a1bd-7ec7e3559253,2016-07-22,100.0,Apartament Sucevei,Mami,income
+1a5f7a4e-d79d-11ec-a1bd-7ec7e3559253,2016-07-22,100.0,Ap Brotacei,Mami,income
+1a5f7a6c-d79d-11ec-a1bd-7ec7e3559253,2016-07-26,400.0,Andrei Muresan 45bis,Mami,income
+1a5f7a80-d79d-11ec-a1bd-7ec7e3559253,2016-07-26,100.0,Ap Cora,Mami,income
+1a5f7a9e-d79d-11ec-a1bd-7ec7e3559253,2016-07-26,350.0,Trs Groapa Kogalniceanu,Mami,income
+1a5f7ab2-d79d-11ec-a1bd-7ec7e3559253,2016-07-27,100.0,Avans UM Corbu,Ionescu,income
+1a5f7ac6-d79d-11ec-a1bd-7ec7e3559253,2016-07-29,400.0,Trs Axe kog,Mami,income
+1a5f7ae4-d79d-11ec-a1bd-7ec7e3559253,2016-07-30,200.0,Plan Enel dega service auto,Ionescu,income
+1a5f7af8-d79d-11ec-a1bd-7ec7e3559253,2016-07-30,300.0,"Lumina,Str Morii 8",Mami,income
+1a5f7b16-d79d-11ec-a1bd-7ec7e3559253,2016-08-01,1000.0,Avans blocuri,Laur,income
+1a5f7b98-d79d-11ec-a1bd-7ec7e3559253,2016-08-05,350.0,Trs axe D10,Alin,income
+1a5f7bb6-d79d-11ec-a1bd-7ec7e3559253,2016-08-10,250.0,Trs Costinesti,Alin,income
+1a5f7bca-d79d-11ec-a1bd-7ec7e3559253,2016-08-18,50.0,Ap Unirii Bloc C2,Alin,income
+1a5f7be8-d79d-11ec-a1bd-7ec7e3559253,2016-08-18,150.0,Trs Techirghiol varianta,Bogdan,income
+1a5f7bfc-d79d-11ec-a1bd-7ec7e3559253,2016-08-18,300.0,Trasare Cumpana Lucretia,Alin,income
+1a5f7c1a-d79d-11ec-a1bd-7ec7e3559253,2016-08-23,1500.0,Unitati militare,Ionescu,income
+1a5f7c2e-d79d-11ec-a1bd-7ec7e3559253,2016-08-24,1200.0,Canalizare Corbu,Ionescu,income
+1a5f7c4c-d79d-11ec-a1bd-7ec7e3559253,2016-08-27,100.0,"Penes Curcanul 28, Bratianu",Ionescu,income
+1a5f7c60-d79d-11ec-a1bd-7ec7e3559253,2016-08-27,200.0,Plan cotat Lumina,Ionescu,income
+1a5f7c7e-d79d-11ec-a1bd-7ec7e3559253,2016-08-27,200.0,IC Bratianu 228,Ionescu,income
+1a5f7c92-d79d-11ec-a1bd-7ec7e3559253,2016-09-01,125.0,Trs Lot 99 Edmont Gaudela Cta,Ionescu,income
+1a5f7ca6-d79d-11ec-a1bd-7ec7e3559253,2016-09-08,200.0,Plan Palazu Mare,Ionescu,income
+1a5f7cc4-d79d-11ec-a1bd-7ec7e3559253,2016-09-14,200.0,"Ap Iancu,Dispensarului",Mami,income
+1a5f7cd8-d79d-11ec-a1bd-7ec7e3559253,2016-09-14,100.0,Mugurului 77,Ionescu,income
+1a5f7cf6-d79d-11ec-a1bd-7ec7e3559253,2016-09-20,200.0,Calugareni 2A,Nicoleta,income
+1a5f7d0a-d79d-11ec-a1bd-7ec7e3559253,2016-09-20,150.0,Trs Cumpana lot 4,Alin,income
+1a5f7d1e-d79d-11ec-a1bd-7ec7e3559253,2016-09-27,150.0,Ap Kogalniceanu,Mami,income
+1a5f7d3c-d79d-11ec-a1bd-7ec7e3559253,2016-09-29,300.0,Bloc Poporului/Lapusneanu,Ionescu,income
+1a5f7d5a-d79d-11ec-a1bd-7ec7e3559253,2016-10-01,50.0,Cumpana teren gol,Bogdan,income
+1a5f7d6e-d79d-11ec-a1bd-7ec7e3559253,2016-10-04,150.0,3 case :))))))))))))))),Laur,income
+1a5f7d82-d79d-11ec-a1bd-7ec7e3559253,2016-10-05,200.0,Poporului 12,Mami,income
+1a5f7da0-d79d-11ec-a1bd-7ec7e3559253,2016-10-08,300.0,Medgidia canalizare,Ionescu,income
+1a5f7db4-d79d-11ec-a1bd-7ec7e3559253,2016-10-08,200.0,Alunis 2,Ionescu,income
+1a5f7dd2-d79d-11ec-a1bd-7ec7e3559253,2016-10-10,500.0,Autostrada,Laur,income
+1a5f7de6-d79d-11ec-a1bd-7ec7e3559253,2016-10-15,200.0,Fulgerului 60,Ionescu,income
+1a5f7e04-d79d-11ec-a1bd-7ec7e3559253,2016-10-19,200.0,Kirculescu 11,Ionescu,income
+1a5f7e18-d79d-11ec-a1bd-7ec7e3559253,2016-10-20,500.0,Autostrada,Laur,income
+1a5f7e36-d79d-11ec-a1bd-7ec7e3559253,2016-10-20,200.0,"Ap Cristina,Dorobanti 13,Bloc Mamaia",Alin,income
+1a5f7e4a-d79d-11ec-a1bd-7ec7e3559253,2016-10-20,50.0,Tabla Butii 6a,Laur,income
+1a5f7e5e-d79d-11ec-a1bd-7ec7e3559253,2016-10-21,100.0,Roxy,Laur,income
+1a5f7e7c-d79d-11ec-a1bd-7ec7e3559253,2016-10-21,100.0,Releveu Subsol,Laur,income
+1a5f7e90-d79d-11ec-a1bd-7ec7e3559253,2016-10-21,100.0,Padrino,Laur,income
+1a5f7eae-d79d-11ec-a1bd-7ec7e3559253,2016-10-25,100.0,Comarnic,Laur,income
+1a5f7ec2-d79d-11ec-a1bd-7ec7e3559253,2016-10-29,200.0,Poiana,Ionescu,income
+1a5f7ee0-d79d-11ec-a1bd-7ec7e3559253,2016-11-01,100.0,C.A.Rosetti 28,Laur,income
+1a5f7ef4-d79d-11ec-a1bd-7ec7e3559253,2016-11-02,100.0,"Ap Progresului 6,bloc G6",Mami,income
+1a5f7f12-d79d-11ec-a1bd-7ec7e3559253,2016-11-02,250.0,Th Burada 35,Mami,income
+1a5f7f26-d79d-11ec-a1bd-7ec7e3559253,2016-11-03,50.0,2 Vile,Laur,income
+1a5f7f44-d79d-11ec-a1bd-7ec7e3559253,2016-11-03,50.0,Ghiocel 26,Laur,income
+1a5f7f58-d79d-11ec-a1bd-7ec7e3559253,2016-11-05,200.0,Ion Alexandrescu,Mami,income
+1a5f7f76-d79d-11ec-a1bd-7ec7e3559253,2016-11-05,200.0,Duiliu Zamfirescu,Ionescu,income
+1a5f7f8a-d79d-11ec-a1bd-7ec7e3559253,2016-11-09,0.0,Ap Ficu,Laur,income
+1a5f7f9e-d79d-11ec-a1bd-7ec7e3559253,2016-11-18,250.0,"Ciocarlia de jos,trs 4pct",Alin,income
+1a5f7fbc-d79d-11ec-a1bd-7ec7e3559253,2016-11-18,100.0,"2p Th Burada 35,pt gaz",Ionescu,income
+1a5f7fd0-d79d-11ec-a1bd-7ec7e3559253,2016-11-18,200.0,Debarcader Palazu Mare,Ionescu,income
+1a5f7fee-d79d-11ec-a1bd-7ec7e3559253,2016-11-19,250.0,Biserica Palazu Mare,Ionescu,income
+1a5f8002-d79d-11ec-a1bd-7ec7e3559253,2016-11-19,200.0,Ciocarlia de sus casa,Ionescu,income
+1a5f8016-d79d-11ec-a1bd-7ec7e3559253,2016-11-23,100.0,Ap Tomis Nord,Mami,income
+1a5f8034-d79d-11ec-a1bd-7ec7e3559253,2016-11-24,250.0,"Valu,Str Kogalniceanu",Ionescu,income
+1a5f8048-d79d-11ec-a1bd-7ec7e3559253,2016-12-03,100.0,Puncte GPS,Bogdan,income
+1a5f8066-d79d-11ec-a1bd-7ec7e3559253,2016-12-03,100.0,Ap Unirii Bloc U3,Mami,income
+1a5f807a-d79d-11ec-a1bd-7ec7e3559253,2016-12-07,100.0,Ap Badea Cartan,Mami,income
+1a5f8098-d79d-11ec-a1bd-7ec7e3559253,2016-12-08,200.0,Eforie Nord Vila faleza,Ionescu,income
+1a5f80ac-d79d-11ec-a1bd-7ec7e3559253,2016-12-09,200.0,Chioscuri Piata Ovidiu,Ionescu,income
+1a5f80ca-d79d-11ec-a1bd-7ec7e3559253,2016-12-09,300.0,Galesu Manastire,Ionescu,income
+1a5f80de-d79d-11ec-a1bd-7ec7e3559253,2016-12-10,200.0,"Palazu Mare,Str Midia 6",Ionescu,income
+1a5f80fc-d79d-11ec-a1bd-7ec7e3559253,2016-12-10,300.0,Hanu Piratilor plan canalizare,Ionescu,income
+1a5f8110-d79d-11ec-a1bd-7ec7e3559253,2016-12-11,300.0,Hotel Pescarus plan,Mami,income
+1a5f8124-d79d-11ec-a1bd-7ec7e3559253,2016-12-12,100.0,"Secaianu 8,Cta",Laur,income
+1a5f8142-d79d-11ec-a1bd-7ec7e3559253,2016-12-12,100.0,Agigea casa,Laur,income
+1a5f8156-d79d-11ec-a1bd-7ec7e3559253,2016-12-16,300.0,Hanu Piratilor plan cotat vile,Ionescu,income
+1a5f8174-d79d-11ec-a1bd-7ec7e3559253,2016-12-22,300.0,Hotel Olt plan cotat,Ionescu,income
+1a5f8188-d79d-11ec-a1bd-7ec7e3559253,2017-01-18,150.0,Berarie Mamaia,Ionescu,income
+1a5f81a6-d79d-11ec-a1bd-7ec7e3559253,2017-01-23,150.0,Posada 15A,Ionescu,income
+1a5f81ba-d79d-11ec-a1bd-7ec7e3559253,2017-01-23,150.0,"Kirkulescu 11,Plan gaz",Ionescu,income
+1a5f81d8-d79d-11ec-a1bd-7ec7e3559253,2017-01-27,200.0,"Plan gaz Bloc L12,Casa de cultura",Ionescu,income
+1a5f81ec-d79d-11ec-a1bd-7ec7e3559253,2017-01-31,400.0,Plan cotat A915,Ionescu,income
+1a5f8200-d79d-11ec-a1bd-7ec7e3559253,2017-02-01,200.0,Preot Techirghiol,Ionescu,income
+1a5f821e-d79d-11ec-a1bd-7ec7e3559253,2017-02-01,100.0,Luptatori 3,Laur,income
+1a5f8232-d79d-11ec-a1bd-7ec7e3559253,2017-02-09,300.0,"Bloc IV35 Ap 5,Eliberarii",Mami,income
+1a5f8250-d79d-11ec-a1bd-7ec7e3559253,2017-02-11,100.0,Deranj Palazu Mare,Alin,income
+1a5f8264-d79d-11ec-a1bd-7ec7e3559253,2017-02-13,300.0,Schitu Str Principala,Ionescu,income
+1a5f8282-d79d-11ec-a1bd-7ec7e3559253,2017-02-15,200.0,Trasare Navodari 4 puncte,Alin,income
+1a5f8296-d79d-11ec-a1bd-7ec7e3559253,2017-02-16,100.0,Ap Bloc AV26 ap 89,Mami,income
+1a5f82b4-d79d-11ec-a1bd-7ec7e3559253,2017-02-16,200.0,Onesti 54,Alin,income
+1a5f82c8-d79d-11ec-a1bd-7ec7e3559253,2017-02-17,100.0,Trasare Carrefour,Bogdan,income
+1a5f82dc-d79d-11ec-a1bd-7ec7e3559253,2017-02-17,200.0,Lot Maritimo,Ionescu,income
+1a5f82fa-d79d-11ec-a1bd-7ec7e3559253,2017-02-18,300.0,Bratislava 14,Coca,income
+1a5f830e-d79d-11ec-a1bd-7ec7e3559253,2017-02-18,500.0,Bujorului 37,Mami,income
+1a5f832c-d79d-11ec-a1bd-7ec7e3559253,2017-02-19,100.0,Ap Tomis Plus,Mami,income
+1a5f8340-d79d-11ec-a1bd-7ec7e3559253,2017-02-24,200.0,Casa gara,Ionescu,income
+1a5f835e-d79d-11ec-a1bd-7ec7e3559253,2017-03-01,100.0,Amzacea,Laur,income
+1a5f8372-d79d-11ec-a1bd-7ec7e3559253,2017-03-02,200.0,Frunzelor 48A,Ionescu,income
+1a5f8386-d79d-11ec-a1bd-7ec7e3559253,2017-03-02,300.0,Intrarea Gh Marinescu 11,Mami,income
+1a5f83a4-d79d-11ec-a1bd-7ec7e3559253,2017-03-04,100.0,Ap TM1 Tulcei,Mami,income
+1a5f83b8-d79d-11ec-a1bd-7ec7e3559253,2017-03-08,200.0,Oborului 11,Ionescu,income
+1a5f83d6-d79d-11ec-a1bd-7ec7e3559253,2017-03-08,200.0,Str M14 Nr 28 Hanu Piratilor,Ionescu,income
+1a5f83ea-d79d-11ec-a1bd-7ec7e3559253,2017-03-09,200.0,Strajerului 13A,Ionescu,income
+1a5f83fe-d79d-11ec-a1bd-7ec7e3559253,2017-03-11,200.0,Soveja 38,Ionescu,income
+1a5f841c-d79d-11ec-a1bd-7ec7e3559253,2017-03-11,200.0,Murelor 37,Ionescu,income
+1a5f8430-d79d-11ec-a1bd-7ec7e3559253,2017-03-11,200.0,Amurgului 67bis,Ionescu,income
+1a5f844e-d79d-11ec-a1bd-7ec7e3559253,2017-03-11,250.0,Rasaritului 45,Ionescu,income
+1a5f8462-d79d-11ec-a1bd-7ec7e3559253,2017-03-20,300.0,Nicu Cocos,Ionescu,income
+1a5f8480-d79d-11ec-a1bd-7ec7e3559253,2017-03-20,250.0,Trasare Simion,Alin,income
+1a5f8494-d79d-11ec-a1bd-7ec7e3559253,2017-03-21,200.0,Independentei 18,Ionescu,income
+1a5f84b2-d79d-11ec-a1bd-7ec7e3559253,2017-03-23,200.0,Alexandru Steflea gaz,Ionescu,income
+1a5f84c6-d79d-11ec-a1bd-7ec7e3559253,2017-03-25,200.0,Mihai trasare sere,Alin,income
+1a5f85ca-d79d-11ec-a1bd-7ec7e3559253,2017-03-25,300.0,Trasare A1080/15,Alin,income
+1a5f85de-d79d-11ec-a1bd-7ec7e3559253,2017-03-29,200.0,"Str Bucuresti,Bloc L56,gaz",Ionescu,income
+1a5f85fc-d79d-11ec-a1bd-7ec7e3559253,2017-03-29,200.0,Razboieni 12A,Ionescu,income
+1a5f8610-d79d-11ec-a1bd-7ec7e3559253,2017-03-29,200.0,Biserica Tuzla,Ionescu,income
+1a5f862e-d79d-11ec-a1bd-7ec7e3559253,2017-03-29,100.0,"Ap Tomis 307,Bloc 8B,Ap 77",Mami,income
+1a5f8642-d79d-11ec-a1bd-7ec7e3559253,2017-03-30,300.0,Str C,Ionescu,income
+1a5f8656-d79d-11ec-a1bd-7ec7e3559253,2017-04-04,200.0,Carrefour casa mare,Ionescu,income
+1a5f8674-d79d-11ec-a1bd-7ec7e3559253,2017-04-04,200.0,"MFA2,Plan gaze",Ionescu,income
+1a5f8688-d79d-11ec-a1bd-7ec7e3559253,2017-04-05,300.0,Avans kart Ovidiu,Ionescu,income
+1a5f86a6-d79d-11ec-a1bd-7ec7e3559253,2017-04-10,700.0,Rest kart Ovidiu,Ionescu,income
+1a5f86ba-d79d-11ec-a1bd-7ec7e3559253,2017-04-11,200.0,Ion Ratiu 103,Ionescu,income
+1a5f86d8-d79d-11ec-a1bd-7ec7e3559253,2017-04-11,100.0,Soveja 38 in spate,Ionescu,income
+1a5f86ec-d79d-11ec-a1bd-7ec7e3559253,2017-04-13,200.0,Bloc Lapusneanu gaz,Ionescu,income
+1a5f8700-d79d-11ec-a1bd-7ec7e3559253,2017-04-13,300.0,Vila Ovidiu,Coca,income
+1a5f871e-d79d-11ec-a1bd-7ec7e3559253,2017-04-22,300.0,Progresului 36,Ionescu,income
+1a5f8732-d79d-11ec-a1bd-7ec7e3559253,2017-04-24,900.0,Closca Tulcea Plan cotat,Ionescu,income
+1a5f8750-d79d-11ec-a1bd-7ec7e3559253,2017-04-25,300.0,Trasare Soseaua din vii 64A,Alin,income
+1a5f876e-d79d-11ec-a1bd-7ec7e3559253,2017-04-25,300.0,Comarnic 74A,Biziru,income
+1a5f8782-d79d-11ec-a1bd-7ec7e3559253,2017-04-25,150.0,Lazu Simion Barnutiu 39 IE.103145,Biziru,income
+1a5f8796-d79d-11ec-a1bd-7ec7e3559253,2017-04-25,250.0,Trasare,Biziru,income
+1a5f87b4-d79d-11ec-a1bd-7ec7e3559253,2017-04-25,50.0,Trasare un punct Hotel Amiral,Biziru,income
+1a5f87c8-d79d-11ec-a1bd-7ec7e3559253,2017-04-27,300.0,Zorelelor 36A,Biziru,income
+1a5f87e6-d79d-11ec-a1bd-7ec7e3559253,2017-04-27,500.0,Langa Maritimo plan cotat,Biziru,income
+1a5f87fa-d79d-11ec-a1bd-7ec7e3559253,2017-04-28,200.0,Lumina tigani,Ionescu,income
+1a5f8818-d79d-11ec-a1bd-7ec7e3559253,2017-04-28,200.0,1 Mai 51,Ionescu,income
+1a5f882c-d79d-11ec-a1bd-7ec7e3559253,2017-05-03,250.0,Trasare A166,Biziru,income
+1a5f8840-d79d-11ec-a1bd-7ec7e3559253,2017-05-03,200.0,Emil Racovita 9,Ionescu,income
+1a5f885e-d79d-11ec-a1bd-7ec7e3559253,2017-05-04,250.0,Trasare A181 Techirghiol,Alin,income
+1a5f8872-d79d-11ec-a1bd-7ec7e3559253,2017-05-04,200.0,Decebal 48,Ionescu,income
+1a5f8890-d79d-11ec-a1bd-7ec7e3559253,2017-05-05,200.0,"Recoltei 10bis,Palazu Mare",Ionescu,income
+1a5f88a4-d79d-11ec-a1bd-7ec7e3559253,2017-05-05,250.0,Poiana 8800mp,Ionescu,income
+1a5f88c2-d79d-11ec-a1bd-7ec7e3559253,2017-05-06,100.0,Topraisar,Bogdan,income
+1a5f88d6-d79d-11ec-a1bd-7ec7e3559253,2017-05-06,300.0,Trasare Mereni,Mami,income
+1a5f88ea-d79d-11ec-a1bd-7ec7e3559253,2017-05-06,200.0,Trasare Cumpana,Alin,income
+1a5f8908-d79d-11ec-a1bd-7ec7e3559253,2017-05-06,250.0,Trasare Lot Km5,Alin,income
+1a5f891c-d79d-11ec-a1bd-7ec7e3559253,2017-05-06,250.0,Trasare Lot langa km5,Alin,income
+1a5f893a-d79d-11ec-a1bd-7ec7e3559253,2017-05-09,1500.0,Avans RAEDPP,Biziru,income
+1a5f894e-d79d-11ec-a1bd-7ec7e3559253,2017-05-10,200.0,Ion Ratiu 29,Ionescu,income
+1a5f896c-d79d-11ec-a1bd-7ec7e3559253,2017-05-12,200.0,Palazu Mare vila mare neterminata,Ionescu,income
+1a5f8980-d79d-11ec-a1bd-7ec7e3559253,2017-05-12,250.0,Hanu Piratilor lot plan cotat A166,Biziru,income
+1a5f8994-d79d-11ec-a1bd-7ec7e3559253,2017-05-12,200.0,Dedeman lot gol plan cotat,Biziru,income
+1a5f89b2-d79d-11ec-a1bd-7ec7e3559253,2017-05-14,100.0,Abdulagean ap,Alin,income
+1a5f89c6-d79d-11ec-a1bd-7ec7e3559253,2017-05-15,50.0,Drum Mamaia hotel Pescarus,Alin,income
+1a5f89e4-d79d-11ec-a1bd-7ec7e3559253,2017-05-16,200.0,Ileana Cosanzeana 9,Biziru,income
+1a5f89f8-d79d-11ec-a1bd-7ec7e3559253,2017-05-16,200.0,Chiliei 50,Biziru,income
+1a5f8a16-d79d-11ec-a1bd-7ec7e3559253,2017-05-16,250.0,Trasare Cumpana,Alin,income
+1a5f8a2a-d79d-11ec-a1bd-7ec7e3559253,2017-05-16,250.0,Trasare Mamaia Nord 1/139,Alin,income
+1a5f8a48-d79d-11ec-a1bd-7ec7e3559253,2017-05-18,50.0,Relevee Fantanele 59,Biziru,income
+1a5f8a5c-d79d-11ec-a1bd-7ec7e3559253,2017-05-18,50.0,Rest plata 5 case RAEDPP,Biziru,income
+1a5f8a70-d79d-11ec-a1bd-7ec7e3559253,2017-05-18,300.0,Plan insorire T13,Alin,income
+1a5f8a8e-d79d-11ec-a1bd-7ec7e3559253,2017-05-22,200.0,Str Scolii 10,Ionescu,income
+1a5f8aa2-d79d-11ec-a1bd-7ec7e3559253,2017-05-22,200.0,"Trasare Poiana,Albastros",Ionescu,income
+1a5f8ac0-d79d-11ec-a1bd-7ec7e3559253,2017-05-22,250.0,Trasare Km5 casa+teren,Biziru,income
+1a5f8ad4-d79d-11ec-a1bd-7ec7e3559253,2017-05-22,100.0,Trasare 2 puncte Mamaia,Biziru,income
+1a5f8ae8-d79d-11ec-a1bd-7ec7e3559253,2017-05-23,700.0,Intersectii Navodari,Biziru,income
+1a5f8b06-d79d-11ec-a1bd-7ec7e3559253,2017-05-24,200.0,Str Brandusei 23,Ionescu,income
+1a5f8b1a-d79d-11ec-a1bd-7ec7e3559253,2017-06-01,350.0,Tomis 62,Biziru,income
+1a5f8b38-d79d-11ec-a1bd-7ec7e3559253,2017-06-01,600.0,Str Dumbraveni PUD,Alin,income
+1a5f8b4c-d79d-11ec-a1bd-7ec7e3559253,2017-06-07,200.0,Poiana 2700mp,Ionescu,income
+1a5f8b6a-d79d-11ec-a1bd-7ec7e3559253,2017-06-08,1000.0,"Tomis 54,Rosetti 8,Mercur 10",Biziru,income
+1a5f8b7e-d79d-11ec-a1bd-7ec7e3559253,2017-06-09,200.0,Avans antena Vodafone 2 Mai,Ionescu,income
+1a5f8b92-d79d-11ec-a1bd-7ec7e3559253,2017-06-10,200.0,Sentinelei 5F,Ionescu,income
+1a5f8bb0-d79d-11ec-a1bd-7ec7e3559253,2017-06-13,200.0,Trasare Str Kogalniceanu 23,Ionescu,income
+1a5f8bc4-d79d-11ec-a1bd-7ec7e3559253,2017-06-13,200.0,Teren langa Bavaria,Ionescu,income
+1a5f8be2-d79d-11ec-a1bd-7ec7e3559253,2017-06-14,300.0,Trasare Valu casa pe rotund Andrei Chivu arhitect,Biziru,income
+1a5f8bf6-d79d-11ec-a1bd-7ec7e3559253,2017-06-14,150.0,Alex tractor teren masurat,Biziru,income
+1a5f8c0a-d79d-11ec-a1bd-7ec7e3559253,2017-06-16,100.0,Razboieni 30,Bogdan,income
+1a5f8d54-d79d-11ec-a1bd-7ec7e3559253,2017-06-17,400.0,Trasare Mamaia Sud,Biziru,income
+1a5f8d68-d79d-11ec-a1bd-7ec7e3559253,2017-06-17,250.0,"Trasare Navodari,Str Tasaul",Biziru,income
+1a5f8d86-d79d-11ec-a1bd-7ec7e3559253,2017-06-20,150.0,Tomis 56,Biziru,income
+1a5f8d9a-d79d-11ec-a1bd-7ec7e3559253,2017-06-20,150.0,Movilita releveu Str Brandusei 2A,Biziru,income
+1a5f8db8-d79d-11ec-a1bd-7ec7e3559253,2017-06-20,250.0,Gheorghe Sontu 14,Biziru,income
+1a5f8dcc-d79d-11ec-a1bd-7ec7e3559253,2017-06-21,150.0,Trasare Cumpana,Biziru,income
+1a5f8dfe-d79d-11ec-a1bd-7ec7e3559253,2017-06-21,200.0,Plan gaz Tomis 3,Ionescu,income
+1a5f8e1c-d79d-11ec-a1bd-7ec7e3559253,2017-06-22,50.0,Mercur 18,Bogdan,income
+1a5f8e3a-d79d-11ec-a1bd-7ec7e3559253,2017-06-22,150.0,"Estival,Mamaia",Biziru,income
+1a5f8e4e-d79d-11ec-a1bd-7ec7e3559253,2017-06-22,250.0,"Eforie Nord,Teofic",Biziru,income
+1a5f8e6c-d79d-11ec-a1bd-7ec7e3559253,2017-06-22,100.0,Trasare Nicu Baditeanu,Biziru,income
+1a5f8e80-d79d-11ec-a1bd-7ec7e3559253,2017-06-22,300.0,Banu Mihalcea 82,Mami,income
+1a5f8e9e-d79d-11ec-a1bd-7ec7e3559253,2017-06-23,200.0,"Bicoci,Vascului 4B",Biziru,income
+1a5f8eb2-d79d-11ec-a1bd-7ec7e3559253,2017-06-23,150.0,Tuzla releveu,Biziru,income
+1a5f8ec6-d79d-11ec-a1bd-7ec7e3559253,2017-06-24,200.0,Trasare Agigea arabil,Biziru,income
+1a5f8ee4-d79d-11ec-a1bd-7ec7e3559253,2017-06-24,150.0,Chiliei 68 releveu,Biziru,income
+1a5f8ef8-d79d-11ec-a1bd-7ec7e3559253,2017-06-27,200.0,Mamaia Chioscuri,Ionescu,income
+1a5f8f16-d79d-11ec-a1bd-7ec7e3559253,2017-06-27,200.0,Bloc Q scara G plan gaze,Ionescu,income
+1a5f8f2a-d79d-11ec-a1bd-7ec7e3559253,2017-06-28,150.0,Releveu Lazu Malinului 7,Biziru,income
+1a5f8f3e-d79d-11ec-a1bd-7ec7e3559253,2017-06-28,150.0,Mihaela Pusnava Palazu Mare plan,Biziru,income
+1a5f8f5c-d79d-11ec-a1bd-7ec7e3559253,2017-06-29,200.0,Trasare Techirghiol casa,Ionescu,income
+1a5f8f70-d79d-11ec-a1bd-7ec7e3559253,2017-06-29,250.0,Camara cu merinde,Biziru,income
+1a5f8f8e-d79d-11ec-a1bd-7ec7e3559253,2017-06-30,250.0,Trasare Nicu axe,Biziru,income
+1a5f8fa2-d79d-11ec-a1bd-7ec7e3559253,2017-07-06,250.0,Plan cotat Aurel Vlaicu,Biziru,income
+1a5f8fc0-d79d-11ec-a1bd-7ec7e3559253,2017-07-10,200.0,Dobrogei 41B,Ionescu,income
+1a5f8fd4-d79d-11ec-a1bd-7ec7e3559253,2017-07-11,150.0,Rest antena 2 Mai,Ionescu,income
+1a5f8fe8-d79d-11ec-a1bd-7ec7e3559253,2017-07-11,200.0,"Plan Str M1,Hanu Piratilor",Ionescu,income
+1a5f9006-d79d-11ec-a1bd-7ec7e3559253,2017-07-12,400.0,Drum Adamclisi,Alin,income
+1a5f901a-d79d-11ec-a1bd-7ec7e3559253,2017-07-12,100.0,"Aleea Arges 1,Bloc V3,Ap 20",Mami,income
+1a5f9038-d79d-11ec-a1bd-7ec7e3559253,2017-07-13,200.0,Plan gaze Mircea Balan,Biziru,income
+1a5f904c-d79d-11ec-a1bd-7ec7e3559253,2017-07-13,200.0,Garofitei gaz,Ionescu,income
+1a5f906a-d79d-11ec-a1bd-7ec7e3559253,2017-07-14,400.0,2 Mai pensiune,Ionescu,income
+1a5f907e-d79d-11ec-a1bd-7ec7e3559253,2017-07-15,500.0,Avans blocuri Soveja-Biruintei,Ionescu,income
+1a5f9092-d79d-11ec-a1bd-7ec7e3559253,2017-07-16,150.0,Plan Energia,Biziru,income
+1a5f90b0-d79d-11ec-a1bd-7ec7e3559253,2017-07-18,250.0,"Tuzla,Str Stefan cel Mare 5",Biziru,income
+1a5f90c4-d79d-11ec-a1bd-7ec7e3559253,2017-07-18,250.0,"Tuzla,Mecanizarii 3",Biziru,income
+1a5f90e2-d79d-11ec-a1bd-7ec7e3559253,2017-07-20,200.0,"Bloc B1,Tomis",Ionescu,income
+1a5f90f6-d79d-11ec-a1bd-7ec7e3559253,2017-07-20,50.0,Completare Kirculescu,Ionescu,income
+1a5f910a-d79d-11ec-a1bd-7ec7e3559253,2017-07-24,250.0,Biruintei 67,Biziru,income
+1a5f9128-d79d-11ec-a1bd-7ec7e3559253,2017-07-27,50.0,Bloc gaze,Ionescu,income
+1a5f913c-d79d-11ec-a1bd-7ec7e3559253,2017-07-27,400.0,Blocuri Soveja-Biruintei,Ionescu,income
+1a5f915a-d79d-11ec-a1bd-7ec7e3559253,2017-07-27,200.0,"Independentei 18,Eforie Sud",Ionescu,income
+1a5f916e-d79d-11ec-a1bd-7ec7e3559253,2017-07-27,250.0,"Trasare Valea portului,Fundatura 1 Mai",Biziru,income
+1a5f918c-d79d-11ec-a1bd-7ec7e3559253,2017-07-29,200.0,Dumbrava Rosie 39,Ionescu,income
+1a5f91a0-d79d-11ec-a1bd-7ec7e3559253,2017-07-29,200.0,Bloc AL3 balcon Lapusneanu,Ionescu,income
+1a5f91be-d79d-11ec-a1bd-7ec7e3559253,2017-07-29,200.0,Bloc L balcon Navodari,Ionescu,income
+1a5f91d2-d79d-11ec-a1bd-7ec7e3559253,2017-07-30,200.0,Eforie Sud Str Atlas,Ionescu,income
+1a5f91e6-d79d-11ec-a1bd-7ec7e3559253,2017-08-02,200.0,"Cumpana, Str Berzei 28",Ionescu,income
+1a5f9204-d79d-11ec-a1bd-7ec7e3559253,2017-08-02,200.0,Trasare Cumpana,Biziru,income
+1a5f9218-d79d-11ec-a1bd-7ec7e3559253,2017-08-02,250.0,Trasare Ivanciu Corina,Alin,income
+1a5f9236-d79d-11ec-a1bd-7ec7e3559253,2017-08-07,400.0,Trasare Tatiana,Alin,income
+1a5f924a-d79d-11ec-a1bd-7ec7e3559253,2017-08-07,200.0,"Tulcei,gaze,bloc S2",Ionescu,income
+1a5f9268-d79d-11ec-a1bd-7ec7e3559253,2017-08-09,300.0,"2 Mai,pensiune faleza",Ionescu,income
+1a5f927c-d79d-11ec-a1bd-7ec7e3559253,2017-08-09,250.0,Trasare Ovidiu,Biziru,income
+1a5f929a-d79d-11ec-a1bd-7ec7e3559253,2017-08-10,150.0,Trasare Energia,Biziru,income
+1a5f92ae-d79d-11ec-a1bd-7ec7e3559253,2017-08-10,450.0,Plan Ovidiu SIT,Biziru,income
+1a5f92c2-d79d-11ec-a1bd-7ec7e3559253,2017-08-11,150.0,Str Paul Constantinescu 9,Biziru,income
+1a5f92e0-d79d-11ec-a1bd-7ec7e3559253,2017-08-11,150.0,Trasare Alex tractor,Biziru,income
+1a5f92f4-d79d-11ec-a1bd-7ec7e3559253,2017-08-12,200.0,Ancorei 3,Ionescu,income
+1a5f9312-d79d-11ec-a1bd-7ec7e3559253,2017-08-17,200.0,Trasare Costinesti,Alin,income
+1a5f9326-d79d-11ec-a1bd-7ec7e3559253,2017-08-19,350.0,Capidava 300mp,Ionescu,income
+1a5f9344-d79d-11ec-a1bd-7ec7e3559253,2017-08-21,200.0,Trasare axe prelungire 1 mai,Alin,income
+1a5f9358-d79d-11ec-a1bd-7ec7e3559253,2017-08-22,200.0,Trasare Agigea 300mp,Biziru,income
+1a5f9376-d79d-11ec-a1bd-7ec7e3559253,2017-08-24,100.0,Tomis Plus Bloc,Bogdan,income
+1a5f938a-d79d-11ec-a1bd-7ec7e3559253,2017-08-28,200.0,Primo teren tenis,Ionescu,income
+1a5f939e-d79d-11ec-a1bd-7ec7e3559253,2017-08-31,100.0,Plantelor 23A,Bogdan,income
+1a5f93bc-d79d-11ec-a1bd-7ec7e3559253,2017-09-06,250.0,Trasare Cibotaru Constantin,Alin,income
+1a5f93d0-d79d-11ec-a1bd-7ec7e3559253,2017-09-07,250.0,Blocuri,Bogdan,income
+1a5f93ee-d79d-11ec-a1bd-7ec7e3559253,2017-09-08,100.0,Str Izvor releveu punct termic,Biziru,income
+1a5f9402-d79d-11ec-a1bd-7ec7e3559253,2017-09-10,200.0,Blocuri FZ28 si BL12,Bogdan,income
+1a5f9420-d79d-11ec-a1bd-7ec7e3559253,2017-09-11,250.0,Trasare Ovidiu,Biziru,income
+1a5f9434-d79d-11ec-a1bd-7ec7e3559253,2017-09-11,200.0,Trasare Tasaul Navodari,Biziru,income
+1a5f9448-d79d-11ec-a1bd-7ec7e3559253,2017-09-11,150.0,Decebal 4,Biziru,income
+1a5f9466-d79d-11ec-a1bd-7ec7e3559253,2017-09-12,150.0,Pripisi M9,Biziru,income
+1a5f947a-d79d-11ec-a1bd-7ec7e3559253,2017-09-12,200.0,Theodor Sperantia 46,Ionescu,income
+1a5f9498-d79d-11ec-a1bd-7ec7e3559253,2017-09-13,100.0,Casa Bratianu,Bogdan,income
+1a5f94ac-d79d-11ec-a1bd-7ec7e3559253,2017-09-13,100.0,Bloc Traian,Bogdan,income
+1a5f94c0-d79d-11ec-a1bd-7ec7e3559253,2017-09-13,100.0,Ap Tomis 3,Mami,income
+1a5f94de-d79d-11ec-a1bd-7ec7e3559253,2017-09-25,100.0,Cumpana,Bogdan,income
+1a5f94f2-d79d-11ec-a1bd-7ec7e3559253,2017-09-26,200.0,Str Gorova,Ionescu,income
+1a5f9510-d79d-11ec-a1bd-7ec7e3559253,2017-09-26,200.0,"Palazu Mare,Str Viilor",Ionescu,income
+1a5f9524-d79d-11ec-a1bd-7ec7e3559253,2017-09-26,200.0,Str Retezat 20,Ionescu,income
+1a5f9542-d79d-11ec-a1bd-7ec7e3559253,2017-09-29,350.0,Plan Cotat,Biziru,income
+1a5f9556-d79d-11ec-a1bd-7ec7e3559253,2017-09-29,200.0,Trasare Unirii-Soveja Nicu Baditeanu,Biziru,income
+1a5f956a-d79d-11ec-a1bd-7ec7e3559253,2017-09-29,150.0,Str 8 Martie nr 10,Biziru,income
+1a5f9588-d79d-11ec-a1bd-7ec7e3559253,2017-09-29,150.0,Florilor 10,Biziru,income
+1a5f959c-d79d-11ec-a1bd-7ec7e3559253,2017-09-30,200.0,"Navodari,Nicu Baditeanu T8",Biziru,income
+1a5f95ba-d79d-11ec-a1bd-7ec7e3559253,2017-09-30,200.0,Trasare Nicoara Techirghiol,Biziru,income
+1a5f95ce-d79d-11ec-a1bd-7ec7e3559253,2017-09-30,50.0,Garsoniera Dionisie,Mami,income
+1a5f95ec-d79d-11ec-a1bd-7ec7e3559253,2017-10-02,250.0,Trasare Lazu casa+teren,Alin,income
+1a5f9600-d79d-11ec-a1bd-7ec7e3559253,2017-10-04,400.0,Cvartal CET,Biziru,income
+1a5f9614-d79d-11ec-a1bd-7ec7e3559253,2017-10-04,200.0,Cornea Lucian km5 releveu,Biziru,income
+1a5f9632-d79d-11ec-a1bd-7ec7e3559253,2017-10-07,200.0,Valu casa,Mami,income
+1a5f9646-d79d-11ec-a1bd-7ec7e3559253,2017-10-09,200.0,"Razoare 3,Constanta",Ionescu,income
+1a5f9664-d79d-11ec-a1bd-7ec7e3559253,2017-10-09,200.0,Gorova completare,Ionescu,income
+1a5f9678-d79d-11ec-a1bd-7ec7e3559253,2017-10-09,200.0,Intrarea Viilor,Ionescu,income
+1a5f9696-d79d-11ec-a1bd-7ec7e3559253,2017-10-12,250.0,"Tuzla,Televiziunii 38",Biziru,income
+1a5f96aa-d79d-11ec-a1bd-7ec7e3559253,2017-10-12,250.0,Ana Ipatescu 57,Biziru,income
+1a5f96c8-d79d-11ec-a1bd-7ec7e3559253,2017-10-12,50.0,Gradinite cote,Biziru,income
+1a5f96dc-d79d-11ec-a1bd-7ec7e3559253,2017-10-13,400.0,Ferme,Biziru,income
+1a5f96f0-d79d-11ec-a1bd-7ec7e3559253,2017-10-14,200.0,"Agigea,Ion Creanga 11",Biziru,income
+1a5f970e-d79d-11ec-a1bd-7ec7e3559253,2017-10-17,150.0,"Releveu Palazu,Victor Climescu 16",Biziru,income
+1a5f9722-d79d-11ec-a1bd-7ec7e3559253,2017-10-17,200.0,Orizontului 52,Ionescu,income
+1a5f9740-d79d-11ec-a1bd-7ec7e3559253,2017-10-18,100.0,Trasare Soseaua din vii 64,Biziru,income
+1a5f9754-d79d-11ec-a1bd-7ec7e3559253,2017-10-18,100.0,Trasare Nicu Unirii,Biziru,income
+1a5f9772-d79d-11ec-a1bd-7ec7e3559253,2017-10-19,100.0,Navodari Blocuri D14 cote,Biziru,income
+1a5f9786-d79d-11ec-a1bd-7ec7e3559253,2017-10-19,200.0,"Ap L54,Ap 1,Lapusneanu",Mami,income
+1a5f979a-d79d-11ec-a1bd-7ec7e3559253,2017-10-21,200.0,"Tuzla,Biruintei 1C",Biziru,income
+1a5f97b8-d79d-11ec-a1bd-7ec7e3559253,2017-10-21,100.0,Trasare Fundatura 1 Mai,Biziru,income
+1a5f97cc-d79d-11ec-a1bd-7ec7e3559253,2017-10-21,150.0,Hotel Aurora parcare,Ionescu,income
+1a5f97ea-d79d-11ec-a1bd-7ec7e3559253,2017-10-21,200.0,Titus Cergau,Ionescu,income
+1a5f97fe-d79d-11ec-a1bd-7ec7e3559253,2017-10-21,200.0,Garaje Tomis Nord,Ionescu,income
+1a5f9812-d79d-11ec-a1bd-7ec7e3559253,2017-10-23,200.0,Hotel Doina,Bogdan,income
+1a5f9830-d79d-11ec-a1bd-7ec7e3559253,2017-10-23,100.0,Limanului,Bogdan,income
+1a5f9844-d79d-11ec-a1bd-7ec7e3559253,2017-10-23,100.0,"Ap Ciresica,1B,Sc D,ap 148",Mami,income
+1a5f9862-d79d-11ec-a1bd-7ec7e3559253,2017-10-24,150.0,Trasare Ovidiu A109860,Biziru,income
+1a5f9876-d79d-11ec-a1bd-7ec7e3559253,2017-10-25,150.0,Trasare Baba Novac Pripisi,Biziru,income
+1a5f9894-d79d-11ec-a1bd-7ec7e3559253,2017-10-25,150.0,Mugurului 74,Biziru,income
+1a5f98a8-d79d-11ec-a1bd-7ec7e3559253,2017-10-27,150.0,Trasare Nicu Unirii,Biziru,income
+1a5f98c6-d79d-11ec-a1bd-7ec7e3559253,2017-10-27,100.0,Romana 39,Bogdan,income
+1a5f98da-d79d-11ec-a1bd-7ec7e3559253,2017-10-31,300.0,Rodica 34,Mami,income
+1a5f98ee-d79d-11ec-a1bd-7ec7e3559253,2017-11-01,100.0,Aleea Viitorului Bloc 4A,Mami,income
+1a5f990c-d79d-11ec-a1bd-7ec7e3559253,2017-11-01,100.0,"23 August 9,Constanta",Bogdan,income
+1a5f9920-d79d-11ec-a1bd-7ec7e3559253,2017-11-02,150.0,Bianca Balcon,Alin,income
+1a5f993e-d79d-11ec-a1bd-7ec7e3559253,2017-11-03,200.0,Gheorghe Marinescu 39,Ionescu,income
+1a5f9952-d79d-11ec-a1bd-7ec7e3559253,2017-11-07,100.0,Trasare Energia,Biziru,income
+1a5f9970-d79d-11ec-a1bd-7ec7e3559253,2017-11-07,150.0,Trasare Ovidiu,Biziru,income
+1a5f9984-d79d-11ec-a1bd-7ec7e3559253,2017-11-07,150.0,Trasare Tasaul,Biziru,income
+1a5f9998-d79d-11ec-a1bd-7ec7e3559253,2017-11-08,200.0,Poarta Alba Monument,Ionescu,income
+1a5f99b6-d79d-11ec-a1bd-7ec7e3559253,2017-11-08,100.0,Aleea Lunii 6,Ionescu,income
+1a5f99ca-d79d-11ec-a1bd-7ec7e3559253,2017-11-08,200.0,"Alsacian,Lazu",Ionescu,income
+1a5f99e8-d79d-11ec-a1bd-7ec7e3559253,2017-11-11,200.0,"Crisana,Bloc K,gaze",Ionescu,income
+1a5f99fc-d79d-11ec-a1bd-7ec7e3559253,2017-11-13,250.0,"Traian,Interioara 2",Biziru,income
+1a5f9a1a-d79d-11ec-a1bd-7ec7e3559253,2017-11-13,75.0,Langa Triton,Biziru,income
+1a5f9a2e-d79d-11ec-a1bd-7ec7e3559253,2017-11-13,100.0,Cumpana baraci camp,Biziru,income
+1a5f9a42-d79d-11ec-a1bd-7ec7e3559253,2017-11-14,100.0,"Tomis 332,Bloc M1,Sc C,Et 2,Ap 49",Mami,income
+1a5f9a60-d79d-11ec-a1bd-7ec7e3559253,2017-11-17,100.0,Hagieni,Bogdan,income
+1a5f9ad8-d79d-11ec-a1bd-7ec7e3559253,2017-11-17,200.0,"Bloc S2,Sc B si D,ap 24 si 61",Mami,income
+1a5f9aec-d79d-11ec-a1bd-7ec7e3559253,2017-11-18,0.0,"Str Bucuresti-Avram Iancu, Bloc gaze",Ionescu,income
+1a5f9b0a-d79d-11ec-a1bd-7ec7e3559253,2017-11-21,250.0,Industriala,Biziru,income
+1a5f9b1e-d79d-11ec-a1bd-7ec7e3559253,2017-11-21,100.0,Parcare Tomis Plus,Biziru,income
+1a5f9b3c-d79d-11ec-a1bd-7ec7e3559253,2017-11-21,150.0,Trasare Costinesti Rosescu,Biziru,income
+1a5f9b50-d79d-11ec-a1bd-7ec7e3559253,2017-11-21,200.0,Aleea Lunii 4,Ionescu,income
+1a5f9b6e-d79d-11ec-a1bd-7ec7e3559253,2017-11-22,250.0,Timisana 30,Ionescu,income
+1a5f9b82-d79d-11ec-a1bd-7ec7e3559253,2017-11-23,200.0,Trasare Techirghiol,Ionescu,income
+1a5f9b96-d79d-11ec-a1bd-7ec7e3559253,2017-11-23,150.0,Releveu Tuzla,Biziru,income
+1a5f9bb4-d79d-11ec-a1bd-7ec7e3559253,2017-11-24,100.0,"Orhideei,gaz",Bogdan,income
+1a5f9bc8-d79d-11ec-a1bd-7ec7e3559253,2017-11-24,200.0,Oltului 32,Ionescu,income
+1a5f9be6-d79d-11ec-a1bd-7ec7e3559253,2017-11-27,200.0,Trasare Eforie Nord,Biziru,income
+1a5f9bfa-d79d-11ec-a1bd-7ec7e3559253,2017-11-27,100.0,"Bloc L14Bis,Sc A,Et 4,Ap 20",Mami,income
+1a5f9c18-d79d-11ec-a1bd-7ec7e3559253,2017-11-29,0.0,Cibinului-Oborului plan,Ionescu,income
+1a5f9c2c-d79d-11ec-a1bd-7ec7e3559253,2017-11-29,200.0,Giratoriu Scoica Land,Biziru,income
+1a5f9c40-d79d-11ec-a1bd-7ec7e3559253,2017-12-04,100.0,"Violetelor 9,Casa de cultura,ap",Mami,income
+1a5f9c5e-d79d-11ec-a1bd-7ec7e3559253,2017-12-05,50.0,Puncte Trocadero si Nicolae Iorga,Biziru,income
+1a5f9c72-d79d-11ec-a1bd-7ec7e3559253,2017-12-05,200.0,Medgidia cote in curte,Biziru,income
+1a5f9c90-d79d-11ec-a1bd-7ec7e3559253,2017-12-06,200.0,"Banu Mihalcea 39,Constanta",Ionescu,income
+1a5f9ca4-d79d-11ec-a1bd-7ec7e3559253,2017-12-06,200.0,Romeo Popescu,Ionescu,income
+1a5f9cc2-d79d-11ec-a1bd-7ec7e3559253,2017-12-08,100.0,Hala industriala,Bogdan,income
+1a5f9cd6-d79d-11ec-a1bd-7ec7e3559253,2017-12-12,200.0,"Guci,Palazu Mare",Ionescu,income
+1a5f9cea-d79d-11ec-a1bd-7ec7e3559253,2017-12-12,200.0,"Toparceanu,Palazu Mare",Ionescu,income
+1a5f9d08-d79d-11ec-a1bd-7ec7e3559253,2017-12-12,120.0,"Ferdinand 112,Bloc R2,Sc A,Et 2,Ap 7",Mami,income
+1a5f9d1c-d79d-11ec-a1bd-7ec7e3559253,2017-12-13,250.0,Nuntasi Progresului 36,Ionescu,income
+1a5f9d3a-d79d-11ec-a1bd-7ec7e3559253,2017-12-14,200.0,Eforie Sud parcare,Biziru,income
+1a5f9d4e-d79d-11ec-a1bd-7ec7e3559253,2017-12-15,200.0,Soveja-Unirii Plan cotat,Biziru,income
+1a5f9d62-d79d-11ec-a1bd-7ec7e3559253,2017-12-15,250.0,RAR plan cotat,Biziru,income
+1a5f9d80-d79d-11ec-a1bd-7ec7e3559253,2017-12-19,150.0,Marco,Biziru,income
+1a5f9d94-d79d-11ec-a1bd-7ec7e3559253,2017-12-21,300.0,Plopilor 16,Coca,income
+1a5f9db2-d79d-11ec-a1bd-7ec7e3559253,2017-12-21,100.0,Ap Cismelei,Mami,income
+1a5f9dc6-d79d-11ec-a1bd-7ec7e3559253,2017-12-21,150.0,Poporului plan cotat,Biziru,income
+1a5f9dda-d79d-11ec-a1bd-7ec7e3559253,2017-12-29,200.0,Locomotivei,Ionescu,income
+1a5f9df8-d79d-11ec-a1bd-7ec7e3559253,2018-01-05,100.0,"Dacia,Ap 19",Mami,income
+1a5f9e0c-d79d-11ec-a1bd-7ec7e3559253,2018-01-09,150.0,Compozitorilor,Biziru,income
+1a5f9e2a-d79d-11ec-a1bd-7ec7e3559253,2018-01-09,200.0,Gaz poarta 6,Ionescu,income
+1a5f9e3e-d79d-11ec-a1bd-7ec7e3559253,2018-01-10,150.0,Smardan 12,Biziru,income
+1a5f9e5c-d79d-11ec-a1bd-7ec7e3559253,2018-01-10,150.0,"Navodari,Tasaul",Biziru,income
+1a5f9e70-d79d-11ec-a1bd-7ec7e3559253,2018-01-11,67.0,Donat sange,Alin,income
+1a5f9ea2-d79d-11ec-a1bd-7ec7e3559253,2018-01-11,200.0,Tech Trs,Ionescu,income
+1a5f9ec0-d79d-11ec-a1bd-7ec7e3559253,2018-01-12,100.0,Dorobantu 43,Bogdan,income
+1a5f9ede-d79d-11ec-a1bd-7ec7e3559253,2018-01-12,200.0,Trasare casa Techirghiol,Ionescu,income
+1a5f9ef2-d79d-11ec-a1bd-7ec7e3559253,2018-01-12,200.0,Pt carnet teren Palazu Mare,Ionescu,income
+1a5f9f10-d79d-11ec-a1bd-7ec7e3559253,2018-01-17,100.0,Popa Farcas 27A,Bogdan,income
+1a5f9f24-d79d-11ec-a1bd-7ec7e3559253,2018-01-17,200.0,Gh Lazar,Ionescu,income
+1a5f9f38-d79d-11ec-a1bd-7ec7e3559253,2018-01-19,200.0,Th Sperantia 36,Ionescu,income
+1a5f9f56-d79d-11ec-a1bd-7ec7e3559253,2018-01-27,200.0,Gh Sasu 39,Ionescu,income
+1a5f9f6a-d79d-11ec-a1bd-7ec7e3559253,2018-01-30,100.0,Tudor Vladimirescu 3A,Bogdan,income
+1a5f9f88-d79d-11ec-a1bd-7ec7e3559253,2018-01-30,150.0,Plaja Toma,Biziru,income
+1a5f9f9c-d79d-11ec-a1bd-7ec7e3559253,2018-01-30,150.0,Blocuri Aurel Vlaicu PC,Biziru,income
+1a5f9fb0-d79d-11ec-a1bd-7ec7e3559253,2018-01-30,200.0,Vama Veche,Biziru,income
+1a5f9fce-d79d-11ec-a1bd-7ec7e3559253,2018-02-01,300.0,Mereni,Coca,income
+1a5f9fe2-d79d-11ec-a1bd-7ec7e3559253,2018-02-01,300.0,Cumpana,Mami,income
+1a5fa000-d79d-11ec-a1bd-7ec7e3559253,2018-02-03,200.0,"Ionel Teodoreanu,Palazu Mare",Ionescu,income
+1a5fa014-d79d-11ec-a1bd-7ec7e3559253,2018-02-03,150.0,"Ciprian Porumbescu,Lumina",Ionescu,income
+1a5fa028-d79d-11ec-a1bd-7ec7e3559253,2018-02-03,100.0,Kogalniceanu 2 loturi teren gol,Bogdan,income
+1a5fa046-d79d-11ec-a1bd-7ec7e3559253,2018-02-03,300.0,"Nichita Stanescu,Murfatlar",Biziru,income
+1a5fa05a-d79d-11ec-a1bd-7ec7e3559253,2018-02-06,200.0,Medgidia releveu,Biziru,income
+1a5fa078-d79d-11ec-a1bd-7ec7e3559253,2018-02-06,150.0,Energia Filip,Biziru,income
+1a5fa08c-d79d-11ec-a1bd-7ec7e3559253,2018-02-07,200.0,Bogata trasare teren gol,Ionescu,income
+1a5fa0aa-d79d-11ec-a1bd-7ec7e3559253,2018-02-08,200.0,Granicerului 26,Ionescu,income
+1a5fa0be-d79d-11ec-a1bd-7ec7e3559253,2018-02-08,150.0,Tasaul trasare,Biziru,income
+1a5fa0d2-d79d-11ec-a1bd-7ec7e3559253,2018-02-08,150.0,Selena trasare,Biziru,income
+1a5fa0f0-d79d-11ec-a1bd-7ec7e3559253,2018-02-09,400.0,Horia,Biziru,income
+1a5fa104-d79d-11ec-a1bd-7ec7e3559253,2018-02-10,200.0,Bloc V3,Ionescu,income
+1a5fa122-d79d-11ec-a1bd-7ec7e3559253,2018-02-12,200.0,Ap Crisanei,Mami,income
+1a5fa136-d79d-11ec-a1bd-7ec7e3559253,2018-02-15,150.0,"Agigea,Castanilor",Biziru,income
+1a5fa14a-d79d-11ec-a1bd-7ec7e3559253,2018-02-15,150.0,Ap Eforie Nord,Biziru,income
+1a5fa168-d79d-11ec-a1bd-7ec7e3559253,2018-02-19,200.0,"Spitalu Mic,masurat/trasat",Ionescu,income
+1a5fa17c-d79d-11ec-a1bd-7ec7e3559253,2018-02-20,400.0,"Stoica,Mamaia Nord,apartament",Mami,income
+1a5fa19a-d79d-11ec-a1bd-7ec7e3559253,2018-02-20,350.0,Avans Drumuri Navodari,Biziru,income
+1a5fa1ae-d79d-11ec-a1bd-7ec7e3559253,2018-02-21,200.0,Odobescu/Bratianu 103,Ionescu,income
+1a5fa1cc-d79d-11ec-a1bd-7ec7e3559253,2018-02-21,100.0,"Stoica,Mamaia Nord,apartament",Mami,income
+1a5fa1e0-d79d-11ec-a1bd-7ec7e3559253,2018-03-09,1000.0,Drumuri Navodari completare bani,Biziru,income
+1a5fa1f4-d79d-11ec-a1bd-7ec7e3559253,2018-03-09,200.0,Dobrogeanu Gherea,Ionescu,income
+1a5fa212-d79d-11ec-a1bd-7ec7e3559253,2018-03-13,200.0,Anton Pan 23,Ionescu,income
+1a5fa226-d79d-11ec-a1bd-7ec7e3559253,2018-03-13,1700.0,Drumuri Navodari lichidare,Biziru,income
+1a5fa244-d79d-11ec-a1bd-7ec7e3559253,2018-03-13,1300.0,Parc Navodari,Biziru,income
+1a5fa258-d79d-11ec-a1bd-7ec7e3559253,2018-03-13,200.0,Scafandrii releveu,Biziru,income
+1a5fa276-d79d-11ec-a1bd-7ec7e3559253,2018-03-13,250.0,Eforie releveu ,Biziru,income
+1a5fa28a-d79d-11ec-a1bd-7ec7e3559253,2018-03-13,250.0,Mamaia Nord PC,Biziru,income
+1a5fa29e-d79d-11ec-a1bd-7ec7e3559253,2018-03-13,100.0,Pionierului 10C,Biziru,income
+1a5fa2bc-d79d-11ec-a1bd-7ec7e3559253,2018-03-13,150.0,Damy PC,Biziru,income
+1a5fa2d0-d79d-11ec-a1bd-7ec7e3559253,2018-03-13,150.0,Mihai Eminescu 1,Biziru,income
+1a5fa2ee-d79d-11ec-a1bd-7ec7e3559253,2018-03-13,230.0,"Nasip,Kogalniceanu",Mami,income
+1a5fa302-d79d-11ec-a1bd-7ec7e3559253,2018-03-14,200.0,Teren 800mp Aurel Vlaicu,Ionescu,income
+1a5fa316-d79d-11ec-a1bd-7ec7e3559253,2018-03-16,250.0,Tuzla Stefan Eoliene,Biziru,income
+1a5fa334-d79d-11ec-a1bd-7ec7e3559253,2018-03-16,50.0,Compozitorilo remasurat,Biziru,income
+1a5fa348-d79d-11ec-a1bd-7ec7e3559253,2018-03-16,400.0,Unitate Militara Mangalia,Ionescu,income
+1a5fa366-d79d-11ec-a1bd-7ec7e3559253,2018-03-16,250.0,Hotel Intim,Ionescu,income
+1a5fa37a-d79d-11ec-a1bd-7ec7e3559253,2018-03-16,200.0,Teren 5000mp Aurel Vlaicu,Ionescu,income
+1a5fa398-d79d-11ec-a1bd-7ec7e3559253,2018-03-17,50.0,Ap Portitei,Mami,income
+1a5fa3ac-d79d-11ec-a1bd-7ec7e3559253,2018-03-26,150.0,Onesti 26,Biziru,income
+1a5fa3c0-d79d-11ec-a1bd-7ec7e3559253,2018-03-26,150.0,"Mugurului 11,Releveu",Biziru,income
+1a5fa3de-d79d-11ec-a1bd-7ec7e3559253,2018-03-27,150.0,Nordului,Biziru,income
+1a5fa3f2-d79d-11ec-a1bd-7ec7e3559253,2018-03-27,250.0,"Vasile Conta 8,t+r",Biziru,income
+1a5fa410-d79d-11ec-a1bd-7ec7e3559253,2018-03-27,200.0,Constantin Bratescu 32,Coca,income
+1a5fa424-d79d-11ec-a1bd-7ec7e3559253,2018-03-28,200.0,Constantin Bobescu 94-96,Ionescu,income
+1a5fa442-d79d-11ec-a1bd-7ec7e3559253,2018-03-29,200.0,Calarasi 59,Ionescu,income
+1a5fa456-d79d-11ec-a1bd-7ec7e3559253,2018-03-29,200.0,Daciei 73,Ionescu,income
+1a5fa46a-d79d-11ec-a1bd-7ec7e3559253,2018-03-29,250.0,"Nucilor 59,teren+releveu",Biziru,income
+1a5fa488-d79d-11ec-a1bd-7ec7e3559253,2018-03-30,300.0,"Tiab,Navodari",Biziru,income
+1a5fa49c-d79d-11ec-a1bd-7ec7e3559253,2018-03-31,50.0,"Ap Zmeurei 6,Bloc V,Sc A,Ap 5",Mami,income
+1a5fa4ba-d79d-11ec-a1bd-7ec7e3559253,2018-03-31,250.0,"Steagului 45,teren+releveu",Biziru,income
+1a5fa4ce-d79d-11ec-a1bd-7ec7e3559253,2018-04-02,200.0,"Octavian Goga 12,Agigea",Biziru,income
+1a5fa4ec-d79d-11ec-a1bd-7ec7e3559253,2018-04-02,200.0,Teren masurat+1 teren trasat Agigea,Biziru,income
+1a5fa500-d79d-11ec-a1bd-7ec7e3559253,2018-04-02,300.0,Releveu+teren Ef Nord Bro,Biziru,income
+1a5fa51e-d79d-11ec-a1bd-7ec7e3559253,2018-04-04,150.0,"Sos Constantei 128,Releveu,Cumpana",Biziru,income
+1a5fa532-d79d-11ec-a1bd-7ec7e3559253,2018-04-06,200.0,Sasu Dumitru 25,Ionescu,income
+1a5fa550-d79d-11ec-a1bd-7ec7e3559253,2018-04-12,200.0,Miron Costin 68,Ionescu,income
+1a5fa564-d79d-11ec-a1bd-7ec7e3559253,2018-04-18,300.0,Razboieni 75,Coca,income
+1a5fa578-d79d-11ec-a1bd-7ec7e3559253,2018-04-19,200.0,Duiliu Zamfirescu 13,Coca,income
+1a5fa596-d79d-11ec-a1bd-7ec7e3559253,2018-04-20,150.0,"Biruintei 128,Constanta",Biziru,income
+1a5fa5aa-d79d-11ec-a1bd-7ec7e3559253,2018-04-20,200.0,"Mircea cel Batran 3,Cumpana",Biziru,income
+1a5fa5c8-d79d-11ec-a1bd-7ec7e3559253,2018-04-21,200.0,"Gheorghe Marinescu 43,Constanta",Ionescu,income
+1a5fa5dc-d79d-11ec-a1bd-7ec7e3559253,2018-04-24,250.0,Tuzla 2 loturi,Biziru,income
+1a5fa5fa-d79d-11ec-a1bd-7ec7e3559253,2018-04-24,200.0,"Ef Sud trs,100717",Biziru,income
+1a5fa60e-d79d-11ec-a1bd-7ec7e3559253,2018-04-24,250.0,"Tuzla,Meduzei 41",Biziru,income
+1a5fa622-d79d-11ec-a1bd-7ec7e3559253,2018-04-24,100.0,Alex tractor,Biziru,income
+1a5fa640-d79d-11ec-a1bd-7ec7e3559253,2018-04-25,200.0,"Lucian Blaga,Palazu Mare",Ionescu,income
+1a5fa654-d79d-11ec-a1bd-7ec7e3559253,2018-04-26,200.0,Et 2 si 3 scafandrii bloc,Biziru,income
+1a5fa672-d79d-11ec-a1bd-7ec7e3559253,2018-05-02,300.0,Aeroport Kogalniceanu,Biziru,income
+1a5fa686-d79d-11ec-a1bd-7ec7e3559253,2018-05-02,150.0,Calafatului 59,Biziru,income
+1a5fa6a4-d79d-11ec-a1bd-7ec7e3559253,2018-05-03,100.0,Parcare Alma,Biziru,income
+1a5fa6b8-d79d-11ec-a1bd-7ec7e3559253,2018-05-09,1000.0,Agigea 25ha,Ionescu,income
+1a5fa6d6-d79d-11ec-a1bd-7ec7e3559253,2018-05-12,200.0,Muzicescu,Ionescu,income
+1a5fa6ea-d79d-11ec-a1bd-7ec7e3559253,2018-05-15,100.0,Satu Nou,Bogdan,income
+1a5fa6fe-d79d-11ec-a1bd-7ec7e3559253,2018-05-15,150.0,"Lazu,110549",Biziru,income
+1a5fa71c-d79d-11ec-a1bd-7ec7e3559253,2018-05-15,100.0,"Et 4,Scafandrii bloc",Biziru,income
+1a5fa730-d79d-11ec-a1bd-7ec7e3559253,2018-05-15,200.0,Ungureanu Agigea,Alexandra,income
+1a5fa74e-d79d-11ec-a1bd-7ec7e3559253,2018-05-16,250.0,Muscatei 38,Ionescu,income
+1a5fa762-d79d-11ec-a1bd-7ec7e3559253,2018-05-17,100.0,Spitalu Mic,Ionescu,income
+1a5fa780-d79d-11ec-a1bd-7ec7e3559253,2018-05-17,200.0,Trs Techirghiol,Ionescu,income
+1a5fa794-d79d-11ec-a1bd-7ec7e3559253,2018-05-18,200.0,Iusein tech trs lot 3,Ionescu,income
+1a5fa7a8-d79d-11ec-a1bd-7ec7e3559253,2018-05-18,200.0,Labirint 22,Coca,income
+1a5fa7c6-d79d-11ec-a1bd-7ec7e3559253,2018-05-21,450.0,Tuzla Lidl,Biziru,income
+1a5fa7da-d79d-11ec-a1bd-7ec7e3559253,2018-05-21,300.0,Cobadin Plopilor 17,Biziru,income
+1a5fa7ee-d79d-11ec-a1bd-7ec7e3559253,2018-05-21,200.0,Lot 9,Ionescu,income
+1a5fa80c-d79d-11ec-a1bd-7ec7e3559253,2018-05-22,200.0,"Navodului 3A,Palazu Mare",Ionescu,income
+1a5fa820-d79d-11ec-a1bd-7ec7e3559253,2018-05-22,250.0,Teren gol Mamaia,Alexandra,income
+1a5fa83e-d79d-11ec-a1bd-7ec7e3559253,2018-05-29,100.0,Ap Tomis Nord,Mami,income
+1a5fa852-d79d-11ec-a1bd-7ec7e3559253,2018-05-29,150.0,Trs langa triton,Biziru,income
+1a5fa870-d79d-11ec-a1bd-7ec7e3559253,2018-06-01,300.0,Mandai 8,Mami,income
+1a5fa884-d79d-11ec-a1bd-7ec7e3559253,2018-06-01,200.0,Tomis bloc,Ionescu,income
+1a5fa898-d79d-11ec-a1bd-7ec7e3559253,2018-06-04,150.0,A166 trasat axe,Biziru,income
+1a5fa8b6-d79d-11ec-a1bd-7ec7e3559253,2018-06-04,200.0,MOL Doraly,Biziru,income
+1a5fa8ca-d79d-11ec-a1bd-7ec7e3559253,2018-06-04,100.0,Hala Billa,Biziru,income
+1a5fa8e8-d79d-11ec-a1bd-7ec7e3559253,2018-06-04,250.0,Poporului PUZ,Biziru,income
+1a5fa8fc-d79d-11ec-a1bd-7ec7e3559253,2018-06-04,250.0,Tomis Plus PC,Biziru,income
+1a5fa910-d79d-11ec-a1bd-7ec7e3559253,2018-06-04,200.0,"Octavian Goga 102,Agigea",Biziru,income
+1a5fa92e-d79d-11ec-a1bd-7ec7e3559253,2018-06-04,300.0,Aeroport Kogalniceanu(pt 23.05),Biziru,income
+1a5fa942-d79d-11ec-a1bd-7ec7e3559253,2018-06-04,150.0,Campus PC,Biziru,income
+1a5fa960-d79d-11ec-a1bd-7ec7e3559253,2018-06-04,200.0,"Acsente Sever 2,Lazu",Biziru,income
+1a5fa974-d79d-11ec-a1bd-7ec7e3559253,2018-06-04,200.0,Aeroport Kogalniceanu(pt 31.05),Biziru,income
+1a5fa988-d79d-11ec-a1bd-7ec7e3559253,2018-06-06,200.0,"Razoare 3,Constanta",Ionescu,income
+1a5fa9a6-d79d-11ec-a1bd-7ec7e3559253,2018-06-06,200.0,"Midia 6,Palazu Mare",Ionescu,income
+1a5fa9ba-d79d-11ec-a1bd-7ec7e3559253,2018-06-07,200.0,Gaz Tomis Nord,Bogdan,income
+1a5fa9d8-d79d-11ec-a1bd-7ec7e3559253,2018-06-07,200.0,"Ion Ursu 40,Constanta",Ionescu,income
+1a5fa9ec-d79d-11ec-a1bd-7ec7e3559253,2018-06-08,200.0,"Poporului 36,Constanta",Ionescu,income
+1a5faa0a-d79d-11ec-a1bd-7ec7e3559253,2018-06-08,200.0,"Petre Ispirescu 37,Constanta",Ionescu,income
+1a5faa1e-d79d-11ec-a1bd-7ec7e3559253,2018-06-09,200.0,"Guci,Palazu Mare",Ionescu,income
+1a5faa32-d79d-11ec-a1bd-7ec7e3559253,2018-06-09,200.0,"Alexandru Sahia 52,Palazu Mare",Ionescu,income
+1a5faa50-d79d-11ec-a1bd-7ec7e3559253,2018-06-11,200.0,Trasare Hanu Piratilor,Biziru,income
+1a5faa64-d79d-11ec-a1bd-7ec7e3559253,2018-06-11,200.0,Trasare Palazu Mare 264646,Biziru,income
+1a5faa82-d79d-11ec-a1bd-7ec7e3559253,2018-06-11,200.0,Muscatelor 33,Biziru,income
+1a5faa96-d79d-11ec-a1bd-7ec7e3559253,2018-06-11,350.0,Baneasa,Biziru,income
+1a5faab4-d79d-11ec-a1bd-7ec7e3559253,2018-06-11,250.0,Vama Veche magazin alimentar,Biziru,income
+1a5faac8-d79d-11ec-a1bd-7ec7e3559253,2018-06-11,300.0,Corbu releveu,Biziru,income
+1a5faae6-d79d-11ec-a1bd-7ec7e3559253,2018-06-14,100.0,"Dan,curatat camera video",Alin,income
+1a5faafa-d79d-11ec-a1bd-7ec7e3559253,2018-06-14,200.0,"Hasdeu 8 bis,Ef Nord",Coca,income
+1a5fab0e-d79d-11ec-a1bd-7ec7e3559253,2018-06-18,200.0,"Navodari,109445",Biziru,income
+1a5fab2c-d79d-11ec-a1bd-7ec7e3559253,2018-06-18,400.0,"Ovidiu,Str C,plan+releveu",Biziru,income
+1a5fab40-d79d-11ec-a1bd-7ec7e3559253,2018-06-18,250.0,"Tuzla,Sos Constantei 156",Biziru,income
+1a5fab5e-d79d-11ec-a1bd-7ec7e3559253,2018-06-18,200.0,Eforie Sud trasare(16.06.2018),Biziru,income
+1a5fab72-d79d-11ec-a1bd-7ec7e3559253,2018-06-21,50.0,Tuzla,Bogdan,income
+1a5fab90-d79d-11ec-a1bd-7ec7e3559253,2018-06-22,200.0,Mesteru Manole 19,Ionescu,income
+1a5faba4-d79d-11ec-a1bd-7ec7e3559253,2018-06-23,300.0,"Tuzla,teren gol",Coca,income
+1a5fabb8-d79d-11ec-a1bd-7ec7e3559253,2018-06-23,200.0,Bratescu 46,Ionescu,income
+1a5fabd6-d79d-11ec-a1bd-7ec7e3559253,2018-06-23,150.0,Oriana releveu,Biziru,income
+1a5fabea-d79d-11ec-a1bd-7ec7e3559253,2018-06-23,300.0,Maresal 26A teren+releveu,Biziru,income
+1a5fac08-d79d-11ec-a1bd-7ec7e3559253,2018-06-23,400.0,Teofic releveu pensiune,Biziru,income
+1a5fac1c-d79d-11ec-a1bd-7ec7e3559253,2018-06-23,100.0,Dobrogei 93,Biziru,income
+1a5fac3a-d79d-11ec-a1bd-7ec7e3559253,2018-06-23,100.0,Str Traian 35B,Biziru,income
+1a5fac4e-d79d-11ec-a1bd-7ec7e3559253,2018-06-23,200.0,"Tuzla,TRS Str Biruintei",Biziru,income
+1a5fac6c-d79d-11ec-a1bd-7ec7e3559253,2018-06-23,150.0,Palazu Mare axe si balize,Biziru,income
+1a5fac80-d79d-11ec-a1bd-7ec7e3559253,2018-06-23,200.0,Nehoiului 49,Biziru,income
+1a5fac9e-d79d-11ec-a1bd-7ec7e3559253,2018-06-25,300.0,"Dorobanti,Str Cuza Voda 12",Coca,income
+1a5facb2-d79d-11ec-a1bd-7ec7e3559253,2018-06-27,100.0,Mamaia Pizzerie,Bogdan,income
+1a5facc6-d79d-11ec-a1bd-7ec7e3559253,2018-06-28,200.0,Calarasi trasare,Ionescu,income
+1a5face4-d79d-11ec-a1bd-7ec7e3559253,2018-07-01,100.0,Ap Abator et 4,Mami,income
+1a5facf8-d79d-11ec-a1bd-7ec7e3559253,2018-07-04,400.0,"Trasari Agigea,Tuzla si Vama Veche",Bogdan,income
+1a5fad16-d79d-11ec-a1bd-7ec7e3559253,2018-07-04,200.0,Oituz 7,Coca,income
+1a5fad2a-d79d-11ec-a1bd-7ec7e3559253,2018-07-07,200.0,"Rascoalei 13bis,Palazu Mare",Ionescu,income
+1a5fad48-d79d-11ec-a1bd-7ec7e3559253,2018-07-07,200.0,"Musset,Mamaia Nord",Ionescu,income
+1a5fad5c-d79d-11ec-a1bd-7ec7e3559253,2018-07-07,200.0,Gheorghe Marinescu 9,Coca,income
+1a5fad70-d79d-11ec-a1bd-7ec7e3559253,2018-07-07,200.0,Andromeda 14,Coca,income
+1a5fad8e-d79d-11ec-a1bd-7ec7e3559253,2018-07-09,300.0,Mircea cel Batran 24,Coca,income
+1a5fada2-d79d-11ec-a1bd-7ec7e3559253,2018-07-12,200.0,Unirii 76,Coca,income
+1a5fadc0-d79d-11ec-a1bd-7ec7e3559253,2018-07-13,200.0,Averescu,Ionescu,income
+1a5fadd4-d79d-11ec-a1bd-7ec7e3559253,2018-07-16,100.0,"Ap Str Prieteniei Bloc G,Sc E,Ap 95",Mami,income
+1a5fade8-d79d-11ec-a1bd-7ec7e3559253,2018-07-16,250.0,"Ungureanu,Agigea teren gol",Alexandra,income
+1a5fae06-d79d-11ec-a1bd-7ec7e3559253,2018-07-16,200.0,Aeroport Kogalniceanu,Biziru,income
+1a5fae1a-d79d-11ec-a1bd-7ec7e3559253,2018-07-16,200.0,Platforma Agigea  SCS,Biziru,income
+1a5fae38-d79d-11ec-a1bd-7ec7e3559253,2018-07-16,200.0,Hatman Luca Arbore 66,Biziru,income
+1a5fae60-d79d-11ec-a1bd-7ec7e3559253,2018-07-16,200.0,Ciprian Porumbescu 25,Biziru,income
+1a5fae74-d79d-11ec-a1bd-7ec7e3559253,2018-07-16,250.0,Rasuri 19C,Biziru,income
+1a5fae92-d79d-11ec-a1bd-7ec7e3559253,2018-07-16,200.0,Ghican Eforie Nord margine lac,Biziru,income
+1a5faea6-d79d-11ec-a1bd-7ec7e3559253,2018-07-16,150.0,"Terasa Tuborg, Eforie Nord",Biziru,income
+1a5faec4-d79d-11ec-a1bd-7ec7e3559253,2018-07-16,200.0,Aeroport Kogalniceanu,Biziru,income
+1a5faef6-d79d-11ec-a1bd-7ec7e3559253,2018-07-17,150.0,Vascului releveu,Biziru,income
+1a5faf14-d79d-11ec-a1bd-7ec7e3559253,2018-07-18,250.0,Venus teren gol,Biziru,income
+1a5faf28-d79d-11ec-a1bd-7ec7e3559253,2018-07-18,200.0,Frunzelor 114,Biziru,income
+1a5faf46-d79d-11ec-a1bd-7ec7e3559253,2018-07-18,250.0,ICH Ovidiu,Biziru,income
+1a5faf5a-d79d-11ec-a1bd-7ec7e3559253,2018-07-21,200.0,Aurel Vlaicu,Ionescu,income
+1a5faf78-d79d-11ec-a1bd-7ec7e3559253,2018-07-21,300.0,Topalu,Ionescu,income
+1a5faf8c-d79d-11ec-a1bd-7ec7e3559253,2018-07-23,500.0,Canal Cumpana,Biziru,income
+1a5fafa0-d79d-11ec-a1bd-7ec7e3559253,2018-07-24,250.0,Vifor Haiducul 11,Biziru,income
+1a5fafbe-d79d-11ec-a1bd-7ec7e3559253,2018-07-26,200.0,Teren gol Eforie Sud,Biziru,income
+1a5fafd2-d79d-11ec-a1bd-7ec7e3559253,2018-07-26,200.0,Alex tractor,Biziru,income
+1a5faff0-d79d-11ec-a1bd-7ec7e3559253,2018-07-26,100.0,Ap Arges,Mami,income
+1a5fb004-d79d-11ec-a1bd-7ec7e3559253,2018-07-27,100.0,Grozesti 62,Bogdan,income
+1a5fb022-d79d-11ec-a1bd-7ec7e3559253,2018-07-28,400.0,Canal 2 Cumpana,Biziru,income
+1a5fb036-d79d-11ec-a1bd-7ec7e3559253,2018-07-28,300.0,"Narciselor,Ovidiu",Biziru,income
+1a5fb054-d79d-11ec-a1bd-7ec7e3559253,2018-07-31,200.0,"Pionierului,Palazu Mare",Ionescu,income
+1a5fb068-d79d-11ec-a1bd-7ec7e3559253,2018-07-31,200.0,Cesna,Ionescu,income
+1a5fb086-d79d-11ec-a1bd-7ec7e3559253,2018-07-31,300.0,Liceul Traian,Ionescu,income
+1a5fb09a-d79d-11ec-a1bd-7ec7e3559253,2018-07-31,100.0,Mihaileanu,Coca,income
+1a5fb0ae-d79d-11ec-a1bd-7ec7e3559253,2018-07-31,300.0,Agigea,Coca,income
+1a5fb0cc-d79d-11ec-a1bd-7ec7e3559253,2018-08-01,50.0,Ap Tomis,Mami,income
+1a5fb0e0-d79d-11ec-a1bd-7ec7e3559253,2018-08-02,200.0,Port Liziera,Biziru,income
+1a5fb0fe-d79d-11ec-a1bd-7ec7e3559253,2018-08-02,200.0,"Spicului 21,Cumpana",Biziru,income
+1a5fb112-d79d-11ec-a1bd-7ec7e3559253,2018-08-02,200.0,Canal 3 Cumpana,Biziru,income
+1a5fb130-d79d-11ec-a1bd-7ec7e3559253,2018-08-04,200.0,Voiculescu,Biziru,income
+1a5fb144-d79d-11ec-a1bd-7ec7e3559253,2018-08-06,150.0,Palazu Mare trasare,Biziru,income
+1a5fb162-d79d-11ec-a1bd-7ec7e3559253,2018-08-06,150.0,Dinu Mamaia,Biziru,income
+1a5fb176-d79d-11ec-a1bd-7ec7e3559253,2018-08-08,550.0,Topraisar,Biziru,income
+1a5fb194-d79d-11ec-a1bd-7ec7e3559253,2018-08-09,1500.0,Cernavoda ridicare mare,Biziru,income
+1a5fb1a8-d79d-11ec-a1bd-7ec7e3559253,2018-08-10,150.0,Trasare Aurel Vlaicu,Biziru,income
+1a5fb1bc-d79d-11ec-a1bd-7ec7e3559253,2018-08-14,200.0,Ferdinand 32,Biziru,income
+1a5fb1da-d79d-11ec-a1bd-7ec7e3559253,2018-08-14,250.0,Calarasi Trasare,Ionescu,income
+1a5fb1ee-d79d-11ec-a1bd-7ec7e3559253,2018-08-14,250.0,Guci Palazu Mare,Ionescu,income
+1a5fb20c-d79d-11ec-a1bd-7ec7e3559253,2018-08-17,250.0,Mihai Viteazu 111,Biziru,income
+1a5fb220-d79d-11ec-a1bd-7ec7e3559253,2018-08-17,450.0,Dobromir si Lipnita,Biziru,income
+1a5fb23e-d79d-11ec-a1bd-7ec7e3559253,2018-08-20,250.0,Sasu Dumitru 37,Ionescu,income
+1a5fb252-d79d-11ec-a1bd-7ec7e3559253,2018-08-20,50.0,Ioan Borcea 30,Biziru,income
+1a5fb266-d79d-11ec-a1bd-7ec7e3559253,2018-08-20,150.0,Dinu releveu stalpi,Biziru,income
+1a5fb284-d79d-11ec-a1bd-7ec7e3559253,2018-08-21,400.0,Kogalniceanu 40 axe,Biziru,income
+1a5fb298-d79d-11ec-a1bd-7ec7e3559253,2018-08-21,250.0,Fagetului 52,Ionescu,income
+1a5fb2b6-d79d-11ec-a1bd-7ec7e3559253,2018-08-22,300.0,Mesteru Manole 1D,Coca,income
+1a5fb2ca-d79d-11ec-a1bd-7ec7e3559253,2018-08-22,300.0,Steaua de Mare,Biziru,income
+1a5fb2e8-d79d-11ec-a1bd-7ec7e3559253,2018-08-23,350.0,Cernavoda,Biziru,income
+1a5fb2fc-d79d-11ec-a1bd-7ec7e3559253,2018-08-23,350.0,Kogalniceanu trasare,Biziru,income
+1a5fb31a-d79d-11ec-a1bd-7ec7e3559253,2018-08-24,250.0,Trasare Cumpana cu scandal,Alin,income
+1a5fb32e-d79d-11ec-a1bd-7ec7e3559253,2018-08-24,100.0,Traian 35B,Biziru,income
+1a5fb342-d79d-11ec-a1bd-7ec7e3559253,2018-08-25,150.0,Gheorghe Marinescu Nicu Baditeanu,Biziru,income
+1a5fb360-d79d-11ec-a1bd-7ec7e3559253,2018-08-25,200.0,Eforie Nord trasare,Biziru,income
+1a5fb374-d79d-11ec-a1bd-7ec7e3559253,2018-08-25,200.0,Elena Cuza 66,Coca,income
+1a5fb392-d79d-11ec-a1bd-7ec7e3559253,2018-08-27,250.0,Cernavoda,Biziru,income
+1a5fb3a6-d79d-11ec-a1bd-7ec7e3559253,2018-08-28,200.0,Ovidiu trasare alei,Biziru,income
+1a5fb3c4-d79d-11ec-a1bd-7ec7e3559253,2018-08-28,250.0,Kogalniceanu trasare,Biziru,income
+1a5fb3d8-d79d-11ec-a1bd-7ec7e3559253,2018-08-29,300.0,Cernavoda,Biziru,income
+1a5fb3ec-d79d-11ec-a1bd-7ec7e3559253,2018-08-30,200.0,Enachita Vacarescu 54,Ionescu,income
+1a5fb40a-d79d-11ec-a1bd-7ec7e3559253,2018-08-30,250.0,"Vlad Tepes 6,Cumpana",Biziru,income
+1a5fb41e-d79d-11ec-a1bd-7ec7e3559253,2018-09-01,300.0,Ramnicu trasare,Ionescu,income
+1a5fb43c-d79d-11ec-a1bd-7ec7e3559253,2018-09-01,100.0,Palazu trasare,Ionescu,income
+1a5fb450-d79d-11ec-a1bd-7ec7e3559253,2018-09-03,350.0,Cernavoda,Biziru,income
+1a5fb46e-d79d-11ec-a1bd-7ec7e3559253,2018-09-03,250.0,Lucian Mamaia Nord,Biziru,income
+1a5fb482-d79d-11ec-a1bd-7ec7e3559253,2018-09-04,300.0,Proiect SA,Ionescu,income
+1a5fb4a0-d79d-11ec-a1bd-7ec7e3559253,2018-09-05,200.0,AlProf,Biziru,income
+1a5fb4b4-d79d-11ec-a1bd-7ec7e3559253,2018-09-05,250.0,AlProf,Alin,income
+1a5fb4c8-d79d-11ec-a1bd-7ec7e3559253,2018-09-05,250.0,Navodului 3A,Biziru,income
+1a5fb4e6-d79d-11ec-a1bd-7ec7e3559253,2018-09-06,200.0,Titu Maiorescu 7,Biziru,income
+1a5fb4fa-d79d-11ec-a1bd-7ec7e3559253,2018-09-07,250.0,Costinesti,Ionescu,income
+1a5fb518-d79d-11ec-a1bd-7ec7e3559253,2018-09-07,250.0,Lazu,Alin,income
+1a5fb52c-d79d-11ec-a1bd-7ec7e3559253,2018-09-07,200.0,Trasare Cumpana,Biziru,income
+1a5fb54a-d79d-11ec-a1bd-7ec7e3559253,2018-09-11,200.0,Primarie Traian 35B,Ionescu,income
+1a5fb55e-d79d-11ec-a1bd-7ec7e3559253,2018-09-11,200.0,Pusnava Mamaia Sat,Biziru,income
+1a5fb572-d79d-11ec-a1bd-7ec7e3559253,2018-09-12,200.0,T16,Ionescu,income
+1a5fb590-d79d-11ec-a1bd-7ec7e3559253,2018-09-12,200.0,Libertatii 10,Ionescu,income
+1a5fb5a4-d79d-11ec-a1bd-7ec7e3559253,2018-09-18,250.0,Navodari trasare,Ionescu,income
+1a5fb5c2-d79d-11ec-a1bd-7ec7e3559253,2018-09-18,300.0,Recoltei 11,Biziru,income
+1a5fb5d6-d79d-11ec-a1bd-7ec7e3559253,2018-09-18,200.0,Valu trasare,Biziru,income
+1a5fb5ea-d79d-11ec-a1bd-7ec7e3559253,2018-09-19,300.0,Kogalniceanu Aeroport,Biziru,income
+1a5fb608-d79d-11ec-a1bd-7ec7e3559253,2018-09-20,250.0,"Neptun,Plopilor 18A",Ionescu,income
+1a5fb61c-d79d-11ec-a1bd-7ec7e3559253,2018-09-20,200.0,Ivanovici 20,Ionescu,income
+1a5fb63a-d79d-11ec-a1bd-7ec7e3559253,2018-09-22,500.0,Corbu Unitatea Militara trasare,Ionescu,income
+1a5fb64e-d79d-11ec-a1bd-7ec7e3559253,2018-09-22,200.0,Zorelelor 52,Coca,income
+1a5fb66c-d79d-11ec-a1bd-7ec7e3559253,2018-09-24,250.0,Puflene,Biziru,income
+1a5fb680-d79d-11ec-a1bd-7ec7e3559253,2018-09-25,350.0,Cernavoda,Biziru,income
+1a5fb69e-d79d-11ec-a1bd-7ec7e3559253,2018-09-26,250.0,Cernavoda,Biziru,income
+1a5fb6b2-d79d-11ec-a1bd-7ec7e3559253,2018-09-26,350.0,Kogalniceanu Aeroport,Biziru,income
+1a5fb6c6-d79d-11ec-a1bd-7ec7e3559253,2018-09-28,250.0,"Florilor 29, Cumpana",Biziru,income
+1a5fb6e4-d79d-11ec-a1bd-7ec7e3559253,2018-09-28,250.0,"Panselei 7, Cumpana",Biziru,income
+1a5fb6f8-d79d-11ec-a1bd-7ec7e3559253,2018-09-28,250.0,"Abrud 33, Constanta",Biziru,income
+1a5fb716-d79d-11ec-a1bd-7ec7e3559253,2018-09-28,200.0,"Morii 82, Lumina",Biziru,income
+1a5fb72a-d79d-11ec-a1bd-7ec7e3559253,2018-09-29,150.0,Sere trasare,Ionescu,income
+1a5fb748-d79d-11ec-a1bd-7ec7e3559253,2018-10-02,300.0,Oriana et 2 si 3,Biziru,income
+1a5fb75c-d79d-11ec-a1bd-7ec7e3559253,2018-10-02,200.0,Eforie Sud,Biziru,income
+1a5fb77a-d79d-11ec-a1bd-7ec7e3559253,2018-10-02,200.0,"Viilor 10, Tuzla",Biziru,income
+1a5fb78e-d79d-11ec-a1bd-7ec7e3559253,2018-10-03,150.0,Puflene,Biziru,income
+1a5fb7a2-d79d-11ec-a1bd-7ec7e3559253,2018-10-03,200.0,Bratianu Expedition,Biziru,income
+1a5fb7c0-d79d-11ec-a1bd-7ec7e3559253,2018-10-03,200.0,Alexandru Sahia,Biziru,income
+1a5fb7d4-d79d-11ec-a1bd-7ec7e3559253,2018-10-03,200.0,Dinu Str D1,Biziru,income
+1a5fb7e8-d79d-11ec-a1bd-7ec7e3559253,2018-10-03,200.0,Steflea 13,Biziru,income
+1a5fb806-d79d-11ec-a1bd-7ec7e3559253,2018-10-04,350.0,Cernavoda,Biziru,income
+1a5fb81a-d79d-11ec-a1bd-7ec7e3559253,2018-10-05,100.0,"Viilor 10, Tuzla",Biziru,income
+1a5fb838-d79d-11ec-a1bd-7ec7e3559253,2018-10-05,200.0,"Lebedelor 31, Cumpana",Biziru,income
+1a5fb84c-d79d-11ec-a1bd-7ec7e3559253,2018-10-05,200.0,"Ciresica 56, Cumpana",Biziru,income
+1a5fb86a-d79d-11ec-a1bd-7ec7e3559253,2018-10-07,1000.0,Topraisar rest drum,Biziru,income
+1a5fb87e-d79d-11ec-a1bd-7ec7e3559253,2018-10-09,100.0,Ap LT1 ap 21,Mami,income
+1a5fb892-d79d-11ec-a1bd-7ec7e3559253,2018-10-09,250.0,Docherilor 15,Biziru,income
+1a5fb8b0-d79d-11ec-a1bd-7ec7e3559253,2018-10-09,200.0,Decebal 14,Coca,income
+1a5fb8c4-d79d-11ec-a1bd-7ec7e3559253,2018-10-09,100.0,WC Abator,Biziru,income
+1a5fb8e2-d79d-11ec-a1bd-7ec7e3559253,2018-10-10,300.0,Ovidiu 108828,Ionescu,income
+1a5fb8f6-d79d-11ec-a1bd-7ec7e3559253,2018-10-10,100.0,MOL Doraly,Biziru,income
+1a5fb914-d79d-11ec-a1bd-7ec7e3559253,2018-10-10,350.0,Auchan,Biziru,income
+1a5fb928-d79d-11ec-a1bd-7ec7e3559253,2018-10-16,150.0,Kogalniceanu,Biziru,income
+1a5fb93c-d79d-11ec-a1bd-7ec7e3559253,2018-10-16,200.0,Gheorghe Marinescu 6,Biziru,income
+1a5fb95a-d79d-11ec-a1bd-7ec7e3559253,2018-10-17,200.0,Dacia 10B,Ionescu,income
+1a5fb96e-d79d-11ec-a1bd-7ec7e3559253,2018-10-17,200.0,Bloc B2 pt gaz,Ionescu,income
+1a5fb98c-d79d-11ec-a1bd-7ec7e3559253,2018-10-17,200.0,Frunzelor 45,Ionescu,income
+1a5fb9a0-d79d-11ec-a1bd-7ec7e3559253,2018-10-18,250.0,Cernavoda,Biziru,income
+1a5fb9be-d79d-11ec-a1bd-7ec7e3559253,2018-10-18,250.0,Aliman,Biziru,income
+1a5fb9d2-d79d-11ec-a1bd-7ec7e3559253,2018-10-18,200.0,Cazarma Palazu Mare,Biziru,income
+1a5fb9e6-d79d-11ec-a1bd-7ec7e3559253,2018-10-18,50.0,Cota zero Puflene Mamaia Nord,Biziru,income
+1a5fba04-d79d-11ec-a1bd-7ec7e3559253,2018-10-20,250.0,Cernavoda,Biziru,income
+1a5fba18-d79d-11ec-a1bd-7ec7e3559253,2018-10-22,800.0,Unirii plan 800m,Biziru,income
+1a5fba36-d79d-11ec-a1bd-7ec7e3559253,2018-10-23,200.0,Fabrica de ciocolata,Alin,income
+1a5fba4a-d79d-11ec-a1bd-7ec7e3559253,2018-10-23,300.0,Trasari parcuri Ovidiu,Biziru,income
+1a5fba68-d79d-11ec-a1bd-7ec7e3559253,2018-10-23,500.0,Valea portului avans,Ionescu,income
+1a5fba7c-d79d-11ec-a1bd-7ec7e3559253,2018-10-24,200.0,Justitiei,Coca,income
+1a5fba9a-d79d-11ec-a1bd-7ec7e3559253,2018-10-25,450.0,Cernavoda,Biziru,income
+1a5fbaae-d79d-11ec-a1bd-7ec7e3559253,2018-10-26,200.0,"Cumpana,Sos Constantei 111",Biziru,income
+1a5fbac2-d79d-11ec-a1bd-7ec7e3559253,2018-10-26,150.0,Brazdei 10,Coca,income
+1a5fbae0-d79d-11ec-a1bd-7ec7e3559253,2018-10-26,100.0,Mamaia Nord reverificare,Biziru,income
+1a5fbaf4-d79d-11ec-a1bd-7ec7e3559253,2018-10-27,200.0,"Sahia 8,Palazu",Biziru,income
+1a5fbb12-d79d-11ec-a1bd-7ec7e3559253,2018-10-27,150.0,Muscel 5 trs,Biziru,income
+1a5fbb26-d79d-11ec-a1bd-7ec7e3559253,2018-10-31,200.0,Amurgului 37,Biziru,income
+1a5fbb44-d79d-11ec-a1bd-7ec7e3559253,2018-11-01,200.0,Jupiter 20,Biziru,income
+1a5fbb58-d79d-11ec-a1bd-7ec7e3559253,2018-11-01,200.0,Eforie Sud Hotel,Ionescu,income
+1a5fbb76-d79d-11ec-a1bd-7ec7e3559253,2018-11-02,200.0,Poiana trasare,Ionescu,income
+1a5fbb8a-d79d-11ec-a1bd-7ec7e3559253,2018-11-02,200.0,Puflene trasare,Biziru,income
+1a5fbba8-d79d-11ec-a1bd-7ec7e3559253,2018-11-02,150.0,Mamaia Nord,Biziru,income
+1a5fbbbc-d79d-11ec-a1bd-7ec7e3559253,2018-11-02,150.0,Summerland parcare,Biziru,income
+1a5fbbd0-d79d-11ec-a1bd-7ec7e3559253,2018-11-03,200.0,Palas trasare,Biziru,income
+1a5fbbee-d79d-11ec-a1bd-7ec7e3559253,2018-11-04,250.0,D13 masurat casa,Florin,income
+1a5fbc02-d79d-11ec-a1bd-7ec7e3559253,2018-11-05,350.0,Cernavoda,Biziru,income
+1a5fbc20-d79d-11ec-a1bd-7ec7e3559253,2018-11-06,200.0,Baba Novac popa,Ionescu,income
+1a5fbc34-d79d-11ec-a1bd-7ec7e3559253,2018-11-06,350.0,Trasare langa Cardinal Motors,Florin,income
+1a5fbc48-d79d-11ec-a1bd-7ec7e3559253,2018-11-07,200.0,"Recoltei,Palazu",Ionescu,income
+1a5fbc66-d79d-11ec-a1bd-7ec7e3559253,2018-11-07,200.0,Hala Aurel Vlaicu,Ionescu,income
+1a5fbc7a-d79d-11ec-a1bd-7ec7e3559253,2018-11-08,350.0,Cernavoda,Biziru,income
+1a5fbc98-d79d-11ec-a1bd-7ec7e3559253,2018-11-08,250.0,Harsova Str Stefan cel Mare,Biziru,income
+1a5fbcac-d79d-11ec-a1bd-7ec7e3559253,2018-11-08,200.0,"Lumina Str Morii 82,trasare casa",Biziru,income
+1a5fbcca-d79d-11ec-a1bd-7ec7e3559253,2018-11-09,250.0,Ovidiu parcuri masurat si trasat,Biziru,income
+1a5fbcde-d79d-11ec-a1bd-7ec7e3559253,2018-11-09,200.0,Trasare si volum Alex santier,Alin,income
+1a5fbcf2-d79d-11ec-a1bd-7ec7e3559253,2018-11-09,150.0,Trasare Traian 35B,Biziru,income
+1a5fbd10-d79d-11ec-a1bd-7ec7e3559253,2018-11-09,100.0,Spaga Traian 35B,Alin,income
+1a5fbd24-d79d-11ec-a1bd-7ec7e3559253,2018-11-12,350.0,Cernavoda,Biziru,income
+1a5fbd42-d79d-11ec-a1bd-7ec7e3559253,2018-11-13,400.0,Topraisar completare,Biziru,income
+1a5fbd56-d79d-11ec-a1bd-7ec7e3559253,2018-11-13,150.0,"Iosif Sava 9,teren gol PC",Biziru,income
+1a5fbd6a-d79d-11ec-a1bd-7ec7e3559253,2018-11-14,150.0,Ferdinand 32 completare etaj 1,Biziru,income
+1a5fbd88-d79d-11ec-a1bd-7ec7e3559253,2018-11-14,150.0,Valea Alba 7,Biziru,income
+1a5fbd9c-d79d-11ec-a1bd-7ec7e3559253,2018-11-15,250.0,Cernavoda,Biziru,income
+1a5fbdba-d79d-11ec-a1bd-7ec7e3559253,2018-11-15,300.0,Costinesti,Ionescu,income
+1a5fbdce-d79d-11ec-a1bd-7ec7e3559253,2018-11-16,300.0,Mangalia Unitate Militara,Ionescu,income
+1a5fbde2-d79d-11ec-a1bd-7ec7e3559253,2018-11-19,200.0,Eforie Nord balcon,Biziru,income
+1a5fbe00-d79d-11ec-a1bd-7ec7e3559253,2018-11-19,150.0,Gheorghe Marinescu 4A,Biziru,income
+1a5fbe14-d79d-11ec-a1bd-7ec7e3559253,2018-11-20,350.0,Cernavoda,Biziru,income
+1a5fbe32-d79d-11ec-a1bd-7ec7e3559253,2018-11-20,200.0,Eforie Nord teren gol,Biziru,income
+1a5fbe46-d79d-11ec-a1bd-7ec7e3559253,2018-11-21,200.0,George Enescu 46,Ionescu,income
+1a5fbe64-d79d-11ec-a1bd-7ec7e3559253,2018-11-22,200.0,Dezrobirii 113,Coca,income
+1a5fbe78-d79d-11ec-a1bd-7ec7e3559253,2018-11-22,300.0,Unirii 8,Coca,income
+1a5fbe8c-d79d-11ec-a1bd-7ec7e3559253,2018-11-22,200.0,Costinesti completare interior,Ionescu,income
+1a5fbeaa-d79d-11ec-a1bd-7ec7e3559253,2018-11-23,300.0,Cernavoda,Biziru,income
+1a5fbebe-d79d-11ec-a1bd-7ec7e3559253,2018-11-24,250.0,Viilor 14 Palazu Mare,Biziru,income
+1a5fbedc-d79d-11ec-a1bd-7ec7e3559253,2018-11-24,200.0,Islaz 10 Palazu Mare,Biziru,income
+1a5fbef0-d79d-11ec-a1bd-7ec7e3559253,2018-11-26,300.0,Kogalniceanu 12,Coca,income
+1a5fbf0e-d79d-11ec-a1bd-7ec7e3559253,2018-11-26,200.0,Port Dana 80,Biziru,income
+1a5fbf36-d79d-11ec-a1bd-7ec7e3559253,2018-11-27,250.0,Nicolae Balcescu,Biziru,income
+1a5fbf54-d79d-11ec-a1bd-7ec7e3559253,2018-11-27,200.0,Pompiliu 13B,Coca,income
+1a5fbf68-d79d-11ec-a1bd-7ec7e3559253,2018-12-03,350.0,Cernavoda,Biziru,income
+1a5fbf86-d79d-11ec-a1bd-7ec7e3559253,2018-12-04,450.0,Port 100+ puncte,Biziru,income
+1a5fbf9a-d79d-11ec-a1bd-7ec7e3559253,2018-12-04,300.0,Vali MYG,Alin,income
+1a5fbfb8-d79d-11ec-a1bd-7ec7e3559253,2018-12-04,200.0,Mamaia plan Pinguin,Biziru,income
+1a5fbfcc-d79d-11ec-a1bd-7ec7e3559253,2018-12-04,50.0,Govora firide,Biziru,income
+1a5fbfe0-d79d-11ec-a1bd-7ec7e3559253,2018-12-04,100.0,Ap mami,Mami,income
+1a5fbffe-d79d-11ec-a1bd-7ec7e3559253,2018-12-05,450.0,Port Dana 80,Biziru,income
+1a5fc012-d79d-11ec-a1bd-7ec7e3559253,2018-12-05,200.0,Biruintei 91,Ionescu,income
+1a5fc030-d79d-11ec-a1bd-7ec7e3559253,2018-12-05,250.0,"Tuzla,Constantei 56",Biziru,income
+1a5fc044-d79d-11ec-a1bd-7ec7e3559253,2018-12-06,300.0,Trasare hala,Biziru,income
+1a5fc062-d79d-11ec-a1bd-7ec7e3559253,2018-12-10,200.0,"IG Duca 50,EfN",Biziru,income
+1a5fc076-d79d-11ec-a1bd-7ec7e3559253,2018-12-11,400.0,Dinu Expedition,Biziru,income
+1a5fc094-d79d-11ec-a1bd-7ec7e3559253,2018-12-14,350.0,Cernavoda,Biziru,income
+1a5fc0a8-d79d-11ec-a1bd-7ec7e3559253,2018-12-14,250.0,Dana 80,Biziru,income
+1a5fc0bc-d79d-11ec-a1bd-7ec7e3559253,2018-12-18,200.0,Trs Palazu Mare,Biziru,income
+1a5fc0da-d79d-11ec-a1bd-7ec7e3559253,2018-12-19,200.0,2 Mai dig,Ionescu,income
+1a5fc0ee-d79d-11ec-a1bd-7ec7e3559253,2018-12-19,50.0,Firide km5,Biziru,income
+1a5fc10c-d79d-11ec-a1bd-7ec7e3559253,2018-12-29,200.0,Biserica str Capidava,Ionescu,income
+1a5fc120-d79d-11ec-a1bd-7ec7e3559253,2019-01-11,350.0,Dana 80,Biziru,income
+1a5fc13e-d79d-11ec-a1bd-7ec7e3559253,2019-01-12,200.0,Frunzelor 102,Coca,income
+1a5fc152-d79d-11ec-a1bd-7ec7e3559253,2019-01-14,400.0,Cernavoda,Biziru,income
+1a5fc166-d79d-11ec-a1bd-7ec7e3559253,2019-01-16,300.0,Ilarie Voronca 11,Biziru,income
+1a5fc184-d79d-11ec-a1bd-7ec7e3559253,2019-01-17,250.0,Dana 80,Biziru,income
+1a5fc198-d79d-11ec-a1bd-7ec7e3559253,2019-01-18,200.0,Service Iulius,Ionescu,income
+1a5fc1b6-d79d-11ec-a1bd-7ec7e3559253,2019-01-19,250.0,Trs Lot varianta,Coca,income
+1a5fc1ca-d79d-11ec-a1bd-7ec7e3559253,2019-01-23,200.0,Trs lot camp km5 (400luati),Biziru,income
+1a5fc1de-d79d-11ec-a1bd-7ec7e3559253,2019-01-24,250.0,Dinu expedition,Biziru,income
+1a5fc29c-d79d-11ec-a1bd-7ec7e3559253,2019-01-29,200.0,Razboieni 94,Biziru,income
+1a5fc2b0-d79d-11ec-a1bd-7ec7e3559253,2019-01-31,200.0,Firide 246464,Biziru,income
+1a5fc2ce-d79d-11ec-a1bd-7ec7e3559253,2019-02-01,350.0,Cernavoda,Biziru,income
+1a5fc2e2-d79d-11ec-a1bd-7ec7e3559253,2019-02-07,100.0,Dana 80 birou,Biziru,income
+1a5fc300-d79d-11ec-a1bd-7ec7e3559253,2019-02-08,250.0,Dana 80,Biziru,income
+1a5fc314-d79d-11ec-a1bd-7ec7e3559253,2019-02-08,200.0,Vintila Bratianu,Ionescu,income
+1a5fc332-d79d-11ec-a1bd-7ec7e3559253,2019-02-08,250.0,"Tomis 86, Constanta",Biziru,income
+1a5fc346-d79d-11ec-a1bd-7ec7e3559253,2019-02-11,450.0,Cernavoda ridicare si trasari,Biziru,income
+1a5fc35a-d79d-11ec-a1bd-7ec7e3559253,2019-02-12,500.0,Baia ( total 5250 ),Biziru,income
+1a5fc378-d79d-11ec-a1bd-7ec7e3559253,2019-02-12,100.0,Ioan Borcea 30,Biziru,income
+1a5fc38c-d79d-11ec-a1bd-7ec7e3559253,2019-02-12,250.0,Dinu expedition,Biziru,income
+1a5fc3aa-d79d-11ec-a1bd-7ec7e3559253,2019-02-12,200.0,Zilot Romanul,Ionescu,income
+1a5fc3be-d79d-11ec-a1bd-7ec7e3559253,2019-02-13,350.0,Cernavoda,Biziru,income
+1a5fc3dc-d79d-11ec-a1bd-7ec7e3559253,2019-02-14,200.0,Dana 80,Biziru,income
+1a5fc3f0-d79d-11ec-a1bd-7ec7e3559253,2019-02-14,250.0,Stalpi Tuzla Simona,Biziru,income
+1a5fc40e-d79d-11ec-a1bd-7ec7e3559253,2019-02-19,400.0,Dana 80 volume,Biziru,income
+1a5fc422-d79d-11ec-a1bd-7ec7e3559253,2019-02-19,200.0,Mamaia plan cotat,Biziru,income
+1a5fc440-d79d-11ec-a1bd-7ec7e3559253,2019-02-20,250.0,Dinu expedition,Biziru,income
+1a5fc454-d79d-11ec-a1bd-7ec7e3559253,2019-02-21,350.0,Cernavoda,Biziru,income
+1a5fc468-d79d-11ec-a1bd-7ec7e3559253,2019-02-22,250.0,Cumpana trasare,Alin,income
+1a5fc486-d79d-11ec-a1bd-7ec7e3559253,2019-02-23,150.0,Profile Dana80,Biziru,income
+1a5fc49a-d79d-11ec-a1bd-7ec7e3559253,2019-02-25,250.0,Reyna Eforie trasare c+t,Biziru,income
+1a5fc4b8-d79d-11ec-a1bd-7ec7e3559253,2019-02-25,150.0,Spalatorie ecologica,Biziru,income
+1a5fc4cc-d79d-11ec-a1bd-7ec7e3559253,2019-02-26,350.0,Profile ABCVAL,Biziru,income
+1a5fc4ea-d79d-11ec-a1bd-7ec7e3559253,2019-02-27,300.0,"CCH,Ovidiu",Biziru,income
+1a5fc4fe-d79d-11ec-a1bd-7ec7e3559253,2019-02-27,250.0,Trs Palas c+t (600 lei),Biziru,income
+1a5fc512-d79d-11ec-a1bd-7ec7e3559253,2019-02-28,250.0,Unitate militara Mangalia,Ionescu,income
+1a5fc530-d79d-11ec-a1bd-7ec7e3559253,2019-02-28,250.0,Trs lot Mamaia Nord,Alin,income
+1a5fc544-d79d-11ec-a1bd-7ec7e3559253,2019-03-02,200.0,Baneasa hala,Ionescu,income
+1a5fc562-d79d-11ec-a1bd-7ec7e3559253,2019-03-02,200.0,Tariverde hala,Ionescu,income
+1a5fc576-d79d-11ec-a1bd-7ec7e3559253,2019-03-04,250.0,Teren Hanu Piratilor,Coca,income
+1a5fc58a-d79d-11ec-a1bd-7ec7e3559253,2019-03-04,350.0,Cernavoda trasat si masurat alei,Biziru,income
+1a5fc5a8-d79d-11ec-a1bd-7ec7e3559253,2019-03-05,200.0,Bloc Navodari,Coca,income
+1a5fc5bc-d79d-11ec-a1bd-7ec7e3559253,2019-03-05,350.0,Canal Cumpana,Biziru,income
+1a5fc5da-d79d-11ec-a1bd-7ec7e3559253,2019-03-06,150.0,Muntii Tatra,Biziru,income
+1a5fc5ee-d79d-11ec-a1bd-7ec7e3559253,2019-03-06,250.0,Kirculescu trasare c+t,Biziru,income
+1a5fc60c-d79d-11ec-a1bd-7ec7e3559253,2019-03-06,50.0,Retrasat lot hanu piratilor,Coca,income
+1a5fc620-d79d-11ec-a1bd-7ec7e3559253,2019-03-07,150.0,Comarnic-Fantanele,Biziru,income
+1a5fc634-d79d-11ec-a1bd-7ec7e3559253,2019-03-07,250.0,Canal completari,Biziru,income
+1a5fc652-d79d-11ec-a1bd-7ec7e3559253,2019-03-09,200.0,Trs lot Techirghiol,Ionescu,income
+1a5fc666-d79d-11ec-a1bd-7ec7e3559253,2019-03-12,250.0,Cuza Voda 86B,Coca,income
+1a5fc684-d79d-11ec-a1bd-7ec7e3559253,2019-03-11,1000.0,Baia,Biziru,income
+1a5fc698-d79d-11ec-a1bd-7ec7e3559253,2019-03-13,250.0,Dana 80,Biziru,income
+1a5fc6b6-d79d-11ec-a1bd-7ec7e3559253,2019-03-13,200.0,"RLV Alexandru Sahia 8,Palazu Mare",Biziru,income
+1a5fc6ca-d79d-11ec-a1bd-7ec7e3559253,2019-03-14,1500.0,Baia,Biziru,income
+1a5fc6de-d79d-11ec-a1bd-7ec7e3559253,2019-03-14,350.0,Cernavoda,Biziru,income
+1a5fc6fc-d79d-11ec-a1bd-7ec7e3559253,2019-03-14,200.0,Frunzelor 52,Ionescu,income
+1a5fc710-d79d-11ec-a1bd-7ec7e3559253,2019-03-14,250.0,UM Mangalia,Ionescu,income
+1a5fc72e-d79d-11ec-a1bd-7ec7e3559253,2019-03-14,200.0,TRS axe Aron Voda 3,Biziru,income
+1a5fc742-d79d-11ec-a1bd-7ec7e3559253,2019-03-15,300.0,Galesu Manastire,Ionescu,income
+1a5fc760-d79d-11ec-a1bd-7ec7e3559253,2019-03-15,200.0,TRS Hala Reyna,Biziru,income
+1a5fc774-d79d-11ec-a1bd-7ec7e3559253,2019-03-15,300.0,TRS Ovidiu parc,Biziru,income
+1a5fc788-d79d-11ec-a1bd-7ec7e3559253,2019-03-16,200.0,Patriei 10,Mami,income
+1a5fc7a6-d79d-11ec-a1bd-7ec7e3559253,2019-03-16,200.0,TRS Eforie Reyna,Biziru,income
+1a5fc7ba-d79d-11ec-a1bd-7ec7e3559253,2019-03-18,400.0,Cernavoda copaci,Biziru,income
+1a5fc7d8-d79d-11ec-a1bd-7ec7e3559253,2019-03-18,150.0,"Kirculescu axe, av 400",Biziru,income
+1a5fc7ec-d79d-11ec-a1bd-7ec7e3559253,2019-03-20,200.0,"Crisului 5,Eforie Nord",Ionescu,income
+1a5fc80a-d79d-11ec-a1bd-7ec7e3559253,2019-03-20,200.0,Heracleea 17,Biziru,income
+1a5fc81e-d79d-11ec-a1bd-7ec7e3559253,2019-03-20,200.0,TRS Palazu 221158,Biziru,income
+1a5fc832-d79d-11ec-a1bd-7ec7e3559253,2019-03-20,150.0,TRS Parc Ovidiu,Biziru,income
+1a5fc850-d79d-11ec-a1bd-7ec7e3559253,2019-03-21,250.0,"TRS axe,plan cotat Reyna hala",Biziru,income
+1a5fc864-d79d-11ec-a1bd-7ec7e3559253,2019-03-21,250.0,"Kogalniceanu,Sperantei 82",Biziru,income
+1a5fc882-d79d-11ec-a1bd-7ec7e3559253,2019-03-21,200.0,Ovidiu parc trs si pt volume,Biziru,income
+1a5fc896-d79d-11ec-a1bd-7ec7e3559253,2019-03-22,200.0,Averescu 35,Biziru,income
+1a5fc8aa-d79d-11ec-a1bd-7ec7e3559253,2019-03-22,200.0,Mugureanu 5,Coca,income
+1a5fc8c8-d79d-11ec-a1bd-7ec7e3559253,2019-03-23,350.0,"Titulescu 12,Eforie Sud",Biziru,income
+1a5fc8dc-d79d-11ec-a1bd-7ec7e3559253,2019-03-23,200.0,Bacovia 30,Biziru,income
+1a5fc8fa-d79d-11ec-a1bd-7ec7e3559253,2019-03-27,300.0,Foisor Palazu Mare,Biziru,income
+1a5fc90e-d79d-11ec-a1bd-7ec7e3559253,2019-03-27,50.0,TRS bloc Navodari,Alin,income
+1a5fc92c-d79d-11ec-a1bd-7ec7e3559253,2019-03-27,200.0,UM Corbu ax drum,Ionescu,income
+1a5fc940-d79d-11ec-a1bd-7ec7e3559253,2019-03-27,1250.0,UM Corbu si Mangalia,Ionescu,income
+1a5fc95e-d79d-11ec-a1bd-7ec7e3559253,2019-03-29,200.0,Ovidiu parc trs piloni,Biziru,income
+1a5fc972-d79d-11ec-a1bd-7ec7e3559253,2019-03-30,300.0,"Poiana 92, Ovidiu",Coca,income
+1a5fc986-d79d-11ec-a1bd-7ec7e3559253,2019-03-31,300.0,Giratoriu Constanta,Biziru,income
+1a5fc9a4-d79d-11ec-a1bd-7ec7e3559253,2019-04-01,200.0,Dana 80 ax si cote pe tarusi,Biziru,income
+1a5fc9b8-d79d-11ec-a1bd-7ec7e3559253,2019-04-01,2250.0,Baia rest final,Biziru,income
+1a5fc9d6-d79d-11ec-a1bd-7ec7e3559253,2019-04-02,350.0,Cernavoda,Biziru,income
+1a5fc9ea-d79d-11ec-a1bd-7ec7e3559253,2019-04-02,200.0,Ovidiu parc trs piloni,Biziru,income
+1a5fca08-d79d-11ec-a1bd-7ec7e3559253,2019-04-03,250.0,Emont drum spre turn,Biziru,income
+1a5fca1c-d79d-11ec-a1bd-7ec7e3559253,2019-04-04,150.0,Reyna axe hala,Biziru,income
+1a5fca30-d79d-11ec-a1bd-7ec7e3559253,2019-04-04,350.0,"Cernavoda alei,ev,stalpi",Biziru,income
+1a5fca4e-d79d-11ec-a1bd-7ec7e3559253,2019-04-05,250.0,"Dana 80 ax,cote tarusi,conducta",Biziru,income
+1a5fca62-d79d-11ec-a1bd-7ec7e3559253,2019-04-05,300.0,Reyna trs buloane,Biziru,income
+1a5fca80-d79d-11ec-a1bd-7ec7e3559253,2019-04-08,350.0,Reyna trs buloane ( 5 ore ),Biziru,income
+1a5fca94-d79d-11ec-a1bd-7ec7e3559253,2019-04-09,150.0,Kirculescu axe av 400,Biziru,income
+1a5fcab2-d79d-11ec-a1bd-7ec7e3559253,2019-04-09,250.0,Reyna axe hala,Biziru,income
+1a5fcac6-d79d-11ec-a1bd-7ec7e3559253,2019-04-09,200.0,Ovidiu parc nou trs,Biziru,income
+1a5fcada-d79d-11ec-a1bd-7ec7e3559253,2019-04-09,200.0,Abator,Ionescu,income
+1a5fcaf8-d79d-11ec-a1bd-7ec7e3559253,2019-04-10,200.0,TRS Tuzla av 400,Biziru,income
+1a5fcb0c-d79d-11ec-a1bd-7ec7e3559253,2019-04-12,300.0,Cernavoda trs copaci,Biziru,income
+1a5fcb2a-d79d-11ec-a1bd-7ec7e3559253,2019-04-13,200.0,TRS Palazu 221158 axe av 0,Biziru,income
+1a5fcb3e-d79d-11ec-a1bd-7ec7e3559253,2019-04-13,300.0,Macesului 24,Coca,income
+1a5fcb5c-d79d-11ec-a1bd-7ec7e3559253,2019-04-15,300.0,Aerodrom Tuzla,Biziru,income
+1a5fcb70-d79d-11ec-a1bd-7ec7e3559253,2019-04-15,200.0,Turn radio Techirghiol,Biziru,income
+1a5fcb8e-d79d-11ec-a1bd-7ec7e3559253,2019-04-15,200.0,TRS Lot 15 Techirghiol,Alin,income
+1a5fcba2-d79d-11ec-a1bd-7ec7e3559253,2019-04-15,200.0,I.L.Caragiale 99,Ionescu,income
+1a5fcbc0-d79d-11ec-a1bd-7ec7e3559253,2019-04-16,200.0,Dana 80,Biziru,income
+1a5fcbd4-d79d-11ec-a1bd-7ec7e3559253,2019-04-16,200.0,Topraisar 10,Ionescu,income
+1a5fcbe8-d79d-11ec-a1bd-7ec7e3559253,2019-04-16,200.0,Ovidiu parc piloni,Biziru,income
+1a5fcc06-d79d-11ec-a1bd-7ec7e3559253,2019-04-17,250.0,Kog trs si casa,Coca,income
+1a5fcc1a-d79d-11ec-a1bd-7ec7e3559253,2019-04-17,350.0,Cernavoda 500 copaci,Biziru,income
+1a5fcc38-d79d-11ec-a1bd-7ec7e3559253,2019-04-18,250.0,Ionut kirculescu ov trs,Alin,income
+1a5fcc4c-d79d-11ec-a1bd-7ec7e3559253,2019-04-18,250.0,Iasomiei rlv si teren av 500,Biziru,income
+1a5fcc6a-d79d-11ec-a1bd-7ec7e3559253,2019-04-19,200.0,Poarta Alba,Ionescu,income
+1a5fcc7e-d79d-11ec-a1bd-7ec7e3559253,2019-04-19,200.0,Palazu Str Lucian Blaga,Ionescu,income
+1a5fcc9c-d79d-11ec-a1bd-7ec7e3559253,2019-04-19,3000.0,Drumuri Navodari,Laur,income
+1a5fccb0-d79d-11ec-a1bd-7ec7e3559253,2019-04-22,200.0,Dana 80 profile si borne,Biziru,income
+1a5fccce-d79d-11ec-a1bd-7ec7e3559253,2019-04-22,100.0,ICH incinta garaje,Biziru,income
+1a5fcce2-d79d-11ec-a1bd-7ec7e3559253,2019-04-23,350.0,CRNV mas copaci si trs trasee tevi,Biziru,income
+1a5fccf6-d79d-11ec-a1bd-7ec7e3559253,2019-04-23,250.0,"Cmp trs,Sos Constantei 179 av 600",Biziru,income
+1a5fcd14-d79d-11ec-a1bd-7ec7e3559253,2019-04-24,250.0,Macinului 2 Palazu Mare rlv si ext,Biziru,income
+1a5fcd28-d79d-11ec-a1bd-7ec7e3559253,2019-04-26,250.0,Mamaia 110 rlv,Biziru,income
+1a5fcd46-d79d-11ec-a1bd-7ec7e3559253,2019-05-02,200.0,Ovidiu parc,Biziru,income
+1a5fcd5a-d79d-11ec-a1bd-7ec7e3559253,2019-05-02,200.0,TRS Valu Reyna,Biziru,income
+1a5fcd78-d79d-11ec-a1bd-7ec7e3559253,2019-05-03,250.0,Canal Cumpana,Biziru,income
+1a5fcd8c-d79d-11ec-a1bd-7ec7e3559253,2019-05-09,400.0,Canal Cumpana,Biziru,income
+1a5fcda0-d79d-11ec-a1bd-7ec7e3559253,2019-05-09,200.0,Ovidiu Parc,Biziru,income
+1a5fcdbe-d79d-11ec-a1bd-7ec7e3559253,2019-05-09,250.0,Valu trs 2 loturi av 500,Biziru,income
+1a5fcdd2-d79d-11ec-a1bd-7ec7e3559253,2019-05-09,250.0,Cumpana trs casa+teren av 600,Biziru,income
+1a5fcdf0-d79d-11ec-a1bd-7ec7e3559253,2019-05-10,400.0,Canal Cumpana,Biziru,income
+1a5fce04-d79d-11ec-a1bd-7ec7e3559253,2019-05-12,50.0,Canal verificat 4 pct,Biziru,income
+1a5fce22-d79d-11ec-a1bd-7ec7e3559253,2019-05-13,250.0,Ioan Borcea 37,Coca,income
+1a5fce36-d79d-11ec-a1bd-7ec7e3559253,2019-05-13,500.0,"Romanitei 31,Techirghiol",Coca,income
+1a5fce54-d79d-11ec-a1bd-7ec7e3559253,2019-05-13,200.0,"Dorobanti 18A, Constanta",Ionescu,income
+1a5fce68-d79d-11ec-a1bd-7ec7e3559253,2019-05-14,350.0,Cernavoda,Biziru,income
+1a5fce7c-d79d-11ec-a1bd-7ec7e3559253,2019-05-14,200.0,"Tache 9c, Palazu Mare",Ionescu,income
+1a5fce9a-d79d-11ec-a1bd-7ec7e3559253,2019-05-15,200.0,Eforie Nord trs casa si groapa,Biziru,income
+1a5fceae-d79d-11ec-a1bd-7ec7e3559253,2019-05-15,150.0,Compozitori trs si pc,Biziru,income
+1a5fcecc-d79d-11ec-a1bd-7ec7e3559253,2019-05-15,200.0,Rally & Hot,Biziru,income
+1a5fcee0-d79d-11ec-a1bd-7ec7e3559253,2019-05-15,250.0,Razboieni 75,Coca,income
+1a5fcefe-d79d-11ec-a1bd-7ec7e3559253,2019-05-16,200.0,Kogalniceanu teren gol,Mami,income
+1a5fcf12-d79d-11ec-a1bd-7ec7e3559253,2019-05-16,300.0,Ovidiu parc volume,Biziru,income
+1a5fcf26-d79d-11ec-a1bd-7ec7e3559253,2019-05-16,250.0,Cogealac             av 1000,Biziru,income
+1a5fcf44-d79d-11ec-a1bd-7ec7e3559253,2019-05-16,50.0,Canal verificare,Biziru,income
+1a5fcf58-d79d-11ec-a1bd-7ec7e3559253,2019-05-17,350.0,Cernavoda,Biziru,income
+1a5fcf76-d79d-11ec-a1bd-7ec7e3559253,2019-05-17,250.0,Dana 80,Biziru,income
+1a5fcf8a-d79d-11ec-a1bd-7ec7e3559253,2019-05-17,200.0,Averescu teren gol,Coca,income
+1a5fcfa8-d79d-11ec-a1bd-7ec7e3559253,2019-05-17,100.0,Prel Mesteru Manole 15,Coca,income
+1a5fcfbc-d79d-11ec-a1bd-7ec7e3559253,2019-05-18,200.0,Veteranilor km 5,Ionescu,income
+1a5fcfda-d79d-11ec-a1bd-7ec7e3559253,2019-05-22,200.0,Kirculescu axe et 1        av 400,Biziru,income
+1a5fcfee-d79d-11ec-a1bd-7ec7e3559253,2019-05-22,300.0,*Galesu manastire,Ionescu,income
+1a5fd020-d79d-11ec-a1bd-7ec7e3559253,2019-05-24,200.0,Dana 80 ver prof si borne,Biziru,income
+1a5fd03e-d79d-11ec-a1bd-7ec7e3559253,2019-05-24,350.0,Cernavoda trasee apa si alei,Biziru,income
+1a5fd052-d79d-11ec-a1bd-7ec7e3559253,2019-05-24,50.0,Canal verificare,Biziru,income
+1a5fd070-d79d-11ec-a1bd-7ec7e3559253,2019-05-27,150.0,Palazu palat foisor      av 400,Biziru,income
+1a5fd084-d79d-11ec-a1bd-7ec7e3559253,2019-05-28,300.0,Mangalia trs,Ionescu,income
+1a5fd0a2-d79d-11ec-a1bd-7ec7e3559253,2019-05-28,250.0,Ovidiu 4 loturi,Biziru,income
+1a5fd0b6-d79d-11ec-a1bd-7ec7e3559253,2019-06-03,150.0,Aron Voda 4 trs gard,Biziru,income
+1a5fd0d4-d79d-11ec-a1bd-7ec7e3559253,2019-06-03,250.0,Tomis Plus blocuri,Biziru,income
+1a5fd0e8-d79d-11ec-a1bd-7ec7e3559253,2019-06-04,350.0,Cernavoda irigatii si drum,Biziru,income
+1a5fd106-d79d-11ec-a1bd-7ec7e3559253,2019-06-04,200.0,UM Mangalia,Ionescu,income
+1a5fd11a-d79d-11ec-a1bd-7ec7e3559253,2019-06-05,350.0,Dana 80 profile piatra  1.5km,Biziru,income
+1a5fd138-d79d-11ec-a1bd-7ec7e3559253,2019-06-05,100.0,Decebal trasare gard,Biziru,income
+1a5fd14c-d79d-11ec-a1bd-7ec7e3559253,2019-06-05,200.0,Pescarus 44,Ionescu,income
+1a5fd160-d79d-11ec-a1bd-7ec7e3559253,2019-06-06,200.0,Agigea lot 2,Biziru,income
+1a5fd282-d79d-11ec-a1bd-7ec7e3559253,2019-06-06,200.0,Eremia Grigorescu 22    av 700,Biziru,income
+1a5fd2a0-d79d-11ec-a1bd-7ec7e3559253,2019-06-07,150.0,Platforma port,Biziru,income
+1a5fd2be-d79d-11ec-a1bd-7ec7e3559253,2019-06-07,100.0,Doctor Navodari trs    av 200,Biziru,income
+1a5fd2d2-d79d-11ec-a1bd-7ec7e3559253,2019-06-07,250.0,Puflene releveu bloc,Biziru,income
+1a5fd2f0-d79d-11ec-a1bd-7ec7e3559253,2019-06-08,200.0,Damy bloc trs axe Eforie Nord,Biziru,income
+1a5fd304-d79d-11ec-a1bd-7ec7e3559253,2019-06-11,150.0,Damy Grivitei EfN releveu groapa,Biziru,income
+1a5fd318-d79d-11ec-a1bd-7ec7e3559253,2019-06-12,200.0,"Macinului, Palazu Mare",Ionescu,income
+1a5fd336-d79d-11ec-a1bd-7ec7e3559253,2019-06-12,200.0,"Teiului 1A, Ovidiu   av 500",Biziru,income
+1a5fd34a-d79d-11ec-a1bd-7ec7e3559253,2019-06-13,350.0,Cernavoda,Biziru,income
+1a5fd368-d79d-11ec-a1bd-7ec7e3559253,2019-06-18,200.0,Cumpana trs casa Lujerului   av 600,Biziru,income
+1a5fd37c-d79d-11ec-a1bd-7ec7e3559253,2019-06-19,200.0,Ovidiu parc mic trs limita,Biziru,income
+1a5fd39a-d79d-11ec-a1bd-7ec7e3559253,2019-06-20,200.0,Liliacului 7,Biziru,income
+1a5fd3ae-d79d-11ec-a1bd-7ec7e3559253,2019-06-20,200.0,Alexandru Vlahuta 11,Biziru,income
+1a5fd3c2-d79d-11ec-a1bd-7ec7e3559253,2019-06-20,200.0,Zimbrului 12   av 500,Biziru,income
+1a5fd3e0-d79d-11ec-a1bd-7ec7e3559253,2019-06-22,250.0,Trs Lot 17 km5,Alin,income
+1a5fd3f4-d79d-11ec-a1bd-7ec7e3559253,2019-06-22,200.0,"Recoltei 5,Palazu Mare",Ionescu,income
+1a5fd412-d79d-11ec-a1bd-7ec7e3559253,2019-06-22,200.0,Lot 7 si 8 Techirghiol,Alin,income
+1a5fd426-d79d-11ec-a1bd-7ec7e3559253,2019-06-23,50.0,Lavanda Cta,Alin,income
+1a5fd444-d79d-11ec-a1bd-7ec7e3559253,2019-06-24,100.0,Puflene parter,Biziru,income
+1a5fd458-d79d-11ec-a1bd-7ec7e3559253,2019-06-24,200.0,Nicolae Iorga 27,Biziru,income
+1a5fd46c-d79d-11ec-a1bd-7ec7e3559253,2019-06-25,300.0,Dana 80 mas+profile,Biziru,income
+1a5fd48a-d79d-11ec-a1bd-7ec7e3559253,2019-06-25,200.0,"1 Mai 67,Trs casa axe cota zero",Biziru,income
+1a5fd49e-d79d-11ec-a1bd-7ec7e3559253,2019-06-26,200.0,Ovidiu parc mic cote,Biziru,income
+1a5fd4bc-d79d-11ec-a1bd-7ec7e3559253,2019-06-26,100.0,7 case Ovidiu dezmembrare,Biziru,income
+1a5fd4d0-d79d-11ec-a1bd-7ec7e3559253,2019-06-27,250.0,"Sassu Gheorghe 8, teren+releveu    av 500",Biziru,income
+1a5fd4ee-d79d-11ec-a1bd-7ec7e3559253,2019-06-27,250.0,Milescu 20 teren+releveu,Biziru,income
+1a5fd502-d79d-11ec-a1bd-7ec7e3559253,2019-06-27,200.0,Trs si plan cotat fratele Mihaelei,Biziru,income
+1a5fd520-d79d-11ec-a1bd-7ec7e3559253,2019-06-27,200.0,Mamaia sat verificat garduri,Biziru,income
+1a5fd534-d79d-11ec-a1bd-7ec7e3559253,2019-06-28,200.0,Gheorghe Asachi 20,Ionescu,income
+1a5fd552-d79d-11ec-a1bd-7ec7e3559253,2019-06-28,200.0,Techirghiol trs lot 4,Ionescu,income
+1a5fd566-d79d-11ec-a1bd-7ec7e3559253,2019-06-29,300.0,Progresului 22a     av 700,Biziru,income
+1a5fd584-d79d-11ec-a1bd-7ec7e3559253,2019-06-29,300.0,Plantelor 14,Biziru,income
+1a5fd598-d79d-11ec-a1bd-7ec7e3559253,2019-07-02,200.0,Trasare Poarta Alba casa,Ionescu,income
+1a5fd5ac-d79d-11ec-a1bd-7ec7e3559253,2019-07-02,450.0,Podete Ghican,Biziru,income
+1a5fd5ca-d79d-11ec-a1bd-7ec7e3559253,2019-07-03,250.0,Trasare axe sala sport 2 Mai,Biziru,income
+1a5fd5de-d79d-11ec-a1bd-7ec7e3559253,2019-07-04,200.0,Rodata plan buloane,Biziru,income
+1a5fd5fc-d79d-11ec-a1bd-7ec7e3559253,2019-07-06,250.0,Ion Ursu 21     av 500,Biziru,income
+1a5fd610-d79d-11ec-a1bd-7ec7e3559253,2019-07-09,200.0,Cernica 2,Biziru,income
+1a5fd62e-d79d-11ec-a1bd-7ec7e3559253,2019-07-09,200.0,Motilor 27,Coca,income
+1a5fd642-d79d-11ec-a1bd-7ec7e3559253,2019-07-10,150.0,Bloc Navodari,Alin,income
+1a5fd660-d79d-11ec-a1bd-7ec7e3559253,2019-07-10,200.0,Ovidiu parc mare zid sprijin nord,Biziru,income
+1a5fd674-d79d-11ec-a1bd-7ec7e3559253,2019-07-11,300.0,Cernavoda,Biziru,income
+1a5fd688-d79d-11ec-a1bd-7ec7e3559253,2019-07-11,200.0,Reyna hala cet trasare gard,Biziru,income
+1a5fd6a6-d79d-11ec-a1bd-7ec7e3559253,2019-07-12,150.0,Ovidiu parc mic santuri,Biziru,income
+1a5fd6ba-d79d-11ec-a1bd-7ec7e3559253,2019-07-13,200.0,Rasuri 43,Ionescu,income
+1a5fd6d8-d79d-11ec-a1bd-7ec7e3559253,2019-07-13,200.0,Duiliu Zamfirescu 62,Ionescu,income
+1a5fd6ec-d79d-11ec-a1bd-7ec7e3559253,2019-07-15,100.0,Calafatului 59 cote curte,Biziru,income
+1a5fd70a-d79d-11ec-a1bd-7ec7e3559253,2019-07-16,150.0,Compozitori trasare 1 pct,Ionescu,income
+1a5fd71e-d79d-11ec-a1bd-7ec7e3559253,2019-07-16,200.0,Baba Novac trasare,Biziru,income
+1a5fd822-d79d-11ec-a1bd-7ec7e3559253,2019-07-16,300.0,Ovidiu parcuri aspersoare,Biziru,income
+1a5fd840-d79d-11ec-a1bd-7ec7e3559253,2019-07-16,250.0,Soseaua din vii 72 teren+releveu     av 700,Biziru,income
+1a5fd854-d79d-11ec-a1bd-7ec7e3559253,2019-07-17,200.0,Ovidiu parc mare zid sprijin 2,Biziru,income
+1a5fd872-d79d-11ec-a1bd-7ec7e3559253,2019-07-18,300.0,"Avram Iancu 20, Techirghiol",Coca,income
+1a5fd886-d79d-11ec-a1bd-7ec7e3559253,2019-07-18,150.0,Reyna hala cet trs constructie,Biziru,income
+1a5fd89a-d79d-11ec-a1bd-7ec7e3559253,2019-07-19,150.0,Reyna trs hala si limita,Biziru,income
+1a5fd8b8-d79d-11ec-a1bd-7ec7e3559253,2019-07-19,200.0,"Macesului 67, Constanta    av 700",Biziru,income
+1a5fd8cc-d79d-11ec-a1bd-7ec7e3559253,2019-07-22,200.0,"George Bacovia trs gard+axe,Cumpana av 400",Biziru,income
+1a5fd8ea-d79d-11ec-a1bd-7ec7e3559253,2019-07-23,150.0,Babes trs gard,Ionescu,income
+1a5fd8fe-d79d-11ec-a1bd-7ec7e3559253,2019-07-23,200.0,"Zimbrului 60bis, trs+cote",Biziru,income
+1a5fd91c-d79d-11ec-a1bd-7ec7e3559253,2019-07-24,200.0,"Taberei, Cumpana",Ionescu,income
+1a5fd930-d79d-11ec-a1bd-7ec7e3559253,2019-07-25,350.0,Amzacea,Biziru,income
+1a5fd94e-d79d-11ec-a1bd-7ec7e3559253,2019-07-25,250.0,Dacia 12 t+r    av 500,Biziru,income
+1a5fd962-d79d-11ec-a1bd-7ec7e3559253,2019-07-25,200.0,Islaz 12 Palazu Mare,Ionescu,income
+1a5fd980-d79d-11ec-a1bd-7ec7e3559253,2019-07-26,200.0,Orizontului 52,Ionescu,income
+1a5fd994-d79d-11ec-a1bd-7ec7e3559253,2019-07-27,200.0,Comarnic 53,Ionescu,income
+1a5fd9b2-d79d-11ec-a1bd-7ec7e3559253,2019-07-29,200.0,Aleea 11 Ovidiu,Ionescu,income
+1a5fd9c6-d79d-11ec-a1bd-7ec7e3559253,2019-07-29,200.0,Trasare puncte bloc Palazu   fara avans,Biziru,income
+1a5fd9da-d79d-11ec-a1bd-7ec7e3559253,2019-07-31,200.0,Lanului 18a      av 700,Biziru,income
+1a5fd9f8-d79d-11ec-a1bd-7ec7e3559253,2019-07-31,150.0,Reyna hala cet trasat gard spate,Biziru,income
+1a5fda0c-d79d-11ec-a1bd-7ec7e3559253,2019-07-31,200.0,Frate Miha cote constructii,Biziru,income
+1a5fda2a-d79d-11ec-a1bd-7ec7e3559253,2019-07-31,200.0,Trasat 108728 mamaia sat   av 400,Biziru,income
+1a5fda3e-d79d-11ec-a1bd-7ec7e3559253,2019-08-01,200.0,Buhociu trasat axe,Biziru,income
+1a5fda5c-d79d-11ec-a1bd-7ec7e3559253,2019-08-01,100.0,Calafatului 59 cote case vecine,Biziru,income
+1a5fda70-d79d-11ec-a1bd-7ec7e3559253,2019-08-02,200.0,Marasesti 31 teren+releveu   av 1120,Biziru,income
+1a5fda8e-d79d-11ec-a1bd-7ec7e3559253,2019-08-02,200.0,Nicu Baditeanu trs gard bloc Marinescu,Biziru,income
+1a5fdaa2-d79d-11ec-a1bd-7ec7e3559253,2019-08-02,200.0,Reyna hala trasat gard,Biziru,income
+1a5fdab6-d79d-11ec-a1bd-7ec7e3559253,2019-08-04,4500.0,Drumuri Cuza Voda,Biziru,income
+1a5fdad4-d79d-11ec-a1bd-7ec7e3559253,2019-08-05,400.0,Eforie Primarie Plaja,Biziru,income
+1a5fdae8-d79d-11ec-a1bd-7ec7e3559253,2019-08-06,200.0,"Str Fantanele, Constanta   av 700",Biziru,income
+1a5fdb06-d79d-11ec-a1bd-7ec7e3559253,2019-08-06,150.0,Dami cote pt platforma,Biziru,income
+1a5fdb1a-d79d-11ec-a1bd-7ec7e3559253,2019-08-06,0.0,Luati de la Tuborg   650,Biziru,income
+1a5fdb38-d79d-11ec-a1bd-7ec7e3559253,2019-08-07,200.0,Lazu trasare   av 400,Biziru,income
+1a5fdb4c-d79d-11ec-a1bd-7ec7e3559253,2019-08-07,150.0,Canal Cumpana,Biziru,income
+1a5fdb60-d79d-11ec-a1bd-7ec7e3559253,2019-08-08,400.0,Dana 80,Biziru,income
+1a5fdb7e-d79d-11ec-a1bd-7ec7e3559253,2019-08-08,250.0,Independenta,Biziru,income
+1a5fdb92-d79d-11ec-a1bd-7ec7e3559253,2019-08-08,250.0,Bonciu Eforie Nord,Biziru,income
+1a5fdbb0-d79d-11ec-a1bd-7ec7e3559253,2019-08-09,250.0,Spiru Haret 4a releveu   av 500,Biziru,income
+1a5fdbc4-d79d-11ec-a1bd-7ec7e3559253,2019-08-14,250.0,Aurel Vlaicu plan cotat,Biziru,income
+1a5fdbe2-d79d-11ec-a1bd-7ec7e3559253,2019-08-14,250.0,Teiului 7 releveu+teren   av 500,Biziru,income
+1a5fdbf6-d79d-11ec-a1bd-7ec7e3559253,2019-08-16,250.0,Theodor Burada 48 t+r     av 700,Biziru,income
+1a5fdc14-d79d-11ec-a1bd-7ec7e3559253,2019-08-18,250.0,Mugurului 19 Eforie Sud   av 500,Biziru,income
+1a5fdc28-d79d-11ec-a1bd-7ec7e3559253,2019-08-18,200.0,"Negru Voda 88, Eforie Sud    av 500",Biziru,income
+1a5fdc3c-d79d-11ec-a1bd-7ec7e3559253,2019-08-19,200.0,Baba Novac/Poporului trasat margine casa,Biziru,income
+1a5fdc5a-d79d-11ec-a1bd-7ec7e3559253,2019-08-20,200.0,Buhociu trasare axe bloc,Biziru,income
+1a5fdc6e-d79d-11ec-a1bd-7ec7e3559253,2019-08-20,200.0,Nicu trs 5000mp Mamaia Nord,Biziru,income
+1a5fdc8c-d79d-11ec-a1bd-7ec7e3559253,2019-08-26,200.0,Mamaia 114,Coca,income
+1a5fdcb4-d79d-11ec-a1bd-7ec7e3559253,2019-08-26,300.0,Teren Varianta,Coca,income
+1a5fdcd2-d79d-11ec-a1bd-7ec7e3559253,2019-08-26,200.0,Strada E3 Navodari,Ionescu,income
+1a5fdce6-d79d-11ec-a1bd-7ec7e3559253,2019-08-26,200.0,Trs Tomis plus 250mp,Biziru,income
+1a5fdd04-d79d-11ec-a1bd-7ec7e3559253,2019-08-27,350.0,Cernavoda,Biziru,income
+1a5fdd2c-d79d-11ec-a1bd-7ec7e3559253,2019-08-27,200.0,"Ciocarliei 91, Cumpana",Coca,income
+1a5fdd4a-d79d-11ec-a1bd-7ec7e3559253,2019-08-27,100.0,Decebal 4 trasat gard stanga,Biziru,income
+1a5fdd68-d79d-11ec-a1bd-7ec7e3559253,2019-08-28,250.0,Ovidiu strada 5 PC,Biziru,income
+1a5fdd7c-d79d-11ec-a1bd-7ec7e3559253,2019-08-28,250.0,Mamaia Nord Str D1 Infinity,Biziru,income
+1a5fdd90-d79d-11ec-a1bd-7ec7e3559253,2019-08-28,200.0,Margaretei 26,Mami,income
+1a5fdda4-d79d-11ec-a1bd-7ec7e3559253,2019-08-29,200.0,Soseaua din vii 39 PC,Biziru,income
+1a5fddc2-d79d-11ec-a1bd-7ec7e3559253,2019-08-30,1000.0,Drumuri Cernavoda,Biziru,income
+1a5fddd6-d79d-11ec-a1bd-7ec7e3559253,2019-08-31,200.0,Sassu Gheorghe 79    av 700,Biziru,income
+1a5fddea-d79d-11ec-a1bd-7ec7e3559253,2019-08-31,300.0,Techirghiol 3 case,Biziru,income
+1a5fde08-d79d-11ec-a1bd-7ec7e3559253,2019-09-02,100.0,Dami cota zero scafandrii,Biziru,income
+1a5fde1c-d79d-11ec-a1bd-7ec7e3559253,2019-09-02,250.0,Dumitru Marinescu 18 t+r,Biziru,income
+1a5fde30-d79d-11ec-a1bd-7ec7e3559253,2019-09-03,250.0,Ovidiu parc aspersoare si stalpi,Biziru,income
+1a5fde4e-d79d-11ec-a1bd-7ec7e3559253,2019-09-05,200.0,Reyna hala porti acces si gard stanga,Biziru,income
+1a5fde62-d79d-11ec-a1bd-7ec7e3559253,2019-09-05,250.0,Avram Iancu Techirghiol  av 500,Biziru,income
+1a5fde80-d79d-11ec-a1bd-7ec7e3559253,2019-09-05,200.0,Emil Cioran 4 Techirghiol,Ionescu,income
+1a5fde94-d79d-11ec-a1bd-7ec7e3559253,2019-09-06,200.0,Buhociu axe bloc et4,Biziru,income
+1a5fdea8-d79d-11ec-a1bd-7ec7e3559253,2019-09-06,200.0,Trs gard  teren boscheti,Ionescu,income
+1a5fdec6-d79d-11ec-a1bd-7ec7e3559253,2019-09-07,200.0,Eminescu 41B Trasare gard,Ionescu,income
+1a5fdeda-d79d-11ec-a1bd-7ec7e3559253,2019-09-07,200.0,FD36 bloc Poarta 6,Ionescu,income
+1a5fdeee-d79d-11ec-a1bd-7ec7e3559253,2019-09-10,200.0,Navodari lot gol cote,Ionescu,income
+1a5fdf0c-d79d-11ec-a1bd-7ec7e3559253,2019-09-11,150.0,Dami bloc pante platforme,Biziru,income
+1a5fdf20-d79d-11ec-a1bd-7ec7e3559253,2019-09-12,200.0,Ovidiu sant cote panta,Alin,income
+1a5fdf34-d79d-11ec-a1bd-7ec7e3559253,2019-09-12,250.0,Reyna hala borduri 2 drumuri 2 zile,Biziru,income
+1a5fdf48-d79d-11ec-a1bd-7ec7e3559253,2019-09-13,100.0,Decebal 4 trasare,Biziru,income
+1a5fdf66-d79d-11ec-a1bd-7ec7e3559253,2019-09-13,200.0,Reyna Egalitatii plan cotat,Biziru,income
+1a5fdf7a-d79d-11ec-a1bd-7ec7e3559253,2019-09-14,400.0,Atelierelor 42 Tuzla,Mami,income
+1a5fdf8e-d79d-11ec-a1bd-7ec7e3559253,2019-09-18,2250.0,Drumuri Ramnicu de jos,Biziru,income
+1a5fdfa2-d79d-11ec-a1bd-7ec7e3559253,2019-09-21,250.0,Vasile Alecsandri 11 releveu P+1  av 700,Biziru,income
+1a5fdfc0-d79d-11ec-a1bd-7ec7e3559253,2019-09-21,1750.0,Drumuri Osmancea 7km,Biziru,income
+1a5fdfd4-d79d-11ec-a1bd-7ec7e3559253,2019-09-23,200.0,Buhociu axe et5,Biziru,income
+1a5fdff2-d79d-11ec-a1bd-7ec7e3559253,2019-09-23,100.0,Trs Manta lot mamaia sat,Biziru,income
+1a5fe006-d79d-11ec-a1bd-7ec7e3559253,2019-09-23,200.0,Lazu trs 11 axe casa   av 400,Biziru,income
+1a5fe01a-d79d-11ec-a1bd-7ec7e3559253,2019-09-24,200.0,Muncel 63,Ionescu,income
+1a5fe038-d79d-11ec-a1bd-7ec7e3559253,2019-09-25,200.0,Trs placi bloc Catalin et3 exterior,Biziru,income
+1a5fe04c-d79d-11ec-a1bd-7ec7e3559253,2019-09-27,200.0,TRS placi bloc Catalin et3 interior,Biziru,income
+1a5fe060-d79d-11ec-a1bd-7ec7e3559253,2019-10-01,200.0,TRS Agigea lot in drum  av 400,Biziru,income
+1a5fe07e-d79d-11ec-a1bd-7ec7e3559253,2019-10-01,250.0,Victoriei Eforie Nord plan cotat  av 700,Biziru,income
+1a5fe092-d79d-11ec-a1bd-7ec7e3559253,2019-10-01,300.0,Catalin Neo Mamaia,Biziru,income
+1a5fe0a6-d79d-11ec-a1bd-7ec7e3559253,2019-10-02,200.0,Ovidiu parc lac trs limita toata lungimea,Biziru,income
+1a5fe0c4-d79d-11ec-a1bd-7ec7e3559253,2019-10-02,200.0,Polaris,Ionescu,income
+1a5fe0d8-d79d-11ec-a1bd-7ec7e3559253,2019-10-02,200.0,Viorelelor,Ionescu,income
+1a5fe0ec-d79d-11ec-a1bd-7ec7e3559253,2019-10-02,250.0,Progresului 11 Eforie Sud rlv+teren av 700,Biziru,income
+1a5fe10a-d79d-11ec-a1bd-7ec7e3559253,2019-10-04,300.0,Calarasi 28 teren+releveu  av 700,Biziru,income
+1a5fe11e-d79d-11ec-a1bd-7ec7e3559253,2019-10-04,200.0,TRS Despot Voda cota zero+axe   av 600,Biziru,income
+1a5fe132-d79d-11ec-a1bd-7ec7e3559253,2019-10-05,300.0,Gheorghe Murea 21,Mami,income
+1a5fe150-d79d-11ec-a1bd-7ec7e3559253,2019-10-07,100.0,Catalin stalpi Neo,Biziru,income
+1a5fe164-d79d-11ec-a1bd-7ec7e3559253,2019-10-08,200.0,Mesteru Manole 63,Ionescu,income
+1a5fe178-d79d-11ec-a1bd-7ec7e3559253,2019-10-08,50.0,Kirculescu,Ionescu,income
+1a5fe18c-d79d-11ec-a1bd-7ec7e3559253,2019-10-08,200.0,"Pereti parter, etaj 1, etaj 2 Neo Catalin",Biziru,income
+1a5fe1aa-d79d-11ec-a1bd-7ec7e3559253,2019-10-09,350.0,Cvartal Eforie Sud primarie,Biziru,income
+1a5fe1be-d79d-11ec-a1bd-7ec7e3559253,2019-10-09,200.0,Nicolae Filipescu 30,Biziru,income
+1a5fe1d2-d79d-11ec-a1bd-7ec7e3559253,2019-10-11,200.0,Lazu trasare 2 loturi    av 400,Biziru,income
+1a5fe1f0-d79d-11ec-a1bd-7ec7e3559253,2019-10-11,250.0,"Rodica 21, teren+releveu  av 700",Biziru,income
+1a5fe204-d79d-11ec-a1bd-7ec7e3559253,2019-10-11,200.0,"Catalin Mamaia Neo, contur placa etaj 4",Biziru,income
+1a5fe218-d79d-11ec-a1bd-7ec7e3559253,2019-10-11,300.0,Elmont Constanta,Biziru,income
+1a5fe236-d79d-11ec-a1bd-7ec7e3559253,2019-10-14,150.0,Buhociu etaj 6,Biziru,income
+1a5fe268-d79d-11ec-a1bd-7ec7e3559253,2019-10-14,200.0,Catalin Mamaia Neo goluri etaj 4,Biziru,income
+1a5fe27c-d79d-11ec-a1bd-7ec7e3559253,2019-10-14,300.0,Kara Murat Kogalniceanu,Coca,income
+1a5fe29a-d79d-11ec-a1bd-7ec7e3559253,2019-10-15,100.0,Medgidia,Biziru,income
+1a5fe2ae-d79d-11ec-a1bd-7ec7e3559253,2019-10-15,150.0,Catalin Neo restu de goluri etaj 4,Biziru,income
+1a5fe2c2-d79d-11ec-a1bd-7ec7e3559253,2019-10-16,250.0,Expert tools,Biziru,income
+1a5fe2e0-d79d-11ec-a1bd-7ec7e3559253,2019-10-16,250.0,Poiana,Coca,income
+1a5fe2f4-d79d-11ec-a1bd-7ec7e3559253,2019-10-17,150.0,Catalin Neo trs gol placa interioara,Biziru,income
+1a5fe308-d79d-11ec-a1bd-7ec7e3559253,2019-10-17,50.0,Nicolae Iorga 27 cote curte,Biziru,income
+1a5fe326-d79d-11ec-a1bd-7ec7e3559253,2019-10-18,200.0,Bloc S5 gaze,Ionescu,income
+1a5fe33a-d79d-11ec-a1bd-7ec7e3559253,2019-10-18,500.0,Felinare ov parc mic,Alin,income
+1a5fe34e-d79d-11ec-a1bd-7ec7e3559253,2019-10-18,200.0,Ovidiu parc mare aspersoare nord,Biziru,income
+1a5fe362-d79d-11ec-a1bd-7ec7e3559253,2019-10-18,650.0,Elmont Navodari,Biziru,income
+1a5fe380-d79d-11ec-a1bd-7ec7e3559253,2019-10-20,250.0,Elmont Medgidia,Biziru,income
+1a5fe394-d79d-11ec-a1bd-7ec7e3559253,2019-10-21,200.0,Florilor trasare axe si cota zero,Biziru,income
+1a5fe3a8-d79d-11ec-a1bd-7ec7e3559253,2019-10-21,300.0,Capidava,Ionescu,income
+1a5fe3c6-d79d-11ec-a1bd-7ec7e3559253,2019-10-21,200.0,Micsunelelor 9,Ionescu,income
+1a5fe3da-d79d-11ec-a1bd-7ec7e3559253,2019-10-22,200.0,Postei Ovidiu trs contur casa   av 400,Biziru,income
+1a5fe3ee-d79d-11ec-a1bd-7ec7e3559253,2019-10-22,200.0,Alexandria 5 (langa Carrefour),Biziru,income
+1a5fe40c-d79d-11ec-a1bd-7ec7e3559253,2019-10-22,150.0,Catalin Neo Mamaia balcoane et4,Biziru,income
+1a5fe420-d79d-11ec-a1bd-7ec7e3559253,2019-10-23,300.0,Bogdan Vasile 1,Mami,income
+1a5fe434-d79d-11ec-a1bd-7ec7e3559253,2019-10-23,200.0,"Poiana 7,Ovidiu    av 500",Biziru,income
+1a5fe452-d79d-11ec-a1bd-7ec7e3559253,2019-10-24,500.0,Elmont Castelu,Biziru,income
+1a5fe466-d79d-11ec-a1bd-7ec7e3559253,2019-10-24,50.0,Miron Costin trs 1 punct,Alin,income
+1a5fe47a-d79d-11ec-a1bd-7ec7e3559253,2019-10-24,200.0,Pandurului 84    av 500,Biziru,income
+1a5fe48e-d79d-11ec-a1bd-7ec7e3559253,2019-10-25,900.0,Elmont Baneasa (Padureni-Raristea),Biziru,income
+1a5fe4ac-d79d-11ec-a1bd-7ec7e3559253,2019-10-28,500.0,Ovidiu parc mare si mic 320+ tarusi,Biziru,income
+1a5fe4c0-d79d-11ec-a1bd-7ec7e3559253,2019-10-29,250.0,Cumpana,Coca,income
+1a5fe4d4-d79d-11ec-a1bd-7ec7e3559253,2019-10-29,300.0,Agigea,Coca,income
+1a5fe4f2-d79d-11ec-a1bd-7ec7e3559253,2019-10-29,250.0,Bojila Agigea teren+releveu partial,Biziru,income
+1a5fe506-d79d-11ec-a1bd-7ec7e3559253,2019-10-30,200.0,IC Bratianu 151    av 700,Biziru,income
+1a5fe51a-d79d-11ec-a1bd-7ec7e3559253,2019-10-30,150.0,Buhociu axe et 7,Biziru,income
+1a5fe538-d79d-11ec-a1bd-7ec7e3559253,2019-11-02,200.0,Frunzelor 48B Ovidiu trs gard  av 500,Biziru,income
+1a5fe54c-d79d-11ec-a1bd-7ec7e3559253,2019-11-02,150.0,Ovidiu parc mic 68 banci 70 gard viu,Biziru,income
+1a5fe560-d79d-11ec-a1bd-7ec7e3559253,2019-11-03,1300.0,Elmont Dobromir 5.3km,Biziru,income
+1a5fe57e-d79d-11ec-a1bd-7ec7e3559253,2019-11-04,200.0,Stamate trs contur groapa,Alin,income
+1a5fe592-d79d-11ec-a1bd-7ec7e3559253,2019-11-04,50.0,Expert tools completare drum,Biziru,income
+1a5fe5a6-d79d-11ec-a1bd-7ec7e3559253,2019-11-05,300.0,"Sat Culmea,Nazarcea",Coca,income
+1a5fe5c4-d79d-11ec-a1bd-7ec7e3559253,2019-11-06,400.0,Dana 80 profile,Biziru,income
+1a5fe5d8-d79d-11ec-a1bd-7ec7e3559253,2019-11-06,200.0,Heineken trs axe si colturi,Biziru,income
+1a5fe5ec-d79d-11ec-a1bd-7ec7e3559253,2019-11-07,200.0,Tiganila trasat axe    av 600,Biziru,income
+1a5fe600-d79d-11ec-a1bd-7ec7e3559253,2019-11-07,250.0,Democratiei 67b releveu si teren,Biziru,income
+1a5fe61e-d79d-11ec-a1bd-7ec7e3559253,2019-11-08,200.0,Calarasi 6,Ionescu,income
+1a5fe632-d79d-11ec-a1bd-7ec7e3559253,2019-11-08,200.0,"Eugen Lovinescu 8,Palazu Mare rlv  av 500",Biziru,income
+1a5fe646-d79d-11ec-a1bd-7ec7e3559253,2019-11-11,250.0,Ivrinezu Mare sala sport,Biziru,income
+1a5fe664-d79d-11ec-a1bd-7ec7e3559253,2019-11-12,200.0,Siretului 40 axe si cota zero,Biziru,income
+1a5fe678-d79d-11ec-a1bd-7ec7e3559253,2019-11-13,200.0,Lazu trasare 110559   av 400,Biziru,income
+1a5fe68c-d79d-11ec-a1bd-7ec7e3559253,2019-11-13,0.0,*Eforie Nord Chespi Beinur,Alin,income
+1a5fe6aa-d79d-11ec-a1bd-7ec7e3559253,2019-11-13,350.0,Cobadin magazin r+t   av 600,Biziru,income
+1a5fe6be-d79d-11ec-a1bd-7ec7e3559253,2019-11-14,250.0,Techirghiol 2 loturi langa ferme PC,Biziru,income
+1a5fe6d2-d79d-11ec-a1bd-7ec7e3559253,2019-11-14,100.0,Reyna hidranti,Biziru,income
+1a5fe6e6-d79d-11ec-a1bd-7ec7e3559253,2019-11-15,200.0,Neo stalpi metalici,Biziru,income
+1a5fe704-d79d-11ec-a1bd-7ec7e3559253,2019-11-15,150.0,Ovidiu parc mare trasare limita,Biziru,income
+1a5fe718-d79d-11ec-a1bd-7ec7e3559253,2019-11-15,250.0,Constantin Bratescu 48 rlv+teren,Biziru,income
+1a5fe72c-d79d-11ec-a1bd-7ec7e3559253,2019-11-16,50.0,Tiganila verificat axe,Alin,income
+1a5fe74a-d79d-11ec-a1bd-7ec7e3559253,2019-11-16,300.0,Culmea,Coca,income
+1a5fe75e-d79d-11ec-a1bd-7ec7e3559253,2019-11-19,200.0,Cimbrului  plan cotat canalizare,Ionescu,income
+1a5fe772-d79d-11ec-a1bd-7ec7e3559253,2019-11-21,200.0,Stamate axe si 1 pct gard,Alin,income
+1a5fe790-d79d-11ec-a1bd-7ec7e3559253,2019-11-22,250.0,Heineken trs axe,Biziru,income
+1a5fe7a4-d79d-11ec-a1bd-7ec7e3559253,2019-11-25,300.0,Dafinului 3 releveu+teren   av 1000,Biziru,income
+1a5fe7b8-d79d-11ec-a1bd-7ec7e3559253,2019-11-26,300.0,Zaharia Agigea de la Coca,Alin,income
+1a5fe7d6-d79d-11ec-a1bd-7ec7e3559253,2019-11-26,200.0,Str M2 Mamaia trs teren  av 400,Biziru,income
+1a5fe7ea-d79d-11ec-a1bd-7ec7e3559253,2019-11-26,200.0,Postei Ovidiu trs axe,Biziru,income
+1a5fe7fe-d79d-11ec-a1bd-7ec7e3559253,2019-11-26,250.0,Campus trs axe si limita,Biziru,income
+1a5fe812-d79d-11ec-a1bd-7ec7e3559253,2019-11-28,200.0,Siretului 40 axe si balize,Biziru,income
+1a5fe830-d79d-11ec-a1bd-7ec7e3559253,2019-11-28,250.0,"Cerealelor 5, Tuzla",Bogdan,income
+1a5fe844-d79d-11ec-a1bd-7ec7e3559253,2019-11-28,200.0,Mandai 3a,Mami,income
+1a5fe858-d79d-11ec-a1bd-7ec7e3559253,2019-11-28,100.0,Campus axe si verificat margine cladire,Biziru,income
+1a5fe876-d79d-11ec-a1bd-7ec7e3559253,2019-11-29,6100.0,Elmont Ciobanu 24.4 km,Biziru,income
+1a5fe88a-d79d-11ec-a1bd-7ec7e3559253,2019-11-30,450.0,Onesti 44-46 rlv+teren,Biziru,income
+1a5fe89e-d79d-11ec-a1bd-7ec7e3559253,2019-11-30,100.0,Oleg Danovski 7,Ionescu,income
+1a5fe8bc-d79d-11ec-a1bd-7ec7e3559253,2019-11-30,100.0,Ion Alexandrescu 7,Ionescu,income
+1a5fe8d0-d79d-11ec-a1bd-7ec7e3559253,2019-12-02,200.0,Dorului 1A,Coca,income
+1a5fe8e4-d79d-11ec-a1bd-7ec7e3559253,2019-12-02,200.0,"Heineken hala 1 axe, prelungiri, cote curte",Biziru,income
+1a5fe902-d79d-11ec-a1bd-7ec7e3559253,2019-12-03,250.0,Osmancea casa preot,Ionescu,income
+1a5fe916-d79d-11ec-a1bd-7ec7e3559253,2019-12-03,200.0,Pecineaga,Bogdan,income
+1a5fe92a-d79d-11ec-a1bd-7ec7e3559253,2019-12-03,250.0,Vama Veche,Bogdan,income
+1a5fe93e-d79d-11ec-a1bd-7ec7e3559253,2019-12-03,200.0,Progresului 6 Eforie Sud pt gaze  av 500,Biziru,income
+1a5fe95c-d79d-11ec-a1bd-7ec7e3559253,2019-12-04,250.0,Heineken trs placute buloane,Biziru,income
+1a5fe970-d79d-11ec-a1bd-7ec7e3559253,2019-12-04,50.0,Heineken cote curte,Biziru,income
+1a5fe984-d79d-11ec-a1bd-7ec7e3559253,2019-12-04,300.0,Culmea teren gol,Coca,income
+1a5fe9a2-d79d-11ec-a1bd-7ec7e3559253,2019-12-05,200.0,Campus trs axe(20) si margine cladire,Biziru,income
+1a5fe9b6-d79d-11ec-a1bd-7ec7e3559253,2019-12-05,200.0,Elmont Navodari 2,Biziru,income
+1a5fe9ca-d79d-11ec-a1bd-7ec7e3559253,2019-12-05,200.0,"Poporului 30,Ovidiu plan situatie  av 500",Biziru,income
+1a5fe9e8-d79d-11ec-a1bd-7ec7e3559253,2019-12-06,200.0,Muncel 59 plan cotat   av 600,Biziru,income
+1a5fe9fc-d79d-11ec-a1bd-7ec7e3559253,2019-12-06,200.0,"Progresului 15, Eforie Sud",Ionescu,income
+1a5fea10-d79d-11ec-a1bd-7ec7e3559253,2019-12-09,250.0,Topalu teren gol,Ionescu,income
+1a5fea24-d79d-11ec-a1bd-7ec7e3559253,2019-12-09,200.0,Romeo Popescu 17-19 Constanta,Ionescu,income
+1a5fea42-d79d-11ec-a1bd-7ec7e3559253,2019-12-10,200.0,Km5 trs si cote   av 400,Biziru,income
+1a5fea56-d79d-11ec-a1bd-7ec7e3559253,2019-12-10,200.0,Basarabiei 9 Valu Traian,Biziru,income
+1a5fea6a-d79d-11ec-a1bd-7ec7e3559253,2019-12-10,100.0,Tiganila trs gard,Alin,income
+1a5fea88-d79d-11ec-a1bd-7ec7e3559253,2019-12-12,250.0,Ovidiu parc mare borduri,Biziru,income
+1a5fea9c-d79d-11ec-a1bd-7ec7e3559253,2019-12-12,250.0,Valu cote 2ha,Biziru,income
+1a5feab0-d79d-11ec-a1bd-7ec7e3559253,2019-12-13,250.0,"Str Eternitatii 15, Tuzla   AV 500",Biziru,income
+1a5feac4-d79d-11ec-a1bd-7ec7e3559253,2019-12-13,200.0,Str 23 August Eforie Nord  av 800,Biziru,income
+1a5feae2-d79d-11ec-a1bd-7ec7e3559253,2019-12-13,200.0,Lumina trs 17 pct,Ionescu,income
+1a5feaf6-d79d-11ec-a1bd-7ec7e3559253,2019-12-14,250.0,Casa Techirghiol Ionut   av 500,Biziru,income
+1a5feb0a-d79d-11ec-a1bd-7ec7e3559253,2019-12-14,200.0,Poporului 201,Coca,income
+1a5feb3c-d79d-11ec-a1bd-7ec7e3559253,2019-12-15,700.0,Elmont Negru Voda,Biziru,income
+1a5feb50-d79d-11ec-a1bd-7ec7e3559253,2019-12-18,200.0,Ioan Roman 1 plan cotat   av 1000,Biziru,income
+1a5feb6e-d79d-11ec-a1bd-7ec7e3559253,2019-12-18,300.0,Elmont Constanta-Ovidiu,Biziru,income
+1a5feb82-d79d-11ec-a1bd-7ec7e3559253,2019-12-19,100.0,"Str Valu Traian 4, Constanta",Mami,income
+1a5feb96-d79d-11ec-a1bd-7ec7e3559253,2019-12-19,200.0,"Spiru Haret 4a, Cta plan cotat  av 700",Biziru,income
+1a5febaa-d79d-11ec-a1bd-7ec7e3559253,2019-12-20,250.0,Viilor 55 Costinesti,Coca,income
+1a5febc8-d79d-11ec-a1bd-7ec7e3559253,2020-01-07,300.0,"Mangalia, Str Duiliu Zamfirescu",Ionescu,income
+1a5febdc-d79d-11ec-a1bd-7ec7e3559253,2020-01-08,250.0,Legume Varianta 4000 mp   av 500,Biziru,income
+1a5febf0-d79d-11ec-a1bd-7ec7e3559253,2020-01-09,250.0,Ioan Voda cel Cumplit 34   av 700,Biziru,income
+1a5fec04-d79d-11ec-a1bd-7ec7e3559253,2020-01-09,250.0,Cantonului 38 Tuzla   av 1000,Biziru,income
+1a5fec22-d79d-11ec-a1bd-7ec7e3559253,2020-01-10,200.0,Cozia trasare casa,Ionescu,income
+1a5fec36-d79d-11ec-a1bd-7ec7e3559253,2020-01-10,250.0,Saturn 7 Eforie Sud   av 500,Biziru,income
+1a5fec4a-d79d-11ec-a1bd-7ec7e3559253,2020-01-14,200.0,Curte RAR,Biziru,income
+1a5fec5e-d79d-11ec-a1bd-7ec7e3559253,2020-01-14,150.0,Canal Valu 2ha,Biziru,income
+1a5fec7c-d79d-11ec-a1bd-7ec7e3559253,2020-01-14,200.0,TRS Afinei langa stadion,Biziru,income
+1a5fec90-d79d-11ec-a1bd-7ec7e3559253,2020-01-15,250.0,TRS Mihai Viteazu 108 Eforie Sud,Biziru,income
+1a5feca4-d79d-11ec-a1bd-7ec7e3559253,2020-01-15,200.0,TRS Campus bloc axe si cote platforma,Biziru,income
+1a5fecc2-d79d-11ec-a1bd-7ec7e3559253,2020-01-16,200.0,Eugen Lovinescu 19A,Ionescu,income
+1a5fecd6-d79d-11ec-a1bd-7ec7e3559253,2020-01-16,250.0,TRS Tiab cablu electric+masurat gard borduri,Biziru,income
+1a5fecea-d79d-11ec-a1bd-7ec7e3559253,2020-01-17,350.0,Crama Cernavoda,Biziru,income
+1a5fecfe-d79d-11ec-a1bd-7ec7e3559253,2020-01-17,200.0,A612 plan cotat,Biziru,income
+1a5fed1c-d79d-11ec-a1bd-7ec7e3559253,2020-01-18,200.0,TRS Str C nr 3 Ovidiu  av 400,Biziru,income
+1a5fed30-d79d-11ec-a1bd-7ec7e3559253,2020-01-20,200.0,Port cuva,Biziru,income
+1a5fed44-d79d-11ec-a1bd-7ec7e3559253,2020-01-21,100.0,Cuva port reverificat+birou,Biziru,income
+1a5fed58-d79d-11ec-a1bd-7ec7e3559253,2020-01-21,300.0,Tortomanu 40ha,Coca,income
+1a5fed76-d79d-11ec-a1bd-7ec7e3559253,2020-01-22,200.0,"Fagetului 32, Constanta   av 700",Biziru,income
+1a5fed8a-d79d-11ec-a1bd-7ec7e3559253,2020-01-22,50.0,Mihai plan situatie,Alin,income
+1a5fed9e-d79d-11ec-a1bd-7ec7e3559253,2020-01-23,200.0,"*Istria 6, Constanta",Biziru,income
+1a5fedbc-d79d-11ec-a1bd-7ec7e3559253,2020-01-23,200.0,Dumitru Sasu 48 plan gaze,Ionescu,income
+1a5fedd0-d79d-11ec-a1bd-7ec7e3559253,2020-01-23,300.0,Grozesti 47b  releveu+teren,Biziru,income
+1a5fede4-d79d-11ec-a1bd-7ec7e3559253,2020-01-24,350.0,Parcari Ovidiu,Alin,income
+1a5fee02-d79d-11ec-a1bd-7ec7e3559253,2020-01-24,150.0,Crama Cernavoda completare,Biziru,income
+1a5fee16-d79d-11ec-a1bd-7ec7e3559253,2020-01-24,200.0,Banu Mihalcea 23    av 1000,Biziru,income
+1a5fee2a-d79d-11ec-a1bd-7ec7e3559253,2020-01-25,250.0,Maior Sofran,Biziru,income
+1a5fee3e-d79d-11ec-a1bd-7ec7e3559253,2020-01-25,200.0,Tuzla teren gol (Grozesti 47b)  av 500,Biziru,income
+1a5fee5c-d79d-11ec-a1bd-7ec7e3559253,2020-01-25,100.0,"Tuzla,Cantonului 38 releveu",Biziru,income
+1a5fee70-d79d-11ec-a1bd-7ec7e3559253,2020-01-27,450.0,Icral 3 case Eforie Sud   av 1500,Biziru,income
+1a5fee84-d79d-11ec-a1bd-7ec7e3559253,2020-01-27,150.0,Florilor 72b Cumpana,Biziru,income
+1a5feea2-d79d-11ec-a1bd-7ec7e3559253,2020-01-28,250.0,"Casa piatra,Eforie Sud rlv+teren",Biziru,income
+1a5feeb6-d79d-11ec-a1bd-7ec7e3559253,2020-01-28,200.0,Lujerului 51 trs axe   av 400,Biziru,income
+1a5feeca-d79d-11ec-a1bd-7ec7e3559253,2020-01-29,400.0,Dana 80 3.6km mas+profile,Biziru,income
+1a5feede-d79d-11ec-a1bd-7ec7e3559253,2020-01-29,350.0,"Andrei Muresanu 9, EfN, teren+releveu",Biziru,income
+1a5feefc-d79d-11ec-a1bd-7ec7e3559253,2020-01-30,700.0,Bloc Mamaia releveu,Coca,income
+1a5fef10-d79d-11ec-a1bd-7ec7e3559253,2020-01-30,150.0,Cuva port trs cladire si prelungiri,Biziru,income
+1a5fef24-d79d-11ec-a1bd-7ec7e3559253,2020-01-31,200.0,"Bujorului 20A, Plan gaze, Constanta",Ionescu,income
+1a5fef38-d79d-11ec-a1bd-7ec7e3559253,2020-02-01,200.0,Agigea teren gol cote,Ionescu,income
+1a5fef56-d79d-11ec-a1bd-7ec7e3559253,2020-02-03,0.0,*Victor Climescu 26bis teren+releveu 300,Biziru,income
+1a5fef6a-d79d-11ec-a1bd-7ec7e3559253,2020-02-04,0.0,*Cuva port cote groapa -0.50 200,Biziru,income
+1a5fef7e-d79d-11ec-a1bd-7ec7e3559253,2020-02-04,250.0,Str Traian casa cote sus,Laura,income
+1a5fef9c-d79d-11ec-a1bd-7ec7e3559253,2020-02-04,0.0,*Trs Mihai Navodari pensiune 250,Biziru,income
+1a5fefb0-d79d-11ec-a1bd-7ec7e3559253,2020-02-04,500.0,*Liliacului 14c releveu   av 500 200,Biziru,income
+1a5fefc4-d79d-11ec-a1bd-7ec7e3559253,2020-02-05,700.0,"*Negru Voda 113 EfS, rlv+teren  av 700 250",Biziru,income
+1a5fefd8-d79d-11ec-a1bd-7ec7e3559253,2020-02-05,0.0,*Banu Mihalcea 23 releveu 200,Biziru,income
+1a5feff6-d79d-11ec-a1bd-7ec7e3559253,2020-02-07,0.0,*Grivitei Efs plan Enel bloc 250,Biziru,income
+1a5ff00a-d79d-11ec-a1bd-7ec7e3559253,2020-02-10,0.0,*Grivitei Sind Eforie Nord 200,Biziru,income
+1a5ff01e-d79d-11ec-a1bd-7ec7e3559253,2020-02-10,0.0,*ANL Eforie Nord 250,Biziru,income
+1a5ff03c-d79d-11ec-a1bd-7ec7e3559253,2020-02-10,700.0,"*Samuel Micu Klein 17a, Constanta  av 700 200",Biziru,income
+1a5ff050-d79d-11ec-a1bd-7ec7e3559253,2020-02-11,0.0,*Campus mas cote pe fundatie 200,Biziru,income
+1a5ff064-d79d-11ec-a1bd-7ec7e3559253,2020-02-11,0.0,*Fulgerului 52 plan cotat 200,Biziru,income
+1a5ff082-d79d-11ec-a1bd-7ec7e3559253,2020-02-12,700.0,*Mihai Viteazul 39 Eforie Sud rlv+teren  av 700 300,Biziru,income
+1a5ff096-d79d-11ec-a1bd-7ec7e3559253,2020-02-13,0.0,*Campus verificat cote fundatie 50,Biziru,income
+1a5ff0aa-d79d-11ec-a1bd-7ec7e3559253,2020-02-13,400.0,*TRS Foisor Palazu Mare  av 400 200,Biziru,income
+1a5ff0c8-d79d-11ec-a1bd-7ec7e3559253,2020-02-13,1000.0,*Str Liliacului 3 Costinesti rlv+teren  av 1000 400,Biziru,income
+1a5ff0dc-d79d-11ec-a1bd-7ec7e3559253,2020-02-13,1000.0,*Str Ingusta EfS rlv+teren  av 1000 300,Biziru,income
+1a5ff0f0-d79d-11ec-a1bd-7ec7e3559253,2020-02-14,200.0,Mugurului 17,Ionescu,income
+1a5ff10e-d79d-11ec-a1bd-7ec7e3559253,2020-02-14,200.0,"Transilvaniei 40, Eforie Sud",Ionescu,income
+1a5ff122-d79d-11ec-a1bd-7ec7e3559253,2020-02-14,0.0,*Topoloveni 12 releveu S+P+E 250,Biziru,income
+1a5ff136-d79d-11ec-a1bd-7ec7e3559253,2020-02-15,0.0,*Lucian Manta rlv+teren 300,Biziru,income
+1a5ff154-d79d-11ec-a1bd-7ec7e3559253,2020-02-17,0.0,*Campus trs axe si lift 150,Biziru,income
+1a5ff168-d79d-11ec-a1bd-7ec7e3559253,2020-02-17,200.0,Unirii X Ion Ratiu 1A,Ionescu,income
+1a5ff17c-d79d-11ec-a1bd-7ec7e3559253,2020-02-17,200.0,Elena Cuza 53 gaze,Ionescu,income
+1a5ff19a-d79d-11ec-a1bd-7ec7e3559253,2020-02-17,200.0,Biruintei 71bis pt gaze,Ionescu,income
+1a5ff1ae-d79d-11ec-a1bd-7ec7e3559253,2020-02-17,200.0,TRS axe bloc Eliberarii,Laura,income
+1a5ff26c-d79d-11ec-a1bd-7ec7e3559253,2020-02-18,600.0,*Tuzla 2 loturi pc   av 600 300,Biziru,income
+1a5ff28a-d79d-11ec-a1bd-7ec7e3559253,2020-02-18,0.0,*Dami trs 2 loturi Eforie Nord 200,Biziru,income
+1a5ff29e-d79d-11ec-a1bd-7ec7e3559253,2020-02-18,0.0,*Rally&Hot 200,Biziru,income
+1a5ff2b2-d79d-11ec-a1bd-7ec7e3559253,2020-02-19,0.0,*Dana 80 bazine scurgere si canale 250,Biziru,income
+1a5ff2c6-d79d-11ec-a1bd-7ec7e3559253,2020-02-19,200.0,Ion Ursu 40 trasare axe,Ionescu,income
+1a5ff2e4-d79d-11ec-a1bd-7ec7e3559253,2020-02-20,500.0,Galesu Manastire 2.5km drum,Ionescu,income
+1a5ff2f8-d79d-11ec-a1bd-7ec7e3559253,2020-02-21,0.0,*Mereni Str Lungescu 223 250,Biziru,income
+1a5ff30c-d79d-11ec-a1bd-7ec7e3559253,2020-02-24,0.0,*Sat Vacanta Elmont 300,Biziru,income
+1a5ff32a-d79d-11ec-a1bd-7ec7e3559253,2020-02-26,0.0,*Cuva port axe estacade 350,Biziru,income
+1a5ff33e-d79d-11ec-a1bd-7ec7e3559253,2020-02-27,0.0,*Euromaterna piloti 200,Biziru,income
+1a5ff352-d79d-11ec-a1bd-7ec7e3559253,2020-02-27,0.0,*Cuva port estacade contur 5 ore 400,Biziru,income
+1a5ff366-d79d-11ec-a1bd-7ec7e3559253,2020-02-28,0.0,*Rasuri 20 releveu+teren 300,Biziru,income
+1a5ff384-d79d-11ec-a1bd-7ec7e3559253,2020-02-28,0.0,*Cota zero Euromaterna 100,Biziru,income
+1a5ff398-d79d-11ec-a1bd-7ec7e3559253,2020-02-28,700.0,*Ceairului 7 Valu Traian   av 700 250,Biziru,income
+1a5ff3ac-d79d-11ec-a1bd-7ec7e3559253,2020-02-28,200.0,Gaze Navodari sub pod,Catalin,income
+1a5ff3ca-d79d-11ec-a1bd-7ec7e3559253,2020-02-29,250.0,Galesu trs constructie+teren,Ionescu,income
+1a5ff3de-d79d-11ec-a1bd-7ec7e3559253,2020-03-02,0.0,*Lazu investitie canalizare drum bazine 350,Biziru,income
+1a5ff3f2-d79d-11ec-a1bd-7ec7e3559253,2020-03-03,200.0,Ovidiu parcari trs axe casa,Alin,income
+1a5ff410-d79d-11ec-a1bd-7ec7e3559253,2020-03-03,0.0,*Elmont PT 17  Medgidia 4km 1000,Biziru,income
+1a5ff424-d79d-11ec-a1bd-7ec7e3559253,2020-03-04,0.0,*Gheorghe Asachi 6 trs axe 200,Biziru,income
+1a5ff442-d79d-11ec-a1bd-7ec7e3559253,2020-03-04,0.0,*Elmont rar 250,Biziru,income
+1a5ff456-d79d-11ec-a1bd-7ec7e3559253,2020-03-05,500.0,*Independenta rlv+pozitionare   av 500 250,Biziru,income
+1a5ff46a-d79d-11ec-a1bd-7ec7e3559253,2020-03-05,0.0,*Egalitatii trs margine cladire 200,Biziru,income
+1a5ff488-d79d-11ec-a1bd-7ec7e3559253,2020-03-05,0.0,*Campus trasare cladire dinspre strada 200,Biziru,income
+1a5ff49c-d79d-11ec-a1bd-7ec7e3559253,2020-03-06,0.0,*Livezi 2 Ovidiu plan cotat 200,Biziru,income
+1a5ff4b0-d79d-11ec-a1bd-7ec7e3559253,2020-03-06,0.0,"*Strada 5 trs axe, Nicu Baditeanu 200",Biziru,income
+1a5ff4ce-d79d-11ec-a1bd-7ec7e3559253,2020-03-06,1000.0,"*Recoltei 1b, Palazu rlv+teren   av 1000 300",Biziru,income
+1a5ff4e2-d79d-11ec-a1bd-7ec7e3559253,2020-03-07,0.0,*Mihai trs Navodari axe 250,Biziru,income
+1a5ff4f6-d79d-11ec-a1bd-7ec7e3559253,2020-03-09,0.0,*Cumpana plan cotat teren gol 200,Biziru,income
+1a5ff514-d79d-11ec-a1bd-7ec7e3559253,2020-03-09,0.0,*Lazu cote teren gol 200,Biziru,income
+1a5ff528-d79d-11ec-a1bd-7ec7e3559253,2020-03-09,500.0,*Cantacuzino 34 rlv+teren   av 500 300,Biziru,income
+1a5ff53c-d79d-11ec-a1bd-7ec7e3559253,2020-03-09,0.0,*Cantacuzino trasare 100,Biziru,income
+1a5ff55a-d79d-11ec-a1bd-7ec7e3559253,2020-03-10,50.0,Mesteru Manole 46 trs 2 pct,Alin,income
+1a5ff56e-d79d-11ec-a1bd-7ec7e3559253,2020-03-11,0.0,*Piloti Euromaterna 2 laturi 150,Biziru,income
+1a5ff582-d79d-11ec-a1bd-7ec7e3559253,2020-03-11,0.0,*Elmont PT 38 Medgidia 500,Biziru,income
+1a5ff596-d79d-11ec-a1bd-7ec7e3559253,2020-03-11,250.0,Comarnic-Fantanele trs axe,Alin,income
+1a5ff5b4-d79d-11ec-a1bd-7ec7e3559253,2020-03-12,150.0,Ion Ursu trasare axe mutate,Alin,income
+1a5ff5c8-d79d-11ec-a1bd-7ec7e3559253,2020-03-12,0.0,*Elmont PT 9 Medgidia 3.3 km 800,Biziru,income
+1a5ff5dc-d79d-11ec-a1bd-7ec7e3559253,2020-03-12,0.0,*Elmont PT 11 Medgidia 1.7km 450,Biziru,income
+1a5ff5fa-d79d-11ec-a1bd-7ec7e3559253,2020-03-13,0.0,*Campus trs cladire si groapa 200,Biziru,income
+1a5ff60e-d79d-11ec-a1bd-7ec7e3559253,2020-03-13,200.0,Constantin Brancusi 19 trs axe,Alin,income
+1a5ff622-d79d-11ec-a1bd-7ec7e3559253,2020-03-17,0.0,*Elmont PT 19 Medgidia 2km 500,Biziru,income
+1a5ff640-d79d-11ec-a1bd-7ec7e3559253,2020-03-18,0.0,"*Campus trasare cladire, cote pe tarusi 150",Biziru,income
+1a5ff654-d79d-11ec-a1bd-7ec7e3559253,2020-03-19,0.0,*Ovidiu Strada 5 trs axe si gard 200,Biziru,income
+1a5ff668-d79d-11ec-a1bd-7ec7e3559253,2020-03-19,0.0,*Tuzla trs repozitionare si casa 200,Biziru,income
+1a5ff67c-d79d-11ec-a1bd-7ec7e3559253,2020-03-19,400.0,*Tuzla trs casa si cota zero   av 400 200,Biziru,income
+1a5ff69a-d79d-11ec-a1bd-7ec7e3559253,2020-03-19,700.0,*Techirghiol trs 2 loturi si casa  av 700 200,Biziru,income
+1a5ff6ae-d79d-11ec-a1bd-7ec7e3559253,2020-03-19,300.0,"Constanta, Ion Alexandrescu 7 plan cvartal",Ionescu,income
+1a5ff6c2-d79d-11ec-a1bd-7ec7e3559253,2020-03-19,500.0,"*Cta, Justitiei 17 rlv si teren  av 500 250",Biziru,income
+1a5ff6e0-d79d-11ec-a1bd-7ec7e3559253,2020-03-20,150.0,Constantin Brancusi 19 trs axe,Alin,income
+1a5ff6f4-d79d-11ec-a1bd-7ec7e3559253,2020-03-24,0.0,*Campus Opalului trs axe cladire cote 200,Biziru,income
+1a5ff708-d79d-11ec-a1bd-7ec7e3559253,2020-03-25,0.0,*Istria 16.6km 4150,Biziru,income
+1a5ff726-d79d-11ec-a1bd-7ec7e3559253,2020-04-02,0.0,*Euromaterna verificat cote strazi 150,Biziru,income
+1a5ff73a-d79d-11ec-a1bd-7ec7e3559253,2020-04-02,0.0,*Viilor 30 Palazu rlv+trn  300,Biziru,income
+1a5ff74e-d79d-11ec-a1bd-7ec7e3559253,2020-04-03,0.0,*Elmont Palazu Mic 5.1km 1250,Biziru,income
+1a5ff762-d79d-11ec-a1bd-7ec7e3559253,2020-04-06,0.0,*Egalitatii margine groapa si axe 100,Biziru,income
+1a5ff780-d79d-11ec-a1bd-7ec7e3559253,2020-04-08,0.0,*Egalitatii trs toate axele 150,Biziru,income
+1a5ff794-d79d-11ec-a1bd-7ec7e3559253,2020-04-08,200.0,Dobrogei 93 trs axe,Alin,income
+1a5ff7a8-d79d-11ec-a1bd-7ec7e3559253,2020-04-09,200.0,108807 Ovidiu str principala trs,Alin,income
+1a5ff7c6-d79d-11ec-a1bd-7ec7e3559253,2020-04-09,0.0,*Elmont Nuntasi 12.2 km 3050,Biziru,income
+1a5ff7da-d79d-11ec-a1bd-7ec7e3559253,2020-04-13,0.0,*Campus trs margine cladire si pereti interiori 150,Biziru,income
+1a5ff7ee-d79d-11ec-a1bd-7ec7e3559253,2020-05-19,200.0,Izvor 1 Constanta,Ionescu,income
+1a5ff80c-d79d-11ec-a1bd-7ec7e3559253,2020-05-19,200.0,Merisor 38 Constanta,Ionescu,income
+1a5ff820-d79d-11ec-a1bd-7ec7e3559253,2020-05-23,200.0,Techirghiol plan curte goala,Ionescu,income
+1a5ff834-d79d-11ec-a1bd-7ec7e3559253,2020-06-03,250.0,Murgescu 62 Constanta,Coca,income
+1a5ff852-d79d-11ec-a1bd-7ec7e3559253,2020-06-03,150.0,Mihai Viteazu Constanta,Coca,income
+1a5ff866-d79d-11ec-a1bd-7ec7e3559253,2020-06-09,200.0,Techirghiol Trasare,Ionescu,income
+1a5ff87a-d79d-11ec-a1bd-7ec7e3559253,2020-06-09,200.0,Eforie Nord Str 23 August,Ionescu,income
+1a5ff88e-d79d-11ec-a1bd-7ec7e3559253,2020-06-09,200.0,Palas 2 loturi,Ionescu,income
+1a5ff8ac-d79d-11ec-a1bd-7ec7e3559253,2020-06-10,250.0,Vila Violeta Mamaia,Ionescu,income
+1a5ff8c0-d79d-11ec-a1bd-7ec7e3559253,2020-06-11,250.0,Murgescu 8 Constanta,Coca,income
+1a5ff8d4-d79d-11ec-a1bd-7ec7e3559253,2020-06-11,300.0,2 Mai,Ionescu,income
+1a5ff8f2-d79d-11ec-a1bd-7ec7e3559253,2020-06-17,100.0,2 Mai,Ionescu,income
+1a5ff906-d79d-11ec-a1bd-7ec7e3559253,2020-06-19,150.0,Techirghiol trasare,Ionescu,income
+1a5ff91a-d79d-11ec-a1bd-7ec7e3559253,2020-06-23,250.0,Muncel 30,Coca,income
+1a5ff92e-d79d-11ec-a1bd-7ec7e3559253,2020-07-01,50.0,Str 23 August Eforie Nord,Ionescu,income
+1a5ff94c-d79d-11ec-a1bd-7ec7e3559253,2020-07-03,200.0,Caiuti 29 Constanta,Ionescu,income
+1a5ff960-d79d-11ec-a1bd-7ec7e3559253,2020-07-15,200.0,Nicolae Grigorescu 88 Constanta,Ionescu ,income
+1a5ff974-d79d-11ec-a1bd-7ec7e3559253,2020-07-16,200.0,Randunelelor 58,Ionescu,income
+1a5ff992-d79d-11ec-a1bd-7ec7e3559253,2020-07-18,200.0,Veteranilor Cumpana teren gol,Chiran,income
+1a5ff9a6-d79d-11ec-a1bd-7ec7e3559253,2020-07-18,250.0,Brandusei 42 Cumpana,Chiran,income
+1a5ff9ba-d79d-11ec-a1bd-7ec7e3559253,2020-07-18,200.0,Burada 3 Constanta,Chiran,income
+1a5ff9d8-d79d-11ec-a1bd-7ec7e3559253,2020-07-24,250.0,Walter Maracineanu Techirghiol,Chiran,income
+1a5ff9ec-d79d-11ec-a1bd-7ec7e3559253,2020-07-24,200.0,Podet Nisipari,Ionescu,income
+1a5ffa00-d79d-11ec-a1bd-7ec7e3559253,2020-07-24,200.0,Str Trotus gaze Constanta,Ionescu,income
+1a5ffa1e-d79d-11ec-a1bd-7ec7e3559253,2020-07-27,200.0,Culmea cote,Coca,income
+1a5ffa32-d79d-11ec-a1bd-7ec7e3559253,2020-07-27,200.0,Xenopol 18 Constanta,Coca,income
+1a5ffa46-d79d-11ec-a1bd-7ec7e3559253,2020-08-11,200.0,Guci Palazu Mare,Ionescu,income
+1a5ffa5a-d79d-11ec-a1bd-7ec7e3559253,2020-08-11,200.0,Voievozilor Constanta,Ionescu,income
+1a5ffa78-d79d-11ec-a1bd-7ec7e3559253,2020-08-18,200.0,Dumitru Sasu 23,Ionescu,income
+1a5ffa8c-d79d-11ec-a1bd-7ec7e3559253,2020-08-18,200.0,Mesteru Manole 6A,Ionescu,income
+1a5ffaa0-d79d-11ec-a1bd-7ec7e3559253,2020-08-21,200.0,2 Mai trasare,Ionescu,income
+1a5ffabe-d79d-11ec-a1bd-7ec7e3559253,2020-08-24,200.0,Str Topraisar 10b Constanta,Ionescu,income
+1a5ffad2-d79d-11ec-a1bd-7ec7e3559253,2020-08-26,300.0,Lot 29 trasare Constanta,Mami,income
+1a5ffae6-d79d-11ec-a1bd-7ec7e3559253,2020-08-26,250.0,Trasare si masurat Capidava,Ionescu,income
+1a5ffb04-d79d-11ec-a1bd-7ec7e3559253,2020-08-26,250.0,Stejarului Techirghiol,Chiran,income
+1a5ffb18-d79d-11ec-a1bd-7ec7e3559253,2020-09-04,200.0,Sasu Gheorghe 34,Ionescu,income
+1a5ffb2c-d79d-11ec-a1bd-7ec7e3559253,2020-09-04,200.0,Fulgerului X Soveja,Ionescu,income
+1a5ffb40-d79d-11ec-a1bd-7ec7e3559253,2020-09-07,300.0,Fat Frumos 23 Constanta,Mami,income
+1a5ffb5e-d79d-11ec-a1bd-7ec7e3559253,2020-09-10,200.0,Lazu Alexoaie,Coca,income
+1a5ffb72-d79d-11ec-a1bd-7ec7e3559253,2020-09-10,200.0,Trasare Techirghiol,Ionescu,income
+1a5ffb86-d79d-11ec-a1bd-7ec7e3559253,2020-09-14,200.0,Sentinelei 25 Palazu Mare,Ionescu,income
+1a5ffb9a-d79d-11ec-a1bd-7ec7e3559253,2020-09-14,590.0,Maria datorie,Alin,income
+1a5ffbb8-d79d-11ec-a1bd-7ec7e3559253,2020-09-16,200.0,Tasaul Avans,Ionescu,income
+1a5ffbcc-d79d-11ec-a1bd-7ec7e3559253,2020-09-17,0.0,Releveu Bogdan Vasile P+2,Mami,income
+1a5ffbe0-d79d-11ec-a1bd-7ec7e3559253,2020-09-22,100.0,Romica trasare arabil,Alin,income
+1a5ffbfe-d79d-11ec-a1bd-7ec7e3559253,2020-09-23,200.0,Guci Palazu Mare,Ionescu,income
+1a5ffc12-d79d-11ec-a1bd-7ec7e3559253,2020-09-26,400.0,Tractorului 35 Navodari,Mami,income
+1a5ffc26-d79d-11ec-a1bd-7ec7e3559253,2020-10-06,200.0,Aurel Vlaicu,Ionescu,income
+1a5ffc3a-d79d-11ec-a1bd-7ec7e3559253,2020-10-19,200.0,Sergent km5,Chiran,income
+1a5ffc58-d79d-11ec-a1bd-7ec7e3559253,2020-10-19,200.0,Zimbrului 7,Chiran,income
+1a5ffc6c-d79d-11ec-a1bd-7ec7e3559253,2020-10-19,100.0,George GPS,Alin,income
+1a5ffc80-d79d-11ec-a1bd-7ec7e3559253,2020-10-21,250.0,Str Eminescu 15,Chiran,income
+1a5ffc9e-d79d-11ec-a1bd-7ec7e3559253,2020-10-21,200.0,Walter Maracineanu 59,Chiran,income
+1a5ffcb2-d79d-11ec-a1bd-7ec7e3559253,2020-10-21,250.0,Walter Maracineanu 61,Chiran,income
+1a5ffcc6-d79d-11ec-a1bd-7ec7e3559253,2020-11-03,200.0,Str Amzacea 27,Ionescu,income
+1a5ffce4-d79d-11ec-a1bd-7ec7e3559253,2020-11-06,200.0,Ancorei 3,Ionescu,income
+1a5ffcf8-d79d-11ec-a1bd-7ec7e3559253,2020-11-07,200.0,Ion Lahovari 32,Mami,income
+1a5ffd0c-d79d-11ec-a1bd-7ec7e3559253,2020-11-07,100.0,Ancorei 2,Mami,income
+1a5ffd2a-d79d-11ec-a1bd-7ec7e3559253,2020-11-20,200.0,A 106/4/75-76,Ionescu,income
+1a5ffd3e-d79d-11ec-a1bd-7ec7e3559253,2020-11-20,100.0,Str Pescarus 2 Bloc 40 Sc A,Mami,income
+1a5ffd52-d79d-11ec-a1bd-7ec7e3559253,2021-01-15,200.0,Strada Recoltei 42,Ionescu,income
+1a5ffd70-d79d-11ec-a1bd-7ec7e3559253,2021-01-15,200.0,Stelica,Ionescu,income
+1a5ffd84-d79d-11ec-a1bd-7ec7e3559253,2021-01-20,200.0,Enachita Vacarescu 4,Ionescu,income
+1a5ffd98-d79d-11ec-a1bd-7ec7e3559253,2021-01-22,200.0,Valea Alba 26,Ionescu,income
+1a5ffdb6-d79d-11ec-a1bd-7ec7e3559253,2021-01-29,200.0,Str Liliacului 12B,Ionescu,income
+1a5ffdca-d79d-11ec-a1bd-7ec7e3559253,2021-01-29,400.0,Str Calafatului,Ionescu,income
+1a5ffdde-d79d-11ec-a1bd-7ec7e3559253,2021-02-01,200.0,Calafatului 67,Ionescu,income
+1a5ffdf2-d79d-11ec-a1bd-7ec7e3559253,2021-02-10,200.0,Strada 5,Ionescu,income
+1a5ffe10-d79d-11ec-a1bd-7ec7e3559253,2021-02-10,200.0,Calafatului 70C,Ionescu,income
+1a5ffe24-d79d-11ec-a1bd-7ec7e3559253,2021-02-15,200.0,Constantin Bratescu 28,Ionescu,income
+1a5fff0a-d79d-11ec-a1bd-7ec7e3559253,2021-02-16,250.0,Eforie Sud,Chiran,income
+1a5fff1e-d79d-11ec-a1bd-7ec7e3559253,2021-02-20,200.0,Tractorului 13B,Ionescu,income
+1a5fff32-d79d-11ec-a1bd-7ec7e3559253,2021-02-25,200.0,Osman Gafar 53,Ionescu,income
+1a5fff46-d79d-11ec-a1bd-7ec7e3559253,2021-02-26,200.0,Fulgerului 30 trs,Ionescu,income
+1a5fff64-d79d-11ec-a1bd-7ec7e3559253,2021-02-27,200.0,Rasuri 118,Mami,income
+1a5fff78-d79d-11ec-a1bd-7ec7e3559253,2021-02-27,200.0,Str D25 trasare,Ionescu,income
+1a5fff8c-d79d-11ec-a1bd-7ec7e3559253,2021-03-05,250.0,Ana Ipatescu 3,Chiran,income
+1a5fffaa-d79d-11ec-a1bd-7ec7e3559253,2021-03-05,250.0,Nicolae Balcescu 53,Chiran,income
+1a5fffbe-d79d-11ec-a1bd-7ec7e3559253,2021-03-06,200.0,Pandurului 118,Ionescu,income
+1a5fffd2-d79d-11ec-a1bd-7ec7e3559253,2021-03-08,1000.0,Ion Ratiu 186,Mami,income
+1a5ffff0-d79d-11ec-a1bd-7ec7e3559253,2021-03-09,200.0,Dumbraveni 2,Ionescu,income
+1a600004-d79d-11ec-a1bd-7ec7e3559253,2021-03-31,150.0,Bogdan Vasile 3,Mami,income
+1a600018-d79d-11ec-a1bd-7ec7e3559253,2021-04-05,200.0,D25,Ionescu,income
+1a600036-d79d-11ec-a1bd-7ec7e3559253,2021-04-07,200.0,Strajerului 91,Ionescu,income
+1a60004a-d79d-11ec-a1bd-7ec7e3559253,2021-04-13,500.0,Ferma,Ionescu,income
+1a60005e-d79d-11ec-a1bd-7ec7e3559253,2021-04-15,300.0,Coralilor 7b,Ionescu,income
+1a600072-d79d-11ec-a1bd-7ec7e3559253,2021-04-21,250.0,General Manu 70,Ionescu,income
+1a600090-d79d-11ec-a1bd-7ec7e3559253,2021-04-22,350.0,Strada Mare 9,Alin,income
+1a6000a4-d79d-11ec-a1bd-7ec7e3559253,2021-04-24,500.0,Gheorghe Marinescu 58,Ionescu,income
+1a6000b8-d79d-11ec-a1bd-7ec7e3559253,2021-04-03,300.0,M19 Mamaia Nord,Alin,income
+1a6000d6-d79d-11ec-a1bd-7ec7e3559253,2021-05-12,300.0,Marasti 5,Chiran,income
+1a6000ea-d79d-11ec-a1bd-7ec7e3559253,2021-05-15,500.0,Site,Mircea,income
+1a6000fe-d79d-11ec-a1bd-7ec7e3559253,2021-05-27,200.0,Gh Marinescu 58 rlv,Ionescu,income
+1a60011c-d79d-11ec-a1bd-7ec7e3559253,2021-06-09,200.0,Crinului 19,Ionescu,income
+1a600144-d79d-11ec-a1bd-7ec7e3559253,2021-06-09,200.0,Ion Voicu 12,Ionescu,income
+1a600162-d79d-11ec-a1bd-7ec7e3559253,2021-06-10,300.0,Rodica 60,Mami,income
+1a600176-d79d-11ec-a1bd-7ec7e3559253,2021-06-12,300.0,Pecineaga,Chiran,income
+1a600194-d79d-11ec-a1bd-7ec7e3559253,2021-06-15,500.0,Constanta,Mircea site,income
+1a6001a8-d79d-11ec-a1bd-7ec7e3559253,2021-06-21,100.0,Str Rodica 60b,Mami,income
+1a6001bc-d79d-11ec-a1bd-7ec7e3559253,2021-06-23,300.0,9 Mai,Chiran,income
+1a6001d0-d79d-11ec-a1bd-7ec7e3559253,2021-06-24,250.0,Str Dumbraveni 34,Coca,income
+1a6001ee-d79d-11ec-a1bd-7ec7e3559253,2021-06-25,200.0,Taraba Tomis 3,Ionescu,income
+1a600202-d79d-11ec-a1bd-7ec7e3559253,2021-06-25,200.0,Poporului 14,Ionescu,income
+1a600216-d79d-11ec-a1bd-7ec7e3559253,2021-06-25,200.0,Bloc Gh Marinescu,Ionescu,income
+1a600234-d79d-11ec-a1bd-7ec7e3559253,2021-06-24,400.0,Pecineaga,Mami,income
+1a600248-d79d-11ec-a1bd-7ec7e3559253,2021-07-12,200.0,Avram Iancu 40,Coca,income
+1a60025c-d79d-11ec-a1bd-7ec7e3559253,2021-07-13,300.0,Walter Maracineanu,Chiran,income
+1a600270-d79d-11ec-a1bd-7ec7e3559253,2021-08-04,300.0,Primaverii 57,Ionescu,income
+1a60028e-d79d-11ec-a1bd-7ec7e3559253,2021-08-06,500.0,Str Brest trs casa,Ionescu,income
+9f6aa2ac-e230-11ec-84dc-fbe8f06cac2d,2022-05-14,150.0,Mami ap MV2,Apartament masurat,income
+540b7df0-e347-11ec-977b-e57406db203a,2022-06-03,1000.0,Bogdan relevee,Relevee,income
+71cd2f68-f784-11ec-94d4-77b88816be2f,2022-06-29,200.0,Mandai 1,Ionescu,income
+564efad2-f847-11ec-99a2-33cb3ec6f1b6,2022-06-30,100.0,Bogdan,"Str Sanatoriului 1 Agigea, Cercel Luluca",income
+7adf41a4-f847-11ec-99a2-33cb3ec6f1b6,2022-06-30,200.0,Bogdan,"Calinescu Eugen,Plz,Str Pionierului 6A",income
+8e4b764a-f847-11ec-99a2-33cb3ec6f1b6,2022-06-30,300.0,Bogdan,"Comanici Sorin, Lazu, A429/23/4/1",income
+b153f7d4-f847-11ec-99a2-33cb3ec6f1b6,2022-06-30,300.0,Bogdan,"Sc Aybo Srl, Agigea, Str Brizei Nr 21",income
+c25bce58-f847-11ec-99a2-33cb3ec6f1b6,2022-06-30,100.0,Bogdan,Vlad Silvia (Anghel) ap 3 cam,income
+e8cba4fc-0c4a-11ed-bbc8-75191357f058,2022-07-25,600.0,relevee bogdan,bogdan,income
+0a775c4e-1269-11ed-a306-4d272a218ad7,2022-08-02,300.0,ap haratau florin,releveu,income
+c70ff574-310d-11ed-9642-1f45c08286c1,2022-09-10,200.0,trasare veterani lot gol,miha,income
+d151a91a-310d-11ed-9642-1f45c08286c1,2022-09-10,300.0,darabani casa fara releveu,miha,income
+3fa141a0-34d3-11ed-bda5-9d978d32b486,2022-09-15,200.0,trasare topraisar,miha,income
+0f80a5cc-35e3-11ed-9de8-e51b780335ec,2022-09-16,400.0,Pantelimon de jos t+r,Mihaela,income
+c264a950-3a8d-11ed-a5a5-e373762d194a,2022-09-22,800.0,relevee,bogdan,income
+80ab3968-3e3c-11ed-b090-55336eb17093,2022-09-23,200.0,ap 3 cam IV3 Sc B Ap 40 Dezrobirii,miha 200 neachitat,income
+44baf3e0-3fe4-11ed-b3d7-6d1376f5b947,2022-09-29,250.0,cumpana mami,casa teren,income
+651fe122-3fe4-11ed-b3d7-6d1376f5b947,2022-09-29,200.0,corbului 4 bl H5 sc B ap 3 cam,miha,income
+22f5437a-43c0-11ed-bb3e-d724943a854e,2022-10-04,300.0,rasuri 33 constanta,ionescu,income
+54d378be-44c7-11ed-9ec3-0d328003b125,2022-10-05,400.0,pandurului 121 constanta,mihaela teren+releveu,income
