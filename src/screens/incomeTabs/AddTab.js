@@ -8,9 +8,9 @@ import TextCustom from "../../components/TextCustom";
 import ButtonCustom from "../../components/ButtonCustom";
 import DatePicker from "react-native-date-picker";
 import { styles } from "../../customStyles/addTabStyle";
-import SQLite from "react-native-sqlite-storage";
 import { data as old } from "../../lib/data";
 import CardContainer from "../../components/CardContainer";
+import SQLite from "react-native-sqlite-storage";
 
 const db = SQLite.openDatabase(
   {

@@ -73,6 +73,7 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     backgroundColor: '#ccc',
     color: '#006494',
+    marginVertical: 5
   },
   clearContainer: {
     position: 'absolute',

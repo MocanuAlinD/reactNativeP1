@@ -6,7 +6,7 @@ import ViewTab from "./incomeTabs/ViewTab";
 import SearchTab from "./incomeTabs/SearchTab";
 import ByYMDTab from "./incomeTabs/ByYMDTab";
 // import ExportIntervalTab from "./incomeTabs/ExportIntervalTab";
-// import ExportAllTab from "./incomeTabs/ExportAllTab";
+import ExportAllTab from "./incomeTabs/ExportAllTab";
 import IconNavbar from '../components/IconNavbar';
 
 const Tab = createMaterialTopTabNavigator();
@@ -40,7 +40,7 @@ const IncomeScreen = ({navigation}) => {
         <Tab.Screen name="Search" component={SearchTab} />
         <Tab.Screen name="ByYMD" component={ByYMDTab} />
         {/* <Tab.Screen name="Export interval" component={ExportIntervalTab} /> */}
-        {/* <Tab.Screen name="Export all" component={ExportAllTab} /> */}
+        <Tab.Screen name="Export" component={ExportAllTab} />
       </Tab.Navigator>
     </View>
   );
