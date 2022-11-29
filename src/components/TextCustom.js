@@ -8,7 +8,6 @@ const TextCustom = ({
   borderWidth,
   children,
   color,
-  fontFamily,
   fontSize,
   height,
   margin,

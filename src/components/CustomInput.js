@@ -64,16 +64,16 @@ const CustomInput = ({
 const styles = StyleSheet.create({
   container: {
     width: '100%',
+    marginVertical: 5,
   },
   input: {
     padding: 0,
-    paddingRight: 50,
+    paddingRight: 0,
     paddingLeft: 20,
     fontSize: 14,
     borderRadius: 5,
     backgroundColor: '#ccc',
     color: '#006494',
-    marginVertical: 5
   },
   clearContainer: {
     position: 'absolute',
@@ -89,11 +89,10 @@ const styles = StyleSheet.create({
     height: '100%',
     textAlign: 'center',
     textAlignVertical: 'center',
-    borderTopLeftRadius: 10,
-    borderBottomLeftRadius: 10,
+    borderTopRightRadius: 10,
+    borderBottomRightRadius: 10,
   },
   noOfChars: {
-    // color: "white",
     textAlign: 'left',
     textAlignVertical: 'center',
     fontSize: 10,

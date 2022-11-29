@@ -5,7 +5,6 @@ import AddTab from "./incomeTabs/AddTab";
 import ViewTab from "./incomeTabs/ViewTab";
 import SearchTab from "./incomeTabs/SearchTab";
 import ByYMDTab from "./incomeTabs/ByYMDTab";
-// import ExportIntervalTab from "./incomeTabs/ExportIntervalTab";
 import ExportAllTab from "./incomeTabs/ExportAllTab";
 import IconNavbar from '../components/IconNavbar';
 
