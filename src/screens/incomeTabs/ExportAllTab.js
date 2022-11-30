@@ -1,12 +1,11 @@
 import React, {useState, useEffect} from 'react';
-import {View, StyleSheet, Text, PermissionsAndroid} from 'react-native';
+import {View, StyleSheet, PermissionsAndroid} from 'react-native';
 import {tabsBackground} from '../../customStyles/containers';
-import {writeFile, readFile, DownloadDirectoryPath} from 'react-native-fs';
+import {writeFile, DownloadDirectoryPath} from 'react-native-fs';
 import XLSX from 'xlsx';
 import SQLite from 'react-native-sqlite-storage';
 import CustomInput from '../../components/CustomInput';
 import TextCustom from '../../components/TextCustom';
-// import ButtonCustom from '../../components/ButtonCustom';
 import DatePicker from 'react-native-date-picker';
 import {Button} from 'react-native-paper';
 
@@ -121,7 +120,7 @@ const ExportAllTab = () => {
       let isPermittedExternalStorage = await PermissionsAndroid.check(
         PermissionsAndroid.PERMISSIONS.WRITE_EXTERNAL_STORAGE,
       );
-
+      
       if (!isPermittedExternalStorage) {
         // Ask for permission
         const granted = await PermissionsAndroid.request(
@@ -133,7 +132,6 @@ const ExportAllTab = () => {
             buttonPositive: 'Ok',
           },
         );
-        console.log('granted: ', granted);
         if (granted === PermissionsAndroid.RESULTS.GRANTED) {
           // Permission granted
           exportToFile(x);
@@ -149,13 +147,11 @@ const ExportAllTab = () => {
         exportToFile(x);
       }
     } catch (error) {
-      console.log('Error is', error);
       console.log('Error message is', error.message);
     }
   };
 
   const exportToFile = async x => {
-    console.log('export to file');
     setFilename(prev => prev.trim());
     if (!filename.trim()) {
       alert('Choose a filename');
@@ -166,16 +162,13 @@ const ExportAllTab = () => {
       let ws = XLSX.utils.json_to_sheet(x);
       XLSX.utils.book_append_sheet(wb, ws, 'Sheet1');
       const wbout = XLSX.write(wb, {type: 'binary', bookType: 'csv'});
-      console.log(wbout)
-
       const pth = `${DownloadDirectoryPath}/${filename.trim()}${dateToExport}.csv`;
-
       // Write file
-      // await writeFile(pth, wbout, 'ascii').then(res =>
-      //   alert(`Exported to ${pth}`),
-      // );
+      await writeFile(pth, wbout, 'ascii').then(res =>
+        alert(`Exported to ${pth}`),
+      );
     } catch (error) {
-      console.log('Error extofile: ', error.message);
+      console.log('Error exptofile: ', error.message);
     }
   };
 
