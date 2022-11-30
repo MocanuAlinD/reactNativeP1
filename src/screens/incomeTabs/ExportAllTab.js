@@ -90,7 +90,8 @@ const ExportAllTab = () => {
           for (let i = 0; i < len; i++) {
             tempList.push(res.rows.item(i));
           }
-          checkPerm(tempList);
+          console.log('interval before permissions');
+          exportToFile(tempList);
         },
       );
     });
@@ -108,6 +109,7 @@ const ExportAllTab = () => {
           alert('No results.');
           return;
         }
+        console.log('before permissions');
         checkPerm(state);
       });
     });
@@ -131,11 +133,11 @@ const ExportAllTab = () => {
             buttonPositive: 'Ok',
           },
         );
+        console.log('granted: ', granted);
         if (granted === PermissionsAndroid.RESULTS.GRANTED) {
           // Permission granted
           exportToFile(x);
           console.log('Permission granted');
-          alert('Permission granted');
         } else {
           // Permission denied
           console.log('Permission denied.');
@@ -143,31 +145,38 @@ const ExportAllTab = () => {
         }
       } else {
         // Already have Permission
-        exportToFile(x);
         console.log('Permission already granted.');
+        exportToFile(x);
       }
     } catch (error) {
-      console.log(error.message);
+      console.log('Error is', error);
+      console.log('Error message is', error.message);
     }
   };
 
   const exportToFile = async x => {
+    console.log('export to file');
     setFilename(prev => prev.trim());
     if (!filename.trim()) {
       alert('Choose a filename');
       return;
     }
-    let wb = XLSX.utils.book_new();
-    let ws = XLSX.utils.json_to_sheet(x);
-    XLSX.utils.book_append_sheet(wb, ws, 'Sheet1');
-    const wbout = XLSX.write(wb, {type: 'binary', bookType: 'csv'});
+    try {
+      let wb = XLSX.utils.book_new();
+      let ws = XLSX.utils.json_to_sheet(x);
+      XLSX.utils.book_append_sheet(wb, ws, 'Sheet1');
+      const wbout = XLSX.write(wb, {type: 'binary', bookType: 'csv'});
+      console.log(wbout)
 
-    const pth = `${DownloadDirectoryPath}/${filename.trim()}${dateToExport}.csv`;
+      const pth = `${DownloadDirectoryPath}/${filename.trim()}${dateToExport}.csv`;
 
-    // Write file
-    await writeFile(pth, wbout, 'ascii').then(res =>
-      alert(`Exported to ${pth}`),
-    );
+      // Write file
+      // await writeFile(pth, wbout, 'ascii').then(res =>
+      //   alert(`Exported to ${pth}`),
+      // );
+    } catch (error) {
+      console.log('Error extofile: ', error.message);
+    }
   };
 
   const handleIntervalDates = () => {

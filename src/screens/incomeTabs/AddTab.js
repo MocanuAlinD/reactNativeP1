@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { View, Text, Pressable, Modal, ScrollView, Button } from "react-native";
+import { View, Text, Pressable, Modal, ScrollView, Button, ActivityIndicator } from "react-native";
 import { tabsBackground } from "../../customStyles/containers";
 import CustomInput from "../../components/CustomInput";
 import ColumnContainer from "../../components/ColumnContainer";
@@ -206,7 +206,6 @@ const AddTab = () => {
         {/* <Button title="Delete entry" onPress={deleteData} /> */}
         <Button title="From old to db" onPress={toDb} />
       </View>
-      {/* <View style={tabsBackground}> */}
       <CardContainer>
         {/* TOP CONTAINER */}
         <ColumnContainer>

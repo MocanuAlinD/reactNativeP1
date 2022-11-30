@@ -1,5 +1,11 @@
 import React, {useState, useEffect} from 'react';
-import {View, StyleSheet, Text, Button, FlatList} from 'react-native';
+import {
+  View,
+  StyleSheet,
+  Button,
+  FlatList,
+  ActivityIndicator,
+} from 'react-native';
 import {tabsBackground} from '../../customStyles/containers';
 import SQLite from 'react-native-sqlite-storage';
 import {data as old} from '../../lib/data';
@@ -36,12 +42,14 @@ const ByYMDTab = () => {
 
   const [by, setBy] = useState(initialValues);
   const [changeList, setChangeList] = useState([]);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     getData();
   }, []);
 
   const getData = async () => {
+    setLoading(true);
     setBy([]);
     setChangeList([]);
     await db.transaction(tx => {
@@ -98,18 +106,14 @@ const ByYMDTab = () => {
             };
             finalD.push(finalObj);
           }
-          
+
           setBy({years: finalY, months: finalM, days: finalD});
           setChangeList(finalY);
+          setLoading(false);
         },
         error => console.log(error.message),
       );
     });
-  };
-
-  const changeView = x => {
-    setChangeList(prev => []);
-    setChangeList(prev => x);
   };
 
   const getMonthName = x => {
@@ -163,6 +167,7 @@ const ByYMDTab = () => {
   return (
     <View style={tabsBackground}>
       <View style={styles.wrapper}>
+        {loading && <ActivityIndicator size="large" color="#f5cb5c" />}
         <FlatList
           data={changeList}
           renderItem={({item, index}) => (
@@ -176,9 +181,9 @@ const ByYMDTab = () => {
       </View>
 
       <View style={styles.buttonsContainer}>
-        <Button title="Year" onPress={() => changeView(by.years)} />
-        <Button title="Month" onPress={() => changeView(by.months)} />
-        <Button title="Day" onPress={() => changeView(by.days)} />
+        <Button title="Year" onPress={() => setChangeList(by.years)} />
+        <Button title="Month" onPress={() => setChangeList(by.months)} />
+        <Button title="Day" onPress={() => setChangeList(by.days)} />
       </View>
     </View>
   );
@@ -187,14 +192,11 @@ const ByYMDTab = () => {
 const styles = StyleSheet.create({
   wrapper: {
     flex: 1,
-    // borderWidth: 1,
-    // borderColor: 'white',
     width: '100%',
   },
   buttonsContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    borderWidth: 1,
     width: '100%',
     paddingHorizontal: 5,
     paddingVertical: 10,
