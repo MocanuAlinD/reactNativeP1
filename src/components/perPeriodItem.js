@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
   text: {
     color: 'white',
     textAlign: 'left',
-    fontSize: 16,
+    fontSize: 10,
     paddingStart: 30,
     width: "100%",
 },

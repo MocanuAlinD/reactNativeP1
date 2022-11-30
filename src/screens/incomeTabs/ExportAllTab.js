@@ -21,9 +21,16 @@ const db = SQLite.openDatabase(
 );
 
 const ExportAllTab = () => {
+  const firstOfYear = `${new Date().getFullYear()}-01-01`;
+  const currentDate = `${new Date().getFullYear()}-${
+    new Date().getMonth() + 1 < 10
+      ? '0' + (new Date().getMonth() + 1)
+      : new Date().getMonth() + 1
+  }-${new Date().getDate()}`;
+
   const [state, setState] = useState([]);
-  const [exportDate, setExportDate] = useState(new Date());
-  const [exportDate2, setExportDate2] = useState(new Date());
+  const [exportDate, setExportDate] = useState(new Date(firstOfYear));
+  const [exportDate2, setExportDate2] = useState(new Date(currentDate));
   const [open, setOpen] = useState(false);
   const [open2, setOpen2] = useState(false);
   const [filename, setFilename] = useState('');
@@ -89,7 +96,6 @@ const ExportAllTab = () => {
           for (let i = 0; i < len; i++) {
             tempList.push(res.rows.item(i));
           }
-          console.log('interval before permissions');
           exportToFile(tempList);
         },
       );
@@ -120,7 +126,7 @@ const ExportAllTab = () => {
       let isPermittedExternalStorage = await PermissionsAndroid.check(
         PermissionsAndroid.PERMISSIONS.WRITE_EXTERNAL_STORAGE,
       );
-      
+
       if (!isPermittedExternalStorage) {
         // Ask for permission
         const granted = await PermissionsAndroid.request(
@@ -277,7 +283,7 @@ const ExportAllTab = () => {
         mode="date"
         theme="light"
         title={`Choose START date\nmaximum ${dt2Export}`}
-        textColor="#006494"
+        textColor="white"
         maximumDate={new Date(exportDate2)}
         minimumDate={new Date('1980-01-01')}
       />
@@ -295,7 +301,7 @@ const ExportAllTab = () => {
         mode="date"
         theme="light"
         title={`Choose END date\nminimum ${dt1Export}`}
-        textColor="#006494"
+        textColor="white"
         maximumDate={new Date()}
         minimumDate={new Date(exportDate)}
       />

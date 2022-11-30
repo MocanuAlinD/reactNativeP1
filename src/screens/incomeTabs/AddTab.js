@@ -1,52 +1,50 @@
-import React, { useState, useEffect } from "react";
-import { View, Text, Pressable, Modal, ScrollView, Button, ActivityIndicator } from "react-native";
-import { tabsBackground } from "../../customStyles/containers";
-import CustomInput from "../../components/CustomInput";
-import ColumnContainer from "../../components/ColumnContainer";
-import RowContainer from "../../components/RowContainer";
-import TextCustom from "../../components/TextCustom";
-import ButtonCustom from "../../components/ButtonCustom";
-import DatePicker from "react-native-date-picker";
-import { styles } from "../../customStyles/addTabStyle";
-import { data as old } from "../../lib/data";
-import CardContainer from "../../components/CardContainer";
-import SQLite from "react-native-sqlite-storage";
+import React, {useState, useEffect} from 'react';
+import {View, Text, Pressable, Modal, ScrollView, Button} from 'react-native';
+import CustomInput from '../../components/CustomInput';
+import ColumnContainer from '../../components/ColumnContainer';
+import RowContainer from '../../components/RowContainer';
+import TextCustom from '../../components/TextCustom';
+import ButtonCustom from '../../components/ButtonCustom';
+import DatePicker from 'react-native-date-picker';
+import {styles} from '../../customStyles/addTabStyle';
+import {data as old} from '../../lib/data';
+import CardContainer from '../../components/CardContainer';
+import SQLite from 'react-native-sqlite-storage';
 
 const db = SQLite.openDatabase(
   {
-    name: "rn_mocanu.db",
-    location: "default",
+    name: 'rn_mocanu.db',
+    location: 'default',
   },
   () => {
-    () => console.log("Database opened.");
+    () => console.log('Database opened.');
   },
-  (error) => console.log(error)
+  error => console.log(error),
 );
 
 const AddTab = () => {
   const initialValues = {
-    id: "",
+    id: '',
     day: new Date().getDate(),
     month: new Date().getMonth() + 1,
     year: new Date().getFullYear(),
-    income: "",
-    details: "",
-    description: "",
+    income: '',
+    details: '',
+    description: '',
   };
 
   const initialValuesModals = {
     modalState: false,
     detailsInvalid: false,
-    modalMessage: "",
-    modalMessageKey: "",
+    modalMessage: '',
+    modalMessageKey: '',
   };
 
   const [newItem, setNewItem] = useState(initialValues);
   const [open, setOpen] = useState(false);
   const [date, setDate] = useState(new Date());
-  const [selectedWeekday, setSelectedWeekday] = useState("Friday");
+  const [selectedWeekday, setSelectedWeekday] = useState('Friday');
   const [modal, setModal] = useState(initialValuesModals);
-  const [tempListAlin, setTempListAlin] = useState([])
 
   useEffect(() => {
     checkWeekDay(new Date());
@@ -54,44 +52,44 @@ const AddTab = () => {
   }, []);
 
   const createTable = () => {
-    db.transaction((tx) => {
+    db.transaction(tx => {
       tx.executeSql(
-        `create table if not exists income (id text, dt text, income real, details text, description text)`
+        `create table if not exists income (id text, dt text, income real, details text, description text)`,
       );
     });
   };
 
-  const checkWeekDay = (item) => {
+  const checkWeekDay = item => {
     switch (item.getDay()) {
       case 0:
-        setSelectedWeekday((prev) => "Sunday");
+        setSelectedWeekday(prev => 'Sunday');
         break;
       case 1:
-        setSelectedWeekday((prev) => "Monday");
+        setSelectedWeekday(prev => 'Monday');
         break;
       case 2:
-        setSelectedWeekday((prev) => "Tuesday");
+        setSelectedWeekday(prev => 'Tuesday');
         break;
       case 3:
-        setSelectedWeekday((prev) => "Wednesday");
+        setSelectedWeekday(prev => 'Wednesday');
         break;
       case 4:
-        setSelectedWeekday((prev) => "Thursday");
+        setSelectedWeekday(prev => 'Thursday');
         break;
       case 5:
-        setSelectedWeekday((prev) => "Friday");
+        setSelectedWeekday(prev => 'Friday');
         break;
       case 6:
-        setSelectedWeekday((prev) => "Saturday");
+        setSelectedWeekday(prev => 'Saturday');
         break;
       default:
-        setSelectedWeekday((prev) => "-");
+        setSelectedWeekday(prev => '-');
         break;
     }
   };
 
-  const eraseValue = (text) => {
-    setNewItem({ ...newItem, [text]: "" });
+  const eraseValue = text => {
+    setNewItem({...newItem, [text]: ''});
   };
 
   const getId = () => {
@@ -101,7 +99,7 @@ const AddTab = () => {
     return finalId;
   };
 
-  const setDatesHandler = (item) => {
+  const setDatesHandler = item => {
     setOpen(false);
     setDate(item);
     checkWeekDay(item);
@@ -123,17 +121,17 @@ const AddTab = () => {
       setModal({
         ...modal,
         modalState: true,
-        modalMessageKey: "Income",
-        modalMessage: " empty.",
+        modalMessageKey: 'Income',
+        modalMessage: ' empty.',
       });
       return;
     }
-    if (newItem.income.includes(",") || isNaN(+newItem.income)) {
+    if (newItem.income.includes(',') || isNaN(+newItem.income)) {
       setModal({
         ...modal,
         modalState: true,
-        modalMessageKey: "Income",
-        modalMessage: " is not a number.",
+        modalMessageKey: 'Income',
+        modalMessage: ' is not a number.',
       });
       return;
     }
@@ -143,14 +141,14 @@ const AddTab = () => {
       setModal({
         ...modal,
         modalState: true,
-        modalMessageKey: "Details",
-        modalMessage: " is empty.",
+        modalMessageKey: 'Details',
+        modalMessage: ' is empty.',
       });
       return;
     }
     let description = newItem.description.trim();
     if (!description) {
-      description = "-";
+      description = '-';
     }
     prepareDataToSave(income, details, description);
   };
@@ -160,8 +158,8 @@ const AddTab = () => {
     const inc = income;
     const det = details;
     const desc = description;
-    const day = newItem.day < 10 ? "0" + newItem.day : newItem.day;
-    const month = newItem.month < 10 ? "0" + newItem.month : newItem.month;
+    const day = newItem.day < 10 ? '0' + newItem.day : newItem.day;
+    const month = newItem.month < 10 ? '0' + newItem.month : newItem.month;
     const year = newItem.year.toString();
     const fullDate = `${year}-${month}-${day}`;
     const finalItem = {
@@ -174,17 +172,6 @@ const AddTab = () => {
     addDataToDB(finalItem);
   };
 
-  const addDataToDB = async (fullFinalItem) => {
-    const { id, date, income, details, description } = fullFinalItem;
-    await db.transaction((tx) => {
-      tx.executeSql(
-        "insert into income (id,dt,income,details,description) values (?,?,?,?,?)",
-        [id, date, income, details, description]
-      );
-      clearData();
-    });
-  };
-
   const toDb = () => {
     old.forEach(item => {
       const id = item.id;
@@ -192,14 +179,25 @@ const AddTab = () => {
       const income = item.income;
       const details = item.details;
       const description = item.other;
-      const tempObj = { id, income, details, description, date };
+      const tempObj = {id, income, details, description, date};
       addDataToDB(tempObj);
+    });
+  };
+
+  const addDataToDB = async fullFinalItem => {
+    const {id, date, income, details, description} = fullFinalItem;
+    await db.transaction(tx => {
+      tx.executeSql(
+        'insert into income (id,dt,income,details,description) values (?,?,?,?,?)',
+        [id, date, income, details, description],
+      );
+      clearData();
     });
   };
 
   return (
     <ScrollView style={styles.scrollviewContainer}>
-      <View style={{ flexDirection: "row" }}>
+      <View style={{flexDirection: 'row'}}>
         {/* <Button title="See data" onPress={getData} /> */}
         {/* <Button title="Create table" onPress={createTable} /> */}
         {/* <Button title="Delete table" onPress={() => deleteTable('income')} /> */}
@@ -212,14 +210,13 @@ const AddTab = () => {
           <TextCustom>Choose date</TextCustom>
           <View
             style={{
-              width: "100%",
-            }}
-          >
+              width: '100%',
+            }}>
             <Pressable onPress={() => setOpen(true)}>
               <TextCustom backgroundColor="#ccc" color="#006494" height={30}>
                 {selectedWeekday},
-                {newItem.day < 10 ? "0" + newItem.day : newItem.day}.
-                {newItem.month < 10 ? "0" + newItem.month : newItem.month}.
+                {newItem.day < 10 ? '0' + newItem.day : newItem.day}.
+                {newItem.month < 10 ? '0' + newItem.month : newItem.month}.
                 {newItem.year}
               </TextCustom>
             </Pressable>
@@ -233,9 +230,9 @@ const AddTab = () => {
             placeholder="income"
             value={newItem.income}
             width="100%"
-            onChangeText={(text) => setNewItem({ ...newItem, income: text })}
+            onChangeText={text => setNewItem({...newItem, income: text})}
             keyboard="numeric"
-            eraseValue={() => eraseValue("income")}
+            eraseValue={() => eraseValue('income')}
             maxLength={10}
           />
         </ColumnContainer>
@@ -245,8 +242,8 @@ const AddTab = () => {
             placeholder="details"
             value={newItem.details}
             width="100%"
-            onChangeText={(text) => setNewItem({ ...newItem, details: text })}
-            eraseValue={() => eraseValue("details")}
+            onChangeText={text => setNewItem({...newItem, details: text})}
+            eraseValue={() => eraseValue('details')}
             maxLength={100}
           />
         </ColumnContainer>
@@ -256,10 +253,8 @@ const AddTab = () => {
             placeholder="description"
             value={newItem.description}
             width="100%"
-            onChangeText={(text) =>
-              setNewItem({ ...newItem, description: text })
-            }
-            eraseValue={() => eraseValue("description")}
+            onChangeText={text => setNewItem({...newItem, description: text})}
+            eraseValue={() => eraseValue('description')}
             maxLength={250}
           />
         </ColumnContainer>
@@ -279,7 +274,7 @@ const AddTab = () => {
           modal
           open={open}
           date={date}
-          onConfirm={(item) => setDatesHandler(item)}
+          onConfirm={item => setDatesHandler(item)}
           onCancel={() => {
             setOpen(false);
           }}
@@ -288,7 +283,7 @@ const AddTab = () => {
           title="Pick a date, dude!"
           textColor="#006494"
           maximumDate={new Date()}
-          minimumDate={new Date("1980-01-01")}
+          minimumDate={new Date('1980-01-01')}
         />
 
         {/* INVALID INCOME */}
@@ -297,9 +292,8 @@ const AddTab = () => {
           transparent={true}
           visible={modal.modalState}
           onRequestClose={() => {
-            setModal({ ...modal, modalState: false });
-          }}
-        >
+            setModal({...modal, modalState: false});
+          }}>
           <View style={styles.centeredView}>
             <View style={styles.modalView}>
               <Text style={styles.modalText}>
@@ -311,8 +305,7 @@ const AddTab = () => {
               </Text>
               <Pressable
                 style={[styles.button, styles.buttonClose]}
-                onPress={() => setModal({ ...modal, modalState: false })}
-              >
+                onPress={() => setModal({...modal, modalState: false})}>
                 <Text style={styles.textStyle}>Ok</Text>
               </Pressable>
             </View>
