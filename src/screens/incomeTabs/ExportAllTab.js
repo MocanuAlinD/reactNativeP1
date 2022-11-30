@@ -1,12 +1,14 @@
 import React, {useState, useEffect} from 'react';
-import {View, StyleSheet, Text, PermissionsAndroid, Button} from 'react-native';
+import {View, StyleSheet, Text, PermissionsAndroid} from 'react-native';
 import {tabsBackground} from '../../customStyles/containers';
 import {writeFile, readFile, DownloadDirectoryPath} from 'react-native-fs';
 import XLSX from 'xlsx';
 import SQLite from 'react-native-sqlite-storage';
 import CustomInput from '../../components/CustomInput';
 import TextCustom from '../../components/TextCustom';
+// import ButtonCustom from '../../components/ButtonCustom';
 import DatePicker from 'react-native-date-picker';
+import {Button} from 'react-native-paper';
 
 const db = SQLite.openDatabase(
   {
@@ -27,10 +29,16 @@ const ExportAllTab = () => {
   const [open2, setOpen2] = useState(false);
   const [filename, setFilename] = useState('');
   const [dateToExport, setDateToExport] = useState('');
+  const [dt1Export, setDt1Export] = useState('');
+  const [dt2Export, setDt2Export] = useState('');
 
   useEffect(() => {
     getData();
   }, []);
+
+  useEffect(() => {
+    handleIntervalDates();
+  }, [exportDate, exportDate2]);
 
   const getData = async () => {
     await db.transaction(tx => {
@@ -38,17 +46,14 @@ const ExportAllTab = () => {
         const len = res.rows.length;
         const tempList = [];
         for (let i = 0; i < len; i++) {
-          // console.log(i, res.rows.item(i))
           tempList.push(res.rows.item(i));
         }
         setState(tempList);
-        // console.log(len)
       });
     });
   };
 
-  const printState = async () => {
-    // console.log('-------------');
+  const exportInterval = async () => {
     const fixDay1 =
       new Date(exportDate).getDate() < 10
         ? '0' + new Date(exportDate).getDate()
@@ -65,18 +70,11 @@ const ExportAllTab = () => {
       new Date(exportDate2).getMonth() + 1 < 10
         ? '0' + (new Date(exportDate2).getMonth() + 1)
         : new Date(exportDate2).getMonth() + 1;
+
     const dt1 = `${new Date(exportDate).getFullYear()}-${fixMonth1}-${fixDay1}`;
     const dt2 = `${new Date(
       exportDate2,
     ).getFullYear()}-${fixMonth2}-${fixDay2}`;
-    if (dt2 < dt1) {
-      alert(`"To date:${dt2}" cannot be before starting date.`);
-      return;
-    }
-    const todayDate = `${new Date().getDate()}-${
-      new Date().getMonth() + 1
-    }-${new Date().getFullYear()}`;
-    setDateToExport(todayDate);
 
     await db.transaction(tx => {
       tx.executeSql(
@@ -84,45 +82,38 @@ const ExportAllTab = () => {
         [],
         (a, res) => {
           const len = res.rows.length;
-          // console.log(len);
           if (len === 0) {
             alert('Nothing between these dates.');
             return;
           }
           const tempList = [];
           for (let i = 0; i < len; i++) {
-            // console.log(res.rows.item(i).dt);
             tempList.push(res.rows.item(i));
           }
-          checkPerm(tempList, todayDate);
+          checkPerm(tempList);
         },
       );
     });
   };
 
-  const exportAll = async (x, dt) => {
-    console.log(filename.trim());
-    setFilename(prev => prev.trim());
-    if (!filename.trim()) {
-      alert('Choose a filename');
-      return;
-    }
-    let wb = XLSX.utils.book_new();
-    let ws = XLSX.utils.json_to_sheet(x);
-    XLSX.utils.book_append_sheet(wb, ws, 'Sheet1');
-    const wbout = XLSX.write(wb, {type: 'binary', bookType: 'csv'});
+  const exportAll = async x => {
+    const todayDate = `${new Date().getDate()}-${
+      new Date().getMonth() + 1
+    }-${new Date().getFullYear()}`;
+    setDateToExport(todayDate);
 
-    const pth = `${DownloadDirectoryPath}/${filename.trim()}${dateToExport}.csv`;
-
-    // Write file
-    await writeFile(pth, wbout, 'ascii').then(res =>
-      console.log('Export successfully!'),
-    );
-
-    alert(`Exported to ${pth}`);
+    await db.transaction(tx => {
+      tx.executeSql(`select count(income) from income`, [], (a, res) => {
+        if (res.rows.length === 0) {
+          alert('No results.');
+          return;
+        }
+        checkPerm(state);
+      });
+    });
   };
 
-  const checkPerm = async (x, dt) => {
+  const checkPerm = async x => {
     try {
       // Check for Permission (check if permission is already given or not)
       let isPermittedExternalStorage = await PermissionsAndroid.check(
@@ -142,34 +133,100 @@ const ExportAllTab = () => {
         );
         if (granted === PermissionsAndroid.RESULTS.GRANTED) {
           // Permission granted
-          exportAll(x, dt);
+          exportToFile(x);
           console.log('Permission granted');
+          alert('Permission granted');
         } else {
           // Permission denied
           console.log('Permission denied.');
+          alert('Permission denied.');
         }
       } else {
         // Already have Permission
-        exportAll(x, dt);
+        exportToFile(x);
         console.log('Permission already granted.');
       }
     } catch (error) {
-      console.log(error);
+      console.log(error.message);
     }
+  };
+
+  const exportToFile = async x => {
+    setFilename(prev => prev.trim());
+    if (!filename.trim()) {
+      alert('Choose a filename');
+      return;
+    }
+    let wb = XLSX.utils.book_new();
+    let ws = XLSX.utils.json_to_sheet(x);
+    XLSX.utils.book_append_sheet(wb, ws, 'Sheet1');
+    const wbout = XLSX.write(wb, {type: 'binary', bookType: 'csv'});
+
+    const pth = `${DownloadDirectoryPath}/${filename.trim()}${dateToExport}.csv`;
+
+    // Write file
+    await writeFile(pth, wbout, 'ascii').then(res =>
+      alert(`Exported to ${pth}`),
+    );
+  };
+
+  const handleIntervalDates = () => {
+    const fixDay1 =
+      new Date(exportDate).getDate() < 10
+        ? '0' + new Date(exportDate).getDate()
+        : new Date(exportDate).getDate();
+    const fixMonth1 =
+      new Date(exportDate).getMonth() + 1 < 10
+        ? '0' + (new Date(exportDate).getMonth() + 1)
+        : new Date(exportDate).getMonth() + 1;
+    const fixDay2 =
+      new Date(exportDate2).getDate() < 10
+        ? '0' + new Date(exportDate2).getDate()
+        : new Date(exportDate2).getDate();
+    const fixMonth2 =
+      new Date(exportDate2).getMonth() + 1 < 10
+        ? '0' + (new Date(exportDate2).getMonth() + 1)
+        : new Date(exportDate2).getMonth() + 1;
+
+    const dt1ExportName = `${fixDay1}-${fixMonth1}-${new Date(
+      exportDate,
+    ).getFullYear()}`;
+    const dt2ExportName = `${fixDay2}-${fixMonth2}-${new Date(
+      exportDate2,
+    ).getFullYear()}`;
+
+    setDt1Export(dt1ExportName);
+    setDt2Export(dt2ExportName);
+
+    const dateIntervalFilename = dt1ExportName + '--' + dt2ExportName;
+    setDateToExport(dateIntervalFilename);
   };
 
   return (
     <View style={tabsBackground}>
-      {/* <TextCustom>Export all</TextCustom> */}
-
-      <Button
-        title={`Date from: ${new Date(exportDate).toLocaleDateString()}`}
-        onPress={() => setOpen(true)}
-      />
-      <Button
-        title={`Date to: ${new Date(exportDate2).toLocaleDateString()}`}
-        onPress={() => setOpen2(true)}
-      />
+      <View
+        style={{
+          flexDirection: 'row',
+          justifyContent: 'space-between',
+          width: '100%',
+        }}>
+        <Button
+          uppercase={false}
+          color="#0096c7"
+          icon="calendar-export"
+          mode="contained"
+          onPress={() => setOpen(true)}>
+          Start: {dt1Export}
+        </Button>
+        <Button
+          uppercase={false}
+          color="#0096c7"
+          icon="calendar-import"
+          mode="contained"
+          onPress={() => setOpen2(true)}>
+          End: {dt2Export}
+        </Button>
+      </View>
       <CustomInput
         placeholder="filename"
         width="100%"
@@ -179,11 +236,31 @@ const ExportAllTab = () => {
         maxLength={20}
       />
       <TextCustom width="100%" textAlign="center">
-        End filename:{'   '}
-        {`${filename ? filename : '...'}${dateToExport}.csv`}
+        {`${filename ? filename : '...  '}${dateToExport}.csv`}
       </TextCustom>
-      <Button title="Print dates" onPress={printState} />
-      {/* <Button title="Export all" onPress={exportAll} /> */}
+      <View
+        style={{
+          flexDirection: 'row',
+          width: '100%',
+          justifyContent: 'space-between',
+        }}>
+        <Button
+          uppercase={false}
+          color="#0096c7"
+          icon="export"
+          mode="contained"
+          onPress={exportInterval}>
+          Export interval
+        </Button>
+        <Button
+          uppercase={false}
+          color="#0096c7"
+          icon="export"
+          mode="contained"
+          onPress={exportAll}>
+          Export all
+        </Button>
+      </View>
       <DatePicker
         modal
         open={open}
@@ -197,9 +274,9 @@ const ExportAllTab = () => {
         }}
         mode="date"
         theme="light"
-        title="Pick a date, dude!"
+        title={`Choose START date\nmaximum ${dt2Export}`}
         textColor="#006494"
-        maximumDate={new Date()}
+        maximumDate={new Date(exportDate2)}
         minimumDate={new Date('1980-01-01')}
       />
       <DatePicker
@@ -215,10 +292,10 @@ const ExportAllTab = () => {
         }}
         mode="date"
         theme="light"
-        title="Pick a date, dude!"
+        title={`Choose END date\nminimum ${dt1Export}`}
         textColor="#006494"
         maximumDate={new Date()}
-        minimumDate={new Date('1980-01-01')}
+        minimumDate={new Date(exportDate)}
       />
     </View>
   );
