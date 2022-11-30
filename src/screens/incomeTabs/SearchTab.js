@@ -9,9 +9,9 @@ import {
   Pressable,
 } from "react-native";
 import FlatItem from "../../components/FlatItem";
-import { tabsBackground } from "../../customStyles/containers";
 import EditComponent from "../../components/EditComponent";
 import SQLite from "react-native-sqlite-storage";
+import { tabsContainers } from "../../customStyles/elements";
 
 const db = SQLite.openDatabase(
   {
@@ -85,7 +85,6 @@ const SearchTab = () => {
 
   const searched = (text) => {
     setSearch((prev) => text);
-    console.log(text);
     const newText = text.toLowerCase().trim()
     const tempList = data.filter(
       (item) =>
@@ -109,7 +108,7 @@ const SearchTab = () => {
   };
 
   return (
-    <View style={tabsBackground}>
+    <View style={tabsContainers}>
       {openEdit && (
         <EditComponent
           setOpenEdit={setOpenEdit}
@@ -176,7 +175,7 @@ const SearchTab = () => {
               getData={getData}
             />
           )}
-          keyExtractor={(item) => item.id}
+          keyExtractor={(item,index) => index}
           refreshControl={
             <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
           }
@@ -194,8 +193,6 @@ const styles = StyleSheet.create({
   buttonsContainer: {
     flexDirection: "row",
     justifyContent: "space-between",
-    // borderWidth: 1,
-    height: 35,
   },
   input: {
     borderRadius: 5,

@@ -7,6 +7,7 @@ import SearchTab from "./incomeTabs/SearchTab";
 import ByYMDTab from "./incomeTabs/ByYMDTab";
 import ExportAllTab from "./incomeTabs/ExportAllTab";
 import IconNavbar from '../components/IconNavbar';
+import { clr } from '../customStyles/elements';
 
 const Tab = createMaterialTopTabNavigator();
 
@@ -25,10 +26,10 @@ const IncomeScreen = ({navigation}) => {
       </View>
       <Tab.Navigator
         screenOptions={{
-          tabBarActiveTintColor: "white",
+          tabBarActiveTintColor: clr.textLight,
           tabBarInactiveTintColor: "#ffffff77",
-          tabBarStyle: { backgroundColor: "#006494" },
-          tabBarIndicatorStyle: { backgroundColor: "coral" },
+          tabBarStyle: { backgroundColor: clr.bgPrimary },
+          tabBarIndicatorStyle: { backgroundColor: clr.tabsActiveColor },
           tabBarScrollEnabled: true,
           tabBarPressColor: "#ffffff22",
           tabBarItemStyle: { width: 100 },
@@ -38,7 +39,6 @@ const IncomeScreen = ({navigation}) => {
         <Tab.Screen name="View" component={ViewTab} />
         <Tab.Screen name="Search" component={SearchTab} />
         <Tab.Screen name="ByYMD" component={ByYMDTab} />
-        {/* <Tab.Screen name="Export interval" component={ExportIntervalTab} /> */}
         <Tab.Screen name="Export" component={ExportAllTab} />
       </Tab.Navigator>
     </View>
@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'flex-start',
-    backgroundColor: '#006494',
+    backgroundColor: clr.bgPrimary,
   },
   tabsContainer: {
     padding: 5,
@@ -61,11 +61,10 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
     height: 50,
-    // backgroundColor: '#004e64',
-    backgroundColor: '#184e77',
+    backgroundColor: clr.bgPrimary,
   },
   text: {
-    color: 'white',
+    color: clr.textLight,
     fontSize: 25,
     width: '100%',
     textAlign: 'left',
@@ -74,7 +73,7 @@ const styles = StyleSheet.create({
   scrollContainer: {
     paddingVertical: 5,
     borderBottomWidth: 2,
-    borderBottomColor: '#004e64',
+    borderBottomColor: clr.bgPrimary,
   },
 });
 

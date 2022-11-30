@@ -1,13 +1,6 @@
 import {StyleSheet} from 'react-native';
 
-export const styles = StyleSheet.create({
-  scrollviewContainer: {
-    // backgroundColor: '#081c15',
-    // backgroundColor: '#171717',
-    backgroundColor: '#006494',
-  },
-
-  // MODAL FROM HERE
+export const modalStyle = StyleSheet.create({
   centeredView: {
     flex: 1,
     justifyContent: 'center',
@@ -15,13 +8,13 @@ export const styles = StyleSheet.create({
   },
   modalView: {
     width: '90%',
-    height: "auto",
+    height: 'auto',
     backgroundColor: '#333',
     borderRadius: 5,
     paddingVertical: 50,
     paddingHorizontal: 35,
     alignItems: 'center',
-    justifyContent: "center",
+    justifyContent: 'center',
     shadowOpacity: 1,
     shadowRadius: 4,
     elevation: 20,
@@ -40,7 +33,7 @@ export const styles = StyleSheet.create({
   },
   modalErrorText: {
     color: 'coral',
-    fontSize: 17
+    fontSize: 17,
   },
   textStyle: {
     color: 'white',

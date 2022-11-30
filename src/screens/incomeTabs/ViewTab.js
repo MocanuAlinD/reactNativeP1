@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { View, StyleSheet, Text, FlatList, RefreshControl,ActivityIndicator } from "react-native";
-import { tabsBackground } from "../../customStyles/containers";
 import FlatItem from "../../components/FlatItem";
 import SQLite from "react-native-sqlite-storage";
 import EditComponent from "../../components/EditComponent";
+import { tabsContainers } from "../../customStyles/elements";
 
 const db = SQLite.openDatabase(
   {
@@ -70,7 +70,7 @@ const ViewTab = () => {
   };
 
   return (
-    <View style={tabsBackground}>
+    <View style={tabsContainers}>
       {openEdit && (
         <EditComponent
         setOpenEdit={setOpenEdit}

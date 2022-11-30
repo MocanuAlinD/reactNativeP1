@@ -1,15 +1,16 @@
 import React, {useState, useEffect} from 'react';
-import {View, Text, Pressable, Modal, ScrollView, Button} from 'react-native';
+import {View, Text, Pressable, Modal, ScrollView, StyleSheet} from 'react-native';
 import CustomInput from '../../components/CustomInput';
 import ColumnContainer from '../../components/ColumnContainer';
 import RowContainer from '../../components/RowContainer';
 import TextCustom from '../../components/TextCustom';
 import ButtonCustom from '../../components/ButtonCustom';
 import DatePicker from 'react-native-date-picker';
-import {styles} from '../../customStyles/addTabStyle';
+import {modalStyle} from '../../customStyles/modal';
 import {data as old} from '../../lib/data';
 import CardContainer from '../../components/CardContainer';
 import SQLite from 'react-native-sqlite-storage';
+import { clr } from '../../customStyles/elements';
 
 const db = SQLite.openDatabase(
   {
@@ -196,14 +197,10 @@ const AddTab = () => {
   };
 
   return (
-    <ScrollView style={styles.scrollviewContainer}>
-      <View style={{flexDirection: 'row'}}>
-        {/* <Button title="See data" onPress={getData} /> */}
-        {/* <Button title="Create table" onPress={createTable} /> */}
-        {/* <Button title="Delete table" onPress={() => deleteTable('income')} /> */}
-        {/* <Button title="Delete entry" onPress={deleteData} /> */}
+    <ScrollView style={styles.container}>
+      {/* <View style={{flexDirection: 'row'}}>
         <Button title="From old to db" onPress={toDb} />
-      </View>
+      </View> */}
       <CardContainer>
         {/* TOP CONTAINER */}
         <ColumnContainer>
@@ -294,19 +291,19 @@ const AddTab = () => {
           onRequestClose={() => {
             setModal({...modal, modalState: false});
           }}>
-          <View style={styles.centeredView}>
-            <View style={styles.modalView}>
-              <Text style={styles.modalText}>
+          <View style={modalStyle.centeredView}>
+            <View style={modalStyle.modalView}>
+              <Text style={modalStyle.modalText}>
                 "
-                <Text style={styles.modalErrorText}>
+                <Text style={modalStyle.modalErrorText}>
                   {modal.modalMessageKey}
                 </Text>
                 " {modal.modalMessage}
               </Text>
               <Pressable
-                style={[styles.button, styles.buttonClose]}
+                style={[modalStyle.button, modalStyle.buttonClose]}
                 onPress={() => setModal({...modal, modalState: false})}>
-                <Text style={styles.textStyle}>Ok</Text>
+                <Text style={modalStyle.textStyle}>Ok</Text>
               </Pressable>
             </View>
           </View>
@@ -315,5 +312,12 @@ const AddTab = () => {
     </ScrollView>
   );
 };
+
+const styles = StyleSheet.create({
+  container:{
+    flex: 1,
+    backgroundColor: clr.bgPrimary,
+  }
+})
 
 export default AddTab;

@@ -2,7 +2,8 @@ import React from 'react';
 import {View, StyleSheet, Pressable, Image, Text, BackHandler} from 'react-native';
 import FontAwesome from 'react-native-vector-icons/dist/FontAwesome';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
+import { clr } from '../customStyles/elements';
+
 
 const Main = ({navigation}) => {
   return (
@@ -53,7 +54,7 @@ const Main = ({navigation}) => {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#006494',
+    backgroundColor: clr.bgPrimary,
     flex: 1,
   },
   topBar: {
@@ -77,13 +78,13 @@ const styles = StyleSheet.create({
     height: '100%',
   },
   text: {
-    color: 'white',
+    color: clr.textLight,
     fontSize: 23,
     fontWeight: 'bold',
     textAlign: 'center',
   },
   exit: {
-    color: '#e76f51',
+    color: clr.tabsActiveColor,
   },
 });
 

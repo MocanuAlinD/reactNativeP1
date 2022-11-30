@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react';
 import {View, StyleSheet, PermissionsAndroid} from 'react-native';
-import {tabsBackground} from '../../customStyles/containers';
 import {writeFile, DownloadDirectoryPath} from 'react-native-fs';
 import XLSX from 'xlsx';
 import SQLite from 'react-native-sqlite-storage';
@@ -8,6 +7,7 @@ import CustomInput from '../../components/CustomInput';
 import TextCustom from '../../components/TextCustom';
 import DatePicker from 'react-native-date-picker';
 import {Button} from 'react-native-paper';
+import { tabsContainers } from '../../customStyles/elements';
 
 const db = SQLite.openDatabase(
   {
@@ -211,7 +211,7 @@ const ExportAllTab = () => {
   };
 
   return (
-    <View style={tabsBackground}>
+    <View style={tabsContainers}>
       <View
         style={{
           flexDirection: 'row',

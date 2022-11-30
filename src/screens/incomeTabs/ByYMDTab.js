@@ -6,10 +6,10 @@ import {
   FlatList,
   ActivityIndicator,
 } from 'react-native';
-import {tabsBackground} from '../../customStyles/containers';
 import SQLite from 'react-native-sqlite-storage';
 import {data as old} from '../../lib/data';
 import PerPeriodItem from '../../components/perPeriodItem';
+import { tabsContainers } from '../../customStyles/elements';
 
 /* 
 db -> income
@@ -165,7 +165,7 @@ const ByYMDTab = () => {
   };
 
   return (
-    <View style={tabsBackground}>
+    <View style={tabsContainers}>
       <View style={styles.wrapper}>
         {loading && <ActivityIndicator size="large" color="#f5cb5c" />}
         <FlatList
