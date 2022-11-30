@@ -9,7 +9,7 @@ import {
 import SQLite from 'react-native-sqlite-storage';
 import {data as old} from '../../lib/data';
 import PerPeriodItem from '../../components/perPeriodItem';
-import { tabsContainers } from '../../customStyles/elements';
+import { clr, tabsContainers } from '../../customStyles/elements';
 
 /* 
 db -> income
@@ -167,7 +167,7 @@ const ByYMDTab = () => {
   return (
     <View style={tabsContainers}>
       <View style={styles.wrapper}>
-        {loading && <ActivityIndicator size="large" color="#f5cb5c" />}
+        {loading && <ActivityIndicator size="large" color={clr.tabsActiveColor} />}
         <FlatList
           data={changeList}
           renderItem={({item, index}) => (

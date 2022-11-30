@@ -3,7 +3,7 @@ import { View, StyleSheet, Text, FlatList, RefreshControl,ActivityIndicator } fr
 import FlatItem from "../../components/FlatItem";
 import SQLite from "react-native-sqlite-storage";
 import EditComponent from "../../components/EditComponent";
-import { tabsContainers } from "../../customStyles/elements";
+import { clr, tabsContainers } from "../../customStyles/elements";
 
 const db = SQLite.openDatabase(
   {
@@ -107,7 +107,7 @@ const ViewTab = () => {
             width: "100%",
           }}
         >
-          <ActivityIndicator size="large" color="#f5cb5c" />
+          <ActivityIndicator size="large" color={clr.textLight} />
         </View>
       )}
     </View>

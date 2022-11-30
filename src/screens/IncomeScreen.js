@@ -31,7 +31,7 @@ const IncomeScreen = ({navigation}) => {
           tabBarStyle: { backgroundColor: clr.bgPrimary },
           tabBarIndicatorStyle: { backgroundColor: clr.tabsActiveColor },
           tabBarScrollEnabled: true,
-          tabBarPressColor: "#ffffff22",
+          tabBarPressColor: clr.gray1,
           tabBarItemStyle: { width: 100 },
         }}
       >

@@ -7,7 +7,7 @@ import CustomInput from '../../components/CustomInput';
 import TextCustom from '../../components/TextCustom';
 import DatePicker from 'react-native-date-picker';
 import {Button} from 'react-native-paper';
-import { tabsContainers } from '../../customStyles/elements';
+import { clr, tabsContainers } from '../../customStyles/elements';
 
 const db = SQLite.openDatabase(
   {
@@ -220,7 +220,7 @@ const ExportAllTab = () => {
         }}>
         <Button
           uppercase={false}
-          color="#0096c7"
+          color={clr.blue}
           icon="calendar-export"
           mode="contained"
           onPress={() => setOpen(true)}>
@@ -228,7 +228,7 @@ const ExportAllTab = () => {
         </Button>
         <Button
           uppercase={false}
-          color="#0096c7"
+          color={clr.blue}
           icon="calendar-import"
           mode="contained"
           onPress={() => setOpen2(true)}>
@@ -254,7 +254,7 @@ const ExportAllTab = () => {
         }}>
         <Button
           uppercase={false}
-          color="#0096c7"
+          color={clr.blue}
           icon="export"
           mode="contained"
           onPress={exportInterval}>
@@ -262,7 +262,7 @@ const ExportAllTab = () => {
         </Button>
         <Button
           uppercase={false}
-          color="#0096c7"
+          color={clr.blue}
           icon="export"
           mode="contained"
           onPress={exportAll}>
@@ -283,7 +283,7 @@ const ExportAllTab = () => {
         mode="date"
         theme="light"
         title={`Choose START date\nmaximum ${dt2Export}`}
-        textColor="white"
+        textColor={clr.textLight}
         maximumDate={new Date(exportDate2)}
         minimumDate={new Date('1980-01-01')}
       />
@@ -301,14 +301,12 @@ const ExportAllTab = () => {
         mode="date"
         theme="light"
         title={`Choose END date\nminimum ${dt1Export}`}
-        textColor="white"
+        textColor={clr.textLight}
         maximumDate={new Date()}
         minimumDate={new Date(exportDate)}
       />
     </View>
   );
 };
-
-const styles = StyleSheet.create({});
 
 export default ExportAllTab;

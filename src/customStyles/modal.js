@@ -1,4 +1,5 @@
 import {StyleSheet} from 'react-native';
+import { clr } from './elements';
 
 export const modalStyle = StyleSheet.create({
   centeredView: {
@@ -9,7 +10,7 @@ export const modalStyle = StyleSheet.create({
   modalView: {
     width: '90%',
     height: 'auto',
-    backgroundColor: '#333',
+    backgroundColor: clr.gray1,
     borderRadius: 5,
     paddingVertical: 50,
     paddingHorizontal: 35,
@@ -25,23 +26,23 @@ export const modalStyle = StyleSheet.create({
     paddingHorizontal: 25,
     elevation: 5,
   },
-  buttonOpen: {
-    backgroundColor: '#F194FF',
-  },
+  // buttonOpen: {
+  //   backgroundColor: '#F194FF',
+  // },
   buttonClose: {
-    backgroundColor: '#2196F3',
+    backgroundColor: clr.blue,
   },
   modalErrorText: {
-    color: 'coral',
+    color: clr.tabsActiveColor,
     fontSize: 17,
   },
   textStyle: {
-    color: 'white',
+    color: clr.textLight,
     fontWeight: 'bold',
     textAlign: 'center',
   },
   modalText: {
-    color: 'white',
+    color: clr.textLight,
     marginBottom: 10,
     textAlign: 'center',
   },

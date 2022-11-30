@@ -7,6 +7,9 @@ export const clr = {
   textDark: this.bgPrimary,
   textLight: "#f4f1de",
   tabsActiveColor: "coral",
+  gray1: '#333',
+  gray2: '#aaa',
+  blue:  '#2196F3',
 };
 
 

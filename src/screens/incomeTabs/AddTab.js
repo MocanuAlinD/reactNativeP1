@@ -210,7 +210,7 @@ const AddTab = () => {
               width: '100%',
             }}>
             <Pressable onPress={() => setOpen(true)}>
-              <TextCustom backgroundColor="#ccc" color="#006494" height={30}>
+              <TextCustom backgroundColor={clr.textLight} color={clr.bgPrimary} height={30}>
                 {selectedWeekday},
                 {newItem.day < 10 ? '0' + newItem.day : newItem.day}.
                 {newItem.month < 10 ? '0' + newItem.month : newItem.month}.
@@ -261,8 +261,8 @@ const AddTab = () => {
           <ButtonCustom
             title="Clear fields"
             onPress={clearData}
-            color="#006494"
-            backgroundColor="#ccc5b9"
+            color={clr.bgPrimary}
+            backgroundColor={clr.textLight}
           />
           <ButtonCustom title="Add new data" onPress={checkInputs} />
         </RowContainer>
@@ -277,8 +277,8 @@ const AddTab = () => {
           }}
           mode="date"
           theme="light"
-          title="Pick a date, dude!"
-          textColor="#006494"
+          title="Choose date or leave current"
+          textColor={clr.textLight}
           maximumDate={new Date()}
           minimumDate={new Date('1980-01-01')}
         />
