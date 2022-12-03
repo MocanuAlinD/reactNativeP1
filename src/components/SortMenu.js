@@ -2,18 +2,19 @@ import React, {useState} from 'react';
 import {View, StyleSheet, Text, Pressable} from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import IconFont5 from 'react-native-vector-icons/FontAwesome5';
+import { clr } from '../customStyles/elements';
 
 const SortMenu = ({handleSort}) => {
   const initialValues = {
     incomeasc: false,
     incomedesc: false,
-    dateasc: true,
+    dateasc: false,
     datedesc: false,
   };
   const [state, _setState] = useState(initialValues);
 
   const setState = key => {
-    _setState(prev => ({...initialValues, dateasc: false, [key]: true}));
+    _setState(prev => ({...initialValues, [key]: true}));
   };
   return (
     <View style={styles.container}>
@@ -28,6 +29,17 @@ const SortMenu = ({handleSort}) => {
         <Pressable
           style={styles.iconContainer}
           onPress={() => {
+            setState('datedesc');
+            handleSort('datedesc');
+          }}>
+          <Icon
+            style={[styles.icon, {color: state.datedesc ? clr.tabsActiveColor : clr.textLight}]}
+            name="sort-calendar-descending"
+          />
+        </Pressable>
+        <Pressable
+          style={styles.iconContainer}
+          onPress={() => {
             setState('dateasc');
             handleSort('dateasc');
           }}>
@@ -39,23 +51,12 @@ const SortMenu = ({handleSort}) => {
         <Pressable
           style={styles.iconContainer}
           onPress={() => {
-            setState('datedesc');
-            handleSort('datedesc');
-          }}>
-          <Icon
-            style={[styles.icon, {color: state.datedesc ? 'green' : 'white'}]}
-            name="sort-calendar-descending"
-          />
-        </Pressable>
-        <Pressable
-          style={styles.iconContainer}
-          onPress={() => {
             setState('incomeasc');
             handleSort('incomeasc');
           }}>
           <IconFont5
             style={[styles.icon, {color: state.incomeasc ? 'green' : 'white'}]}
-            name="sort-amount-down-alt"
+            name="sort-numeric-up-alt"
           />
         </Pressable>
         <Pressable
@@ -66,7 +67,7 @@ const SortMenu = ({handleSort}) => {
           }}>
           <IconFont5
             style={[styles.icon, {color: state.incomedesc ? 'green' : 'white'}]}
-            name="sort-amount-up-alt"
+            name="sort-numeric-down"
           />
         </Pressable>
       </View>

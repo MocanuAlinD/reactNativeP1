@@ -33,7 +33,6 @@ const ViewTab = () => {
   };
 
   const [data, setData] = useState([]);
-  const [originalList, setOriginalList] = useState([]);
   const [loading, setLoading] = useState(false);
   const [refreshing, setRefreshing] = useState(false);
   const [openEdit, setOpenEdit] = useState(false);
@@ -65,7 +64,6 @@ const ViewTab = () => {
           tempList.push(item);
         }
         setData(tempList.reverse());
-        setOriginalList(tempList.reverse())
         setLoading(false);
         setOpenEdit(false);
       });
@@ -79,26 +77,25 @@ const ViewTab = () => {
   };
 
   const handleSort = x => {
-    console.log('------------------------------------------------');
-
+    console.log('------------------------------------------------', x);
     switch (x) {
       case 'dateasc':
-        const sortDateAsc = originalList.sort((a, b) => (a.dt > b.dt && 1) || -1);
+        const sortDateAsc = [...data].sort((a, b) => (a.dt > b.dt && 1) || -1);
         setData(sortDateAsc);
         break;
       case 'datedesc':
-        const sortDateDesc = originalList.reverse();
+        const sortDateDesc = [...data].sort((a, b) => (a.dt < b.dt && 1) || -1);
         setData(sortDateDesc);
         break;
       case 'incomeasc':
-        const sortIncomeAsc = originalList.sort(
-          (a, b) => (a.income > b.income && 1) || -1,
+        const sortIncomeAsc = [...data].sort(
+          (a, b) => (a.income < b.income && 1) || -1,
         );
         setData(sortIncomeAsc);
         break;
       case 'incomedesc':
-        const sortIncomeDesc = originalList.sort(
-          (a, b) => (a.income < b.income && 1) || -1,
+        const sortIncomeDesc = [...data].sort(
+          (a, b) => (a.income > b.income && 1) || -1,
         );
         setData(sortIncomeDesc);
         break;
@@ -107,10 +104,6 @@ const ViewTab = () => {
         console.log('default');
         break;
     }
-    // console.log(sortDateAsc);
-    // console.log(sortDateDesc);
-    // console.log(sortIncomeAsc);
-    // console.log(sortIncomeDesc);
   };
 
   return (
