@@ -1,5 +1,13 @@
 import React, {useState, useEffect} from 'react';
-import {View, Text, Pressable, Modal, ScrollView, StyleSheet} from 'react-native';
+import {
+  View,
+  Text,
+  Pressable,
+  Modal,
+  ScrollView,
+  StyleSheet,
+  Button,
+} from 'react-native';
 import CustomInput from '../../components/CustomInput';
 import ColumnContainer from '../../components/ColumnContainer';
 import RowContainer from '../../components/RowContainer';
@@ -10,7 +18,7 @@ import {modalStyle} from '../../customStyles/modal';
 import {data as old} from '../../lib/data';
 import CardContainer from '../../components/CardContainer';
 import SQLite from 'react-native-sqlite-storage';
-import { clr } from '../../customStyles/elements';
+import {clr} from '../../customStyles/elements';
 
 const db = SQLite.openDatabase(
   {
@@ -46,6 +54,7 @@ const AddTab = () => {
   const [date, setDate] = useState(new Date());
   const [selectedWeekday, setSelectedWeekday] = useState('Friday');
   const [modal, setModal] = useState(initialValuesModals);
+  const [tempState, setTempState] = useState(0)
 
   useEffect(() => {
     checkWeekDay(new Date());
@@ -174,7 +183,9 @@ const AddTab = () => {
   };
 
   const toDb = () => {
-    old.forEach(item => {
+    setTempState(prev => 0);
+    old.forEach((item, index) => {
+      setTempState(prev => index + 1);
       const id = item.id;
       const date = item.dt;
       const income = item.income;
@@ -196,10 +207,36 @@ const AddTab = () => {
     });
   };
 
+  const deleteFromIncome = async () => {
+    await db.transaction(tx => {
+      tx.executeSql('delete from income', [], () =>
+        console.log('deleted from income'),
+      );
+    });
+  };
+
+  const checkIncomeDb = async () =>{
+    await db.transaction(tx=>{
+      tx.executeSql("select * from income",[],(a,res)=>{
+        const len = res.rows.length;
+        console.log(len)
+      })
+    })
+  }
+
   return (
     <ScrollView style={styles.container}>
-      {/* <View style={{flexDirection: 'row'}}>
+      {/* <View
+        style={{
+          flexDirection: 'row',
+          borderWidth: 1,
+          justifyContent: 'space-between',
+          alignItems: 'center',
+        }}>
         <Button title="From old to db" onPress={toDb} />
+        <Button title="Delete income" onPress={deleteFromIncome} />
+        <Button title="Check" onPress={checkIncomeDb} />
+        <Text style={{color: 'white'}}>{tempState}</Text>
       </View> */}
       <CardContainer>
         {/* TOP CONTAINER */}
@@ -210,7 +247,10 @@ const AddTab = () => {
               width: '100%',
             }}>
             <Pressable onPress={() => setOpen(true)}>
-              <TextCustom backgroundColor={clr.textLight} color={clr.bgPrimary} height={30}>
+              <TextCustom
+                backgroundColor={clr.textLight}
+                color={clr.bgPrimary}
+                height={30}>
                 {selectedWeekday},
                 {newItem.day < 10 ? '0' + newItem.day : newItem.day}.
                 {newItem.month < 10 ? '0' + newItem.month : newItem.month}.
@@ -314,10 +354,10 @@ const AddTab = () => {
 };
 
 const styles = StyleSheet.create({
-  container:{
+  container: {
     flex: 1,
     backgroundColor: clr.bgPrimary,
-  }
-})
+  },
+});
 
 export default AddTab;

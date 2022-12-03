@@ -96,7 +96,7 @@ const ExportAllTab = () => {
           for (let i = 0; i < len; i++) {
             tempList.push(res.rows.item(i));
           }
-          exportToFile(tempList);
+          checkPerm(tempList);
         },
       );
     });

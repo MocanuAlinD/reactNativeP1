@@ -62,3 +62,10 @@ buck-out/
 # Ruby / CocoaPods
 /ios/Pods/
 /vendor/bundle/
+
+
+src/assets/exp.txt
+src/assets/exp07102022.csv
+src/assets/inc.csv
+src/assets/inc.json
+lib/data.js
