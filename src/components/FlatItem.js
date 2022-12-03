@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
   },
   flatItem: {
     color: "white",
-    fontSize: 13,
+    fontSize: 10,
   },
   left: {
     paddingHorizontal: 0,

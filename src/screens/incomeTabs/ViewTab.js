@@ -77,7 +77,6 @@ const ViewTab = () => {
   };
 
   const handleSort = x => {
-    console.log('------------------------------------------------', x);
     switch (x) {
       case 'dateasc':
         const sortDateAsc = [...data].sort((a, b) => (a.dt > b.dt && 1) || -1);
@@ -99,6 +98,18 @@ const ViewTab = () => {
         );
         setData(sortIncomeDesc);
         break;
+      case 'nameasc':
+        const sortNameAsc = [...data].sort(
+          (a, b) => (a.details.toLowerCase() < b.details.toLowerCase() && 1) || -1,
+        );
+        setData(sortNameAsc);
+        break;
+      case 'namedesc':
+        const sortNameDesc = [...data].sort(
+          (a, b) => (a.details.toLowerCase() > b.details.toLowerCase() && 1) || -1,
+        );
+        setData(sortNameDesc);
+        break;
 
       default:
         console.log('default');
@@ -117,7 +128,7 @@ const ViewTab = () => {
         />
       )}
 
-      {!loading && !openEdit && <SortMenu handleSort={handleSort} />}
+      {!loading && <SortMenu handleSort={handleSort} />}
 
       {!loading ? (
         <View style={styles.bottomContainer}>
