@@ -1,10 +1,11 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, useCallback} from 'react';
 import {
   View,
   StyleSheet,
   Button,
   FlatList,
   ActivityIndicator,
+  RefreshControl
 } from 'react-native';
 import SQLite from 'react-native-sqlite-storage';
 import {data as old} from '../../lib/data';
@@ -44,14 +45,25 @@ const ByYMDTab = () => {
   const [by, setBy] = useState(initialValues);
   const [changeList, setChangeList] = useState([]);
   const [loading, setLoading] = useState(false);
-
+  const [refreshing, setRefreshing] = useState(false);
+  
   useEffect(() => {
     getData();
   }, []);
 
+  const onRefresh = useCallback(() => {
+    setRefreshing(true);
+    getData();
+    wait(50).then(() => setRefreshing(false));
+  }, []);
+
+  const wait = timeout => {
+    return new Promise(resolve => setTimeout(resolve, timeout));
+  };
+
   const getData = async () => {
     setLoading(true);
-    setBy([]);
+    setBy(initialValues);
     setChangeList([]);
     await db.transaction(tx => {
       tx.executeSql(
@@ -160,9 +172,9 @@ const ByYMDTab = () => {
             <PerPeriodItem key={item.id} item={item} />
           )}
           keyExtractor={item => item.id}
-          // refreshControl={
-          //   <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
-          // }
+          refreshControl={
+            <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
+          }
         />
       </View>
 

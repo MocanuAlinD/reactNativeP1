@@ -136,15 +136,15 @@ const AddTab = () => {
       });
       return;
     }
-    if (newItem.income.includes(',') || isNaN(+newItem.income)) {
-      setModal({
-        ...modal,
-        modalState: true,
-        modalMessageKey: 'Income',
-        modalMessage: ' is not a number.',
-      });
-      return;
-    }
+    // if (newItem.income.includes(',') || isNaN(+newItem.income)) {
+    //   setModal({
+    //     ...modal,
+    //     modalState: true,
+    //     modalMessageKey: 'Income',
+    //     modalMessage: ' is not a number.',
+    //   });
+    //   return;
+    // }
     const income = +newItem.income;
     const details = newItem.details.trim();
     if (!details) {
@@ -184,6 +184,7 @@ const AddTab = () => {
 
   const toDb = () => {
     setTempState(prev => 0);
+    deleteFromIncome()
     old.forEach((item, index) => {
       setTempState(prev => index + 1);
       const id = item.id;
@@ -224,9 +225,14 @@ const AddTab = () => {
     })
   }
 
+  const handleIncome = (x) =>{
+    const tempX = x.replace(/[^0-9]/g, "")
+    setNewItem({...newItem, income: tempX})
+  }
+
   return (
     <ScrollView style={styles.container}>
-      {/* <View
+      <View
         style={{
           flexDirection: 'row',
           borderWidth: 1,
@@ -237,7 +243,7 @@ const AddTab = () => {
         <Button title="Delete income" onPress={deleteFromIncome} />
         <Button title="Check" onPress={checkIncomeDb} />
         <Text style={{color: 'white'}}>{tempState}</Text>
-      </View> */}
+      </View>
       <CardContainer>
         {/* TOP CONTAINER */}
         <ColumnContainer>
@@ -267,7 +273,7 @@ const AddTab = () => {
             placeholder="income"
             value={newItem.income}
             width="100%"
-            onChangeText={text => setNewItem({...newItem, income: text})}
+            onChangeText={text => handleIncome(text)}
             keyboard="numeric"
             eraseValue={() => eraseValue('income')}
             maxLength={10}
