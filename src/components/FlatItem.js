@@ -2,6 +2,7 @@ import React from "react";
 import { View, StyleSheet, Text, Pressable } from "react-native";
 import Icon from "react-native-vector-icons/MaterialIcons";
 import SQLite from "react-native-sqlite-storage";
+import { clr } from "../customStyles/elements";
 
 const db = SQLite.openDatabase(
   {
@@ -50,13 +51,13 @@ const FlatItem = ({ item, idx, getData, handleEditItem }) => {
           <Text style={styles.innerText}>Income:</Text> {item.income}
         </Text>
         <Text style={styles.flatItem}>
-          <Text style={styles.innerText}>Date:</Text> {item.dt}
+          <Text style={styles.innerText}>Date:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</Text> {item.dt}
         </Text>
         <Text style={styles.flatItem}>
-          <Text style={styles.innerText}>From:</Text> {item.details}
+          <Text style={styles.innerText}>From:&nbsp;&nbsp;&nbsp;&nbsp;</Text> {item.details}
         </Text>
         <Text style={styles.flatItem}>
-          <Text style={styles.innerText}>Notes:</Text> {item.description}
+          <Text style={styles.innerText}>Notes:&nbsp;&nbsp;&nbsp;</Text> {item.description}
         </Text>
         
       </View>
@@ -75,7 +76,7 @@ const styles = StyleSheet.create({
     marginBottom: 5,
     padding: 5,
     flexDirection: "row",
-    backgroundColor: "#252525",
+    backgroundColor: clr.gray3,
     borderRadius: 5,
   },
   flatItem: {

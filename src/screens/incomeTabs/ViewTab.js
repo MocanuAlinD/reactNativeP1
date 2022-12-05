@@ -2,7 +2,6 @@ import React, {useState, useEffect, useCallback} from 'react';
 import {
   View,
   StyleSheet,
-  Text,
   FlatList,
   RefreshControl,
   ActivityIndicator,
@@ -100,13 +99,15 @@ const ViewTab = () => {
         break;
       case 'nameasc':
         const sortNameAsc = [...data].sort(
-          (a, b) => (a.details.toLowerCase() < b.details.toLowerCase() && 1) || -1,
+          (a, b) =>
+            (a.details.toLowerCase() < b.details.toLowerCase() && 1) || -1,
         );
         setData(sortNameAsc);
         break;
       case 'namedesc':
         const sortNameDesc = [...data].sort(
-          (a, b) => (a.details.toLowerCase() > b.details.toLowerCase() && 1) || -1,
+          (a, b) =>
+            (a.details.toLowerCase() > b.details.toLowerCase() && 1) || -1,
         );
         setData(sortNameDesc);
         break;

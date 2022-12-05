@@ -1,17 +1,15 @@
 import React, {useState} from 'react';
-import {View, StyleSheet, Text, Pressable} from 'react-native';
+import {View, StyleSheet, Pressable} from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import IconFont5 from 'react-native-vector-icons/FontAwesome5';
 import {clr} from '../customStyles/elements';
 
-const SortMenu = ({handleSort}) => {
+const SortMenuByYMD = ({handleSort}) => {
   const initialValues = {
     dateasc: false,
     datedesc: false,
     incomeasc: false,
     incomedesc: false,
-    nameasc: false,
-    namedesc: false,
   };
   const [state, _setState] = useState(initialValues);
 
@@ -20,7 +18,6 @@ const SortMenu = ({handleSort}) => {
   };
   return (
     <View style={styles.container}>
-      {/* <View style={styles.wrapper}> */}
       <Pressable
         style={styles.iconContainer}
         onPress={() => {
@@ -77,36 +74,6 @@ const SortMenu = ({handleSort}) => {
           name="sort-numeric-down"
         />
       </Pressable>
-      <Pressable
-        style={styles.iconContainer}
-        onPress={() => {
-          setState('namedesc');
-          handleSort('namedesc');
-        }}>
-        <IconFont5
-          style={[
-            styles.icon,
-            {color: state.namedesc ? clr.tabsActiveColor : clr.textLight},
-          ]}
-          name="sort-alpha-up-alt"
-        />
-      </Pressable>
-      <Pressable
-        style={styles.iconContainer}
-        onPress={() => {
-          setState('nameasc');
-          handleSort('nameasc');
-        }}>
-        <IconFont5
-          style={[
-            styles.icon,
-            {color: state.nameasc ? clr.tabsActiveColor : clr.textLight},
-          ]}
-          name="sort-alpha-down"
-        />
-      </Pressable>
-
-      {/* </View> */}
     </View>
   );
 };
@@ -126,4 +93,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default SortMenu;
+export default SortMenuByYMD;

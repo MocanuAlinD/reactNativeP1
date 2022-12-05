@@ -9,6 +9,7 @@ export const clr = {
   tabsActiveColor: "coral",
   gray1: '#333',
   gray2: '#aaa',
+  gray3: '#252525',
   blue:  '#2196F3',
 };
 

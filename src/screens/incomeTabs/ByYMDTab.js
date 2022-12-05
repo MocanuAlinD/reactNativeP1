@@ -9,7 +9,8 @@ import {
 import SQLite from 'react-native-sqlite-storage';
 import {data as old} from '../../lib/data';
 import PerPeriodItem from '../../components/perPeriodItem';
-import { clr, tabsContainers } from '../../customStyles/elements';
+import {clr, tabsContainers} from '../../customStyles/elements';
+import SortMenuByYMD from '../../components/SortMenuByYMD';
 
 /* 
 db -> income
@@ -107,7 +108,7 @@ const ByYMDTab = () => {
             finalD.push(finalObj);
           }
 
-          setBy({years: finalY, months: finalM, days: finalD});
+          setBy({years: finalY.reverse(), months: finalM.reverse(), days: finalD.reverse()});
           setChangeList(finalY);
           setLoading(false);
         },
@@ -116,58 +117,43 @@ const ByYMDTab = () => {
     });
   };
 
-  const getMonthName = x => {
-    const n = new Date('2022-11-26');
-    const tempDate = n.getMonth();
-    let mnt;
-    switch (tempDate) {
-      case 0:
-        mnt = 'January';
+  const handleSort = x => {
+    switch (x) {
+      case 'dateasc':
+        const sortDateAsc = [...changeList].sort(
+          (a, b) => (a.id > b.id && 1) || -1,
+        );
+        setChangeList(sortDateAsc);
         break;
-      case 1:
-        mnt = 'February';
+      case 'datedesc':
+        const sortDateDesc = [...changeList].sort(
+          (a, b) => (a.id < b.id && 1) || -1,
+        );
+        setChangeList(sortDateDesc);
         break;
-      case 2:
-        mnt = 'March';
+      case 'incomeasc':
+        setChangeList(
+          [...changeList].sort((a, b) => (+a.sm < +b.sm && 1) || -1),
+        );
         break;
-      case 3:
-        mnt = 'April';
-        break;
-      case 4:
-        mnt = 'May';
-        break;
-      case 5:
-        mnt = 'June';
-        break;
-      case 6:
-        mnt = 'July';
-        break;
-      case 7:
-        mnt = 'August';
-        break;
-      case 8:
-        mnt = 'September';
-        break;
-      case 9:
-        mnt = 'October';
-        break;
-      case 10:
-        mnt = 'November';
-        break;
-      case 11:
-        mnt = 'December';
+      case 'incomedesc':
+        setChangeList(
+          [...changeList].sort((a, b) => (+a.sm > +b.sm && 1) || -1),
+        );
         break;
       default:
-        mnt = '-';
+        console.log('default');
         break;
     }
-    return mnt;
   };
 
   return (
     <View style={tabsContainers}>
       <View style={styles.wrapper}>
-        {loading && <ActivityIndicator size="large" color={clr.tabsActiveColor} />}
+        {loading && (
+          <ActivityIndicator size="large" color={clr.tabsActiveColor} />
+        )}
+        <SortMenuByYMD handleSort={handleSort} />
         <FlatList
           data={changeList}
           renderItem={({item, index}) => (
