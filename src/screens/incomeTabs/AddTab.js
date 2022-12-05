@@ -54,7 +54,7 @@ const AddTab = () => {
   const [date, setDate] = useState(new Date());
   const [selectedWeekday, setSelectedWeekday] = useState('Friday');
   const [modal, setModal] = useState(initialValuesModals);
-  const [tempState, setTempState] = useState(0)
+  const [tempState, setTempState] = useState(0);
 
   useEffect(() => {
     checkWeekDay(new Date());
@@ -184,7 +184,7 @@ const AddTab = () => {
 
   const toDb = () => {
     setTempState(prev => 0);
-    deleteFromIncome()
+    deleteFromIncome();
     old.forEach((item, index) => {
       setTempState(prev => index + 1);
       const id = item.id;
@@ -216,23 +216,23 @@ const AddTab = () => {
     });
   };
 
-  const checkIncomeDb = async () =>{
-    await db.transaction(tx=>{
-      tx.executeSql("select * from income",[],(a,res)=>{
+  const checkIncomeDb = async () => {
+    await db.transaction(tx => {
+      tx.executeSql('select * from income', [], (a, res) => {
         const len = res.rows.length;
-        console.log(len)
-      })
-    })
-  }
+        console.log(len);
+      });
+    });
+  };
 
-  const handleIncome = (x) =>{
-    const tempX = x.replace(/[^0-9]/g, "")
-    setNewItem({...newItem, income: tempX})
-  }
+  const handleIncome = x => {
+    const tempX = x.replace(/[^0-9]/g, '');
+    setNewItem({...newItem, income: tempX});
+  };
 
   return (
     <ScrollView style={styles.container}>
-      <View
+      {/* <View
         style={{
           flexDirection: 'row',
           borderWidth: 1,
@@ -243,7 +243,7 @@ const AddTab = () => {
         <Button title="Delete income" onPress={deleteFromIncome} />
         <Button title="Check" onPress={checkIncomeDb} />
         <Text style={{color: 'white'}}>{tempState}</Text>
-      </View>
+      </View> */}
       <CardContainer>
         {/* TOP CONTAINER */}
         <ColumnContainer>
@@ -272,9 +272,8 @@ const AddTab = () => {
           <CustomInput
             placeholder="income"
             value={newItem.income}
-            width="100%"
             onChangeText={text => handleIncome(text)}
-            keyboard="numeric"
+            keyboard="number-pad"
             eraseValue={() => eraseValue('income')}
             maxLength={10}
           />

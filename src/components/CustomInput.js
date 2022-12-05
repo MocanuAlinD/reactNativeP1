@@ -1,57 +1,44 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {Pressable, StyleSheet, TextInput, View, Text} from 'react-native';
+import { clr } from '../customStyles/elements';
 
-const CustomInput = ({
-  placeholder,
-  value,
-  onChangeText,
-  keyboard,
-  width,
-  flex,
-  editable,
-  multiline,
-  removeButton,
-  maxLength,
-  eraseValue,
-}) => {
+const CustomInput = props => {
+
   return (
     <View style={styles.container}>
       <TextInput
-        placeholder={placeholder ? placeholder : '...'}
+        autoCorrect={false}
         placeholderTextColor="#888"
-        style={[
-          styles.input,
-          {
-            width: width ? width : 50,
-            flex: flex ? flex : 0,
-            height: multiline ? 100 : 30,
-          },
-        ]}
+        style={[styles.input, {...props.style}]}
         cursorColor="coral"
-        textAlign="center"
-        textAlignVertical={multiline ? 'top' : 'center'}
-        onChangeText={text => onChangeText(text)}
-        value={value ? value : ''}
-        keyboardType={keyboard ? keyboard : 'default'}
-        editable={editable ? editable : true}
-        multiline={multiline ? multiline : false}
-        maxLength={maxLength ? maxLength : 254}
+        onChangeText={text => props.onChangeText(text)}
+        value={props.value ? props.value : ''}
+        {...props}
       />
-      {maxLength && value && (
-        <Text style={[styles.noOfChars,{color: maxLength === value.length ? "#e63946" : "white" }]}>
-          Characters remaining:
-          {!value ? +maxLength : +maxLength - value.length}
+      {props.maxLength && props.value && (
+        <Text
+          style={[
+            styles.noOfChars,
+            {
+              color:
+                props.maxLength === props.value.length ? clr.tabsActiveColor : clr.textLight,
+            },
+          ]}>
+          Characters remaining:&nbsp;
+          {!props.value
+            ? +props.maxLength
+            : +props.maxLength - props.value.length}
         </Text>
       )}
 
-      {removeButton
-        ? ""
-        : value && (
+      {props.removeButton
+        ? ''
+        : props.value && (
             <Pressable
               style={styles.clearContainer}
               onPress={
-                eraseValue
-                  ? eraseValue
+                props.eraseValue
+                  ? props.eraseValue
                   : () => console.log('Undefined function!')
               }>
               <Text style={styles.clearText}>X</Text>
@@ -67,13 +54,15 @@ const styles = StyleSheet.create({
     marginVertical: 5,
   },
   input: {
+    height: 30,
     padding: 0,
     paddingRight: 0,
     paddingLeft: 20,
     fontSize: 14,
     borderRadius: 5,
     backgroundColor: '#ccc',
-    color: '#006494',
+    color: clr.bgTertiary,
+    textAlign: "center"
   },
   clearContainer: {
     position: 'absolute',
@@ -83,14 +72,14 @@ const styles = StyleSheet.create({
     width: 30,
   },
   clearText: {
-    color: '#006494',
-    backgroundColor: '#bbb',
+    color: clr.bgTertiary,
+    backgroundColor: clr.gray2,
     width: '100%',
     height: '100%',
     textAlign: 'center',
     textAlignVertical: 'center',
-    borderTopRightRadius: 10,
-    borderBottomRightRadius: 10,
+    borderTopRightRadius: 4,
+    borderBottomRightRadius: 4,
   },
   noOfChars: {
     textAlign: 'left',

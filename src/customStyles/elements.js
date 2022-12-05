@@ -4,6 +4,7 @@
 export const clr = {
   bgPrimary: '#184e77',
   bgSecondary: '#1e6091',
+  bgTertiary: '#006494',
   textDark: this.bgPrimary,
   textLight: "#f4f1de",
   tabsActiveColor: "coral",
