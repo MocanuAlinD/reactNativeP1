@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {View, StyleSheet, PermissionsAndroid} from 'react-native';
+import {View, PermissionsAndroid} from 'react-native';
 import {writeFile, DownloadDirectoryPath} from 'react-native-fs';
 import XLSX from 'xlsx';
 import SQLite from 'react-native-sqlite-storage';
