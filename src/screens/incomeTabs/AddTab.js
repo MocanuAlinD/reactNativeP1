@@ -232,7 +232,7 @@ const AddTab = () => {
 
   return (
     <ScrollView style={styles.container}>
-      {/* <View
+      <View
         style={{
           flexDirection: 'row',
           borderWidth: 1,
@@ -243,7 +243,7 @@ const AddTab = () => {
         <Button title="Delete income" onPress={deleteFromIncome} />
         <Button title="Check" onPress={checkIncomeDb} />
         <Text style={{color: 'white'}}>{tempState}</Text>
-      </View> */}
+      </View>
       <CardContainer>
         {/* TOP CONTAINER */}
         <ColumnContainer>
