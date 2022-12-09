@@ -168,7 +168,7 @@ const ExportAllTab = () => {
       let ws = XLSX.utils.json_to_sheet(x);
       XLSX.utils.book_append_sheet(wb, ws, 'Sheet1');
       const wbout = XLSX.write(wb, {type: 'binary', bookType: 'csv'});
-      const pth = `${DownloadDirectoryPath}/${filename.trim()}${dateToExport}.csv`;
+      const pth = `${DownloadDirectoryPath}/${filename.trim()}_${dateToExport}.csv`;
       // Write file
       await writeFile(pth, wbout, 'ascii').then(res =>
         alert(`Exported to ${pth}`),
@@ -244,7 +244,7 @@ const ExportAllTab = () => {
         maxLength={20}
       />
       <TextCustom width="100%" textAlign="center">
-        {`${filename ? filename : '...  '}${dateToExport}.csv`}
+        {`${filename ? filename : '...  '}_${dateToExport}.csv`}
       </TextCustom>
       <View
         style={{

@@ -5,52 +5,60 @@ import {
   Text,
   StyleSheet,
   StatusBar,
-  FlatList,
-  Pressable,
+  ScrollView,
 } from 'react-native';
 import {readFile, readDir, DownloadDirectoryPath} from 'react-native-fs';
 import {readString} from 'react-native-csv';
+import {RadioButton} from 'react-native-paper';
+import {clr} from '../customStyles/elements';
 
+
+
+
+/* 
+1. Put list of files to modal (select files if available)
+2. 
+
+*/
 const SettingsScreen = ({navigation}) => {
   const [fileList, setFileList] = useState([]);
   const [incomeList, setIncomeList] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [currentFile, setCurrentFile] = useState('');
+  const [checked, setChecked] = useState('');
 
   useEffect(() => {
-    console.log('Settings useEffect');
     setFileList([]);
     setIncomeList([]);
-    printFs();
+    getInitialFiles();
   }, []);
 
-  const printFs = async () => {
-    // console.log('===========================================');
-    // console.log(DownloadDirectoryPath);
+  const getInitialFiles = async () => {
     try {
       let tmp = await readDir(DownloadDirectoryPath);
-      // console.log(tmp);
-      const alin = [];
-      // console.log('Length is:', alin.length);
+      const dirFiles = [];
       tmp.forEach(item => {
-        // console.log(item.path)
         if (!item.path.endsWith('.csv')) return;
-        alin.push(item.path);
+        dirFiles.push(item.path);
       });
-      setFileList(alin);
-      if (alin.length > 0) {
-        moc1(alin[0]);
+      setFileList(dirFiles);
+
+      if (dirFiles.length > 0) {
+        handleData(dirFiles[0]);
       }
     } catch (error) {
       console.log('ERROR is: ', error.message);
     }
   };
 
-  const moc1 = async x => {
+  const handleData = async x => {
+    setCurrentFile(x.split('/')[x.split('/').length - 1]);
+    setChecked(x);
     setIncomeList([]);
-    const alin2 = await readFile(x);
-    const alin1 = readString(alin2, {header: false});
+    const alin1 = await readFile(x);
+    const alin2 = readString(alin1, {header: false});
     const temp = [];
-    const t = alin1.data;
+    const t = alin2.data;
     const header = t[0];
     for (let i = 1; i < t.length; i++) {
       const tmpObj = [];
@@ -72,10 +80,10 @@ const SettingsScreen = ({navigation}) => {
 
   const handleFileSelect = x => {
     setLoading(true);
-    moc1(x);
+    handleData(x);
   };
   return (
-    <View style={styles.container}>
+    <ScrollView style={styles.container}>
       <StatusBar style="auto" />
       <View style={styles.topBar}>
         <View style={styles.buttonContainer}>
@@ -84,32 +92,41 @@ const SettingsScreen = ({navigation}) => {
         <Text style={styles.barText}>Settings page</Text>
       </View>
 
-      <View style={styles.main}>
-        <FlatList
-          data={fileList}
-          renderItem={({item, index}) => (
+      <View style={styles.listFiles}>
+        {fileList.map(item => {
+          return (
             <View
               style={{
-                borderWidth: 1,
-                borderColor: '#ff000088',
-                marginVertical: 5,
+                borderRadius: 5,
+                marginVertical: 2,
+                marginHorizontal: 5,
+                backgroundColor: clr.bgPrimary,
               }}>
-              <Pressable onPress={() => handleFileSelect(item)}>
-                <Text style={{color: 'coral', padding: 0}}>
-                  {item.split('/')[item.split('/').length - 1]}
-                </Text>
-              </Pressable>
+              <RadioButton.Group
+                onValueChange={item => {
+                  setChecked(item);
+                  handleFileSelect(item);
+                }}
+                value={checked}>
+                <RadioButton.Item
+                  position="leading"
+                  uncheckedColor={clr.textLight}
+                  color={clr.blue}
+                  label={item.split('/')[item.split('/').length - 1]}
+                  value={item}
+                  labelStyle={styles.radioButton}
+                />
+              </RadioButton.Group>
             </View>
-          )}
-          keyExtractor={(item, index) => index}
-        />
+          );
+        })}
       </View>
 
       {loading && (
         <View style={{flex: 1}}>
           <Text style={{color: 'white', width: '100%', textAlign: 'center'}}>
-          Loading.....
-        </Text>
+            Loading.....
+          </Text>
         </View>
       )}
 
@@ -120,40 +137,67 @@ const SettingsScreen = ({navigation}) => {
               color: 'white',
               width: '100%',
               textAlign: 'center',
-              borderColor: 'green',
-              borderWidth: 1,
+              fontSize: 12,
             }}>
-            Preview first {incomeList.length}:
+            Selected file: {currentFile} ({incomeList.length} items) {'\n'}(
+            Showing only latest entry )
           </Text>
-          <FlatList
-            data={incomeList}
-            renderItem={({item}) => (
-              <View
-                style={{
-                  borderWidth: 1,
-                  borderColor: '#ff000088',
-                  marginVertical: 0,
-                }}>
-                <Pressable onPress={() => handleFileSelect(item)}>
-                  <Text style={{color: 'coral', padding: 0, fontSize: 10}}>
-                    {JSON.stringify(item)}
-                  </Text>
-                </Pressable>
-              </View>
+          <View
+            style={{
+              marginVertical: 2,
+              marginHorizontal: 5,
+            }}>
+            {incomeList.length > 0 && (
+              <Text style={{color: 'white', padding: 0, fontSize: 14}}>
+                {incomeList.reverse()[0].map(item => {
+                  return (
+                    <Text>
+                      {Object.keys(item)[0]}: {Object.values(item)[0]}
+                      {'\n'}
+                    </Text>
+                  );
+                })}
+              </Text>
             )}
-            keyExtractor={(item, index) => index}
-          />
+          </View>
         </View>
       )}
-    </View>
+      <Text>1</Text>
+      <Text>2</Text>
+      <Text>3</Text>
+      <Text>4</Text>
+      <Text>5</Text>
+      <Text>6</Text>
+      <Text>6</Text>
+      <Text>7</Text>
+      <Text>8</Text>
+      <Text>9</Text>
+      <Text>9</Text>
+      <Text>9</Text>
+      <Text>9</Text>
+      <Text>9</Text>
+      <Text>9</Text>
+      <Text>9</Text>
+      <Text>9</Text>
+      <Text>9</Text>
+      <Text>9</Text>
+      <Text>9</Text>
+      <Text>9</Text>
+      <Text>9</Text>
+      <Text>9</Text>
+      <Text>9</Text>
+      <Text>9</Text>
+      <Text>End</Text>
+    </ScrollView>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    justifyContent: 'flex-start',
-    backgroundColor: '#350505',
+    // flex: 1,
+    minHeight: '100%',
+    // justifyContent: 'flex-start',
+    backgroundColor: clr.bgSecondary,
   },
   topBar: {
     marginHorizontal: 10,
@@ -174,10 +218,18 @@ const styles = StyleSheet.create({
     textAlignVertical: 'center',
   },
   main: {
+    marginTop: 10,
+    backgroundColor: clr.bgPrimary,
+    borderRadius: 5,
+    margin: 5,
+  },
+  listFiles: {
     width: '100%',
-    borderWidth: 1,
-    borderColor: 'red',
-    flex: 1,
+  },
+  radioButton: {
+    color: 'white',
+    fontSize: 16,
+    textAlign: 'left',
   },
 });
 
