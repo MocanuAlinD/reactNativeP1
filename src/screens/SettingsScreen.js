@@ -6,18 +6,21 @@ import {
   StyleSheet,
   StatusBar,
   ScrollView,
+  Modal,
 } from 'react-native';
 import {readFile, readDir, DownloadDirectoryPath} from 'react-native-fs';
 import {readString} from 'react-native-csv';
 import {RadioButton} from 'react-native-paper';
 import {clr} from '../customStyles/elements';
 
-
-
-
 /* 
 1. Put list of files to modal (select files if available)
-2. 
+2. Create totalMoney table in Main.
+3. Create income table in Main.
+4. Create expenses table in Main.
+5. Create recycleBin table in Main (what is erased is added here)
+6. Show what is in recycleBin table. (in settings screen)
+7. Add to db BTN disabled if no entryes available.
 
 */
 const SettingsScreen = ({navigation}) => {
@@ -26,6 +29,8 @@ const SettingsScreen = ({navigation}) => {
   const [loading, setLoading] = useState(false);
   const [currentFile, setCurrentFile] = useState('');
   const [checked, setChecked] = useState('');
+  const [modalVisible, setModalVisible] = useState(false);
+  const [exampleModal, setExampleModal] = useState(false);
 
   useEffect(() => {
     setFileList([]);
@@ -74,7 +79,7 @@ const SettingsScreen = ({navigation}) => {
       }
       temp.push(tmpObj);
     }
-    setIncomeList(temp);
+    setIncomeList(temp.reverse());
     setLoading(false);
   };
 
@@ -82,6 +87,7 @@ const SettingsScreen = ({navigation}) => {
     setLoading(true);
     handleData(x);
   };
+
   return (
     <ScrollView style={styles.container}>
       <StatusBar style="auto" />
@@ -92,42 +98,38 @@ const SettingsScreen = ({navigation}) => {
         <Text style={styles.barText}>Settings page</Text>
       </View>
 
-      <View style={styles.listFiles}>
-        {fileList.map(item => {
-          return (
-            <View
-              style={{
-                borderRadius: 5,
-                marginVertical: 2,
-                marginHorizontal: 5,
-                backgroundColor: clr.bgPrimary,
-              }}>
-              <RadioButton.Group
-                onValueChange={item => {
-                  setChecked(item);
-                  handleFileSelect(item);
-                }}
-                value={checked}>
-                <RadioButton.Item
-                  position="leading"
-                  uncheckedColor={clr.textLight}
-                  color={clr.blue}
-                  label={item.split('/')[item.split('/').length - 1]}
-                  value={item}
-                  labelStyle={styles.radioButton}
-                />
-              </RadioButton.Group>
-            </View>
-          );
-        })}
+      <View style={{margin: 5}}>
+        <Text>INCOME</Text>
+        <Text>Check if everything is correct before adding to DB.</Text>
+        <Text>Format INCOME: id,date,details,description,income</Text>
+        <Text>Format EXPENSES: id,date,amount,product,category</Text>
+        <Text>The old DB will be erased when adding new data.</Text>
+        <Text>
+          Be sure to export your old db before replacing any new data.
+        </Text>
       </View>
+      <Button
+        disabled={fileList.length === 0 ? true : false}
+        title={
+          fileList.length
+            ? 'Choose a file (found ' + fileList.length + ')'
+            : 'No files available'
+        }
+        onPress={() => setModalVisible(true)}
+      />
 
       {loading && (
-        <View style={{flex: 1}}>
-          <Text style={{color: 'white', width: '100%', textAlign: 'center'}}>
-            Loading.....
-          </Text>
-        </View>
+        <Text
+          style={{
+            color: 'white',
+            fontSize: 20,
+            paddingVertical: 10,
+            textAlign: 'center',
+            textAlignVertical: 'center',
+            width: '100%',
+          }}>
+          Loading.....
+        </Text>
       )}
 
       {!loading && (
@@ -140,7 +142,7 @@ const SettingsScreen = ({navigation}) => {
               fontSize: 12,
             }}>
             Selected file: {currentFile} ({incomeList.length} items) {'\n'}(
-            Showing only latest entry )
+            Showing latest entry )
           </Text>
           <View
             style={{
@@ -148,56 +150,78 @@ const SettingsScreen = ({navigation}) => {
               marginHorizontal: 5,
             }}>
             {incomeList.length > 0 && (
-              <Text style={{color: 'white', padding: 0, fontSize: 14}}>
-                {incomeList.reverse()[0].map(item => {
-                  return (
-                    <Text>
-                      {Object.keys(item)[0]}: {Object.values(item)[0]}
-                      {'\n'}
-                    </Text>
-                  );
-                })}
+              <Text
+                style={{
+                  color: 'white',
+                  marginVertical: 2,
+                  backgroundColor: 'black',
+                  padding: 10,
+                  borderRadius: 5,
+                }}>
+                {JSON.stringify(incomeList[0])}
               </Text>
             )}
           </View>
         </View>
       )}
-      <Text>1</Text>
-      <Text>2</Text>
-      <Text>3</Text>
-      <Text>4</Text>
-      <Text>5</Text>
-      <Text>6</Text>
-      <Text>6</Text>
-      <Text>7</Text>
-      <Text>8</Text>
-      <Text>9</Text>
-      <Text>9</Text>
-      <Text>9</Text>
-      <Text>9</Text>
-      <Text>9</Text>
-      <Text>9</Text>
-      <Text>9</Text>
-      <Text>9</Text>
-      <Text>9</Text>
-      <Text>9</Text>
-      <Text>9</Text>
-      <Text>9</Text>
-      <Text>9</Text>
-      <Text>9</Text>
-      <Text>9</Text>
-      <Text>9</Text>
-      <Text>End</Text>
+
+      <View
+        style={{
+          flexDirection: 'row',
+          backgroundColor: 'red',
+          justifyContent: 'space-between',
+        }}>
+        <Button title="View example" onPress={() => setExampleModal(true)} />
+        <Button title="Add to db" onPress={() => console.log('object')} />
+      </View>
+
+      <Modal
+        animationType="fade"
+        transparent={true}
+        visible={modalVisible}
+        onRequestClose={() => setModalVisible(!modalVisible)}>
+        <ScrollView style={styles.listFiles}>
+          {fileList.map((item, index) => {
+            return (
+              <View
+                key={index}
+                style={{
+                  borderRadius: 5,
+                  marginVertical: 2,
+                  marginHorizontal: 5,
+                  backgroundColor: clr.bgPrimary,
+                }}>
+                <RadioButton.Group
+                  onValueChange={item => {
+                    setChecked(item);
+                    handleFileSelect(item);
+                  }}
+                  value={checked}>
+                  <RadioButton.Item
+                    position="leading"
+                    uncheckedColor={clr.textLight}
+                    color={clr.blue}
+                    label={item.split('/')[item.split('/').length - 1]}
+                    value={item}
+                    labelStyle={styles.radioButton}
+                  />
+                </RadioButton.Group>
+              </View>
+            );
+          })}
+        </ScrollView>
+        <Button title="Close" onPress={() => setModalVisible(false)} />
+      </Modal>
     </ScrollView>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
-    // flex: 1,
     minHeight: '100%',
-    // justifyContent: 'flex-start',
     backgroundColor: clr.bgSecondary,
+    borderWidth: 2,
+    borderColor: 'coral',
   },
   topBar: {
     marginHorizontal: 10,
@@ -225,6 +249,9 @@ const styles = StyleSheet.create({
   },
   listFiles: {
     width: '100%',
+    // height: '50%',
+    backgroundColor: clr.bgSecondary,
+    borderWidth: 1,
   },
   radioButton: {
     color: 'white',

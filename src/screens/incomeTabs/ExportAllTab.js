@@ -7,7 +7,7 @@ import CustomInput from '../../components/CustomInput';
 import TextCustom from '../../components/TextCustom';
 import DatePicker from 'react-native-date-picker';
 import {Button} from 'react-native-paper';
-import { clr, tabsContainers } from '../../customStyles/elements';
+import {clr, tabsContainers} from '../../customStyles/elements';
 
 const db = SQLite.openDatabase(
   {
@@ -60,6 +60,9 @@ const ExportAllTab = () => {
   };
 
   const exportInterval = async () => {
+    const newDate = `${dt1Export}_${dt2Export}`;
+    setDateToExport(newDate);
+
     const fixDay1 =
       new Date(exportDate).getDate() < 10
         ? '0' + new Date(exportDate).getDate()
@@ -76,7 +79,6 @@ const ExportAllTab = () => {
       new Date(exportDate2).getMonth() + 1 < 10
         ? '0' + (new Date(exportDate2).getMonth() + 1)
         : new Date(exportDate2).getMonth() + 1;
-
     const dt1 = `${new Date(exportDate).getFullYear()}-${fixMonth1}-${fixDay1}`;
     const dt2 = `${new Date(
       exportDate2,
@@ -96,13 +98,13 @@ const ExportAllTab = () => {
           for (let i = 0; i < len; i++) {
             tempList.push(res.rows.item(i));
           }
-          checkPerm(tempList);
+          checkPerm(tempList, newDate);
         },
       );
     });
   };
 
-  const exportAll = async x => {
+  const exportAll = async () => {
     const todayDate = `${new Date().getDate()}-${
       new Date().getMonth() + 1
     }-${new Date().getFullYear()}`;
@@ -114,13 +116,12 @@ const ExportAllTab = () => {
           alert('No results.');
           return;
         }
-        console.log('before permissions');
-        checkPerm(state);
+        checkPerm(state, todayDate);
       });
     });
   };
 
-  const checkPerm = async x => {
+  const checkPerm = async (x, newDate) => {
     try {
       // Check for Permission (check if permission is already given or not)
       let isPermittedExternalStorage = await PermissionsAndroid.check(
@@ -140,24 +141,22 @@ const ExportAllTab = () => {
         );
         if (granted === PermissionsAndroid.RESULTS.GRANTED) {
           // Permission granted
-          exportToFile(x);
-          console.log('Permission granted');
+          exportToFile(x, newDate);
         } else {
           // Permission denied
-          console.log('Permission denied.');
           alert('Permission denied.');
         }
       } else {
         // Already have Permission
-        console.log('Permission already granted.');
-        exportToFile(x);
+        exportToFile(x, newDate);
       }
     } catch (error) {
-      console.log('Error message is', error.message);
+      alert(`Error message is ${error.message}.`);
+      return
     }
   };
 
-  const exportToFile = async x => {
+  const exportToFile = async (x, newDate) => {
     setFilename(prev => prev.trim());
     if (!filename.trim()) {
       alert('Choose a filename');
@@ -168,7 +167,7 @@ const ExportAllTab = () => {
       let ws = XLSX.utils.json_to_sheet(x);
       XLSX.utils.book_append_sheet(wb, ws, 'Sheet1');
       const wbout = XLSX.write(wb, {type: 'binary', bookType: 'csv'});
-      const pth = `${DownloadDirectoryPath}/${filename.trim()}_${dateToExport}.csv`;
+      const pth = `${DownloadDirectoryPath}/${filename.trim()}_${newDate}.csv`;
       // Write file
       await writeFile(pth, wbout, 'ascii').then(res =>
         alert(`Exported to ${pth}`),
@@ -206,7 +205,7 @@ const ExportAllTab = () => {
     setDt1Export(dt1ExportName);
     setDt2Export(dt2ExportName);
 
-    const dateIntervalFilename = dt1ExportName + '--' + dt2ExportName;
+    const dateIntervalFilename = dt1ExportName + '_' + dt2ExportName;
     setDateToExport(dateIntervalFilename);
   };
 

@@ -26,9 +26,6 @@ export const modalStyle = StyleSheet.create({
     paddingHorizontal: 25,
     elevation: 5,
   },
-  // buttonOpen: {
-  //   backgroundColor: '#F194FF',
-  // },
   buttonClose: {
     backgroundColor: clr.blue,
   },
